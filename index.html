@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Carbon Future</title>
+<style>
+:root{--bg:#f0fdf4;--card:#fff;--primary:#059669;--primary-dark:#047857;--accent:#10b981;--accent-light:#d1fae5;--accent-bg:#ecfdf5;--text:#14532d;--text-muted:#64748b;--border:#a7f3d0;--radius:12px;--shadow:0 1px 3px rgba(5,150,105,.06),0 4px 12px rgba(5,150,105,.04);--shadow-hover:0 4px 12px rgba(5,150,105,.1),0 8px 24px rgba(5,150,105,.06)}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'Inter','Microsoft YaHei',-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;background:var(--bg);color:var(--text);line-height:1.6;-webkit-font-smoothing:antialiased}
+.header{background:linear-gradient(135deg,#059669 0%,#10b981 50%,#34d399 100%);color:#fff;padding:28px 0 24px;position:sticky;top:0;z-index:100;box-shadow:0 2px 20px rgba(16,185,129,.25)}
+.header-inner{max-width:1200px;margin:0 auto;padding:0 24px;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:12px}
+.header h1{font-size:1.5rem;font-weight:700;letter-spacing:-.3px}
+.header p{font-size:.85rem;opacity:.8;font-weight:400}
+.header-links{display:flex;gap:10px;flex-wrap:wrap}
+.header-link{background:rgba(255,255,255,.2);border:1px solid rgba(255,255,255,.35);color:#fff;padding:6px 14px;border-radius:20px;font-size:.8rem;cursor:pointer;transition:background .2s;backdrop-filter:blur(4px);text-decoration:none;white-space:nowrap}
+.header-link:hover{background:rgba(255,255,255,.35)}
+.search-section{max-width:1200px;margin:24px auto 12px;padding:0 24px}
+.search-row{display:flex;gap:10px;flex-wrap:wrap;align-items:stretch}
+.search-wrap{flex:1;min-width:220px;position:relative}
+.search-wrap input{width:100%;padding:12px 16px 12px 44px;border:2px solid var(--border);border-radius:var(--radius);font-size:.95rem;background:var(--card);transition:border-color .2s,box-shadow .2s}
+.search-wrap input:focus{outline:none;border-color:var(--accent);box-shadow:0 0 0 3px rgba(16,185,129,.12)}
+.search-wrap .icon{position:absolute;left:14px;top:50%;transform:translateY(-50%);font-size:1.1rem;pointer-events:none}
+.filter-select{padding:12px 14px;border:2px solid var(--border);border-radius:var(--radius);font-size:.88rem;background:var(--card);cursor:pointer;min-width:130px;transition:border-color .2s}
+.filter-select:focus{outline:none;border-color:var(--accent)}
+.stats-row{max-width:1200px;margin:0 auto 20px;padding:0 24px;display:flex;gap:10px;flex-wrap:wrap}
+.stat-chip{background:var(--card);padding:8px 16px;border-radius:24px;font-size:.82rem;color:var(--text-muted);border:1px solid var(--border);display:flex;align-items:center;gap:6px;box-shadow:0 1px 2px rgba(5,150,105,.04)}
+.stat-chip strong{color:var(--accent);font-size:1rem}
+.stat-chip .dot{width:6px;height:6px;border-radius:50%;background:#10b981}
+.list{max-width:1200px;margin:0 auto;padding:0 24px 48px}
+.card{background:var(--card);border-radius:var(--radius);padding:20px 24px;margin-bottom:12px;box-shadow:var(--shadow);border-left:4px solid transparent;transition:all .2s ease}
+.card:hover{border-left-color:var(--accent);box-shadow:var(--shadow-hover);transform:translateY(-1px)}
+.card.open{border-left-color:var(--primary)}
+.card-head{display:flex;justify-content:space-between;align-items:flex-start;gap:14px;cursor:pointer}
+.card-title{font-size:1rem;font-weight:600;color:var(--text);flex:1;line-height:1.45}
+.card-title:hover{color:var(--accent)}
+.badges{display:flex;gap:6px;flex-shrink:0;align-items:center}
+.badge-year{background:var(--accent);color:#fff;padding:3px 10px;border-radius:14px;font-size:.75rem;font-weight:600}
+.badge-type{background:var(--accent-bg);color:var(--primary);padding:3px 10px;border-radius:14px;font-size:.75rem;font-weight:500}
+.btn-expand{background:var(--accent-bg);color:var(--accent);border:1px solid var(--border);padding:3px 10px;border-radius:14px;font-size:.75rem;cursor:pointer;transition:all .2s;white-space:nowrap}
+.btn-expand:hover{background:var(--accent);color:#fff}
+.card-authors{font-size:.84rem;color:#64748b;margin-top:8px;line-height:1.5;max-width:700px}
+.card-cite{display:flex;align-items:center;gap:8px;margin-top:8px;padding:6px 10px;background:#f8f9fa;border-radius:6px;border-left:3px solid var(--accent)}
+.card-cite-text{flex:1;font-size:.78rem;color:#607d8b;line-height:1.5}
+.card-cite-btn{background:var(--accent);color:#fff;border:none;padding:3px 10px;border-radius:4px;font-size:.72rem;cursor:pointer;white-space:nowrap;transition:background .2s;display:inline-block;text-decoration:none;line-height:1.5;box-sizing:border-box}
+.card-cite-btn:hover{background:var(--primary)}
+.card-cite-btn.copied{background:#27ae60}
+.card-keywords{margin-top:8px;display:flex;flex-wrap:wrap;gap:5px}
+.kw-area {
+  background: #fff3e0;
+  color: #e65100;
+  font-weight: 600;
+}
+.kw{background:var(--accent-bg);color:var(--primary);padding:2px 10px;border-radius:10px;font-size:.74rem}
+.detail{display:none;margin-top:18px;padding-top:18px;border-top:1px solid var(--border)}
+.card.open .detail{display:block}
+.detail-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:10px;margin-bottom:14px}
+.d-item{font-size:.83rem}
+.d-item label{display:block;color:#64748b;font-size:.72rem;text-transform:uppercase;letter-spacing:.3px;margin-bottom:2px}
+.d-item span{color:var(--text);font-weight:500}
+.d-abstract{font-size:.88rem;color:var(--text);line-height:1.75;margin-top:10px;padding:12px 16px;background:var(--accent-bg);border-radius:8px;border-left:3px solid var(--accent)}
+.d-links{margin-top:14px;display:flex;gap:16px;flex-wrap:wrap}
+.d-links a{font-size:.83rem;color:var(--accent);text-decoration:none;font-weight:500}
+.d-links a:hover{text-decoration:underline}
+.card-doi{font-family:'Source Han Sans SC','Microsoft YaHei','Inter',-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;font-size:.8rem;margin-top:6px;word-break:break-all}
+.card-doi a{color:var(--accent);text-decoration:none}
+.card-doi a:hover{text-decoration:underline}
+.card-abstract{font-size:.85rem;color:var(--text-muted);line-height:1.6;margin-top:8px;text-align:justify}
+.center-msg{text-align:center;padding:60px 20px;color:var(--text-muted)}
+.spinner{display:inline-block;width:28px;height:28px;border:3px solid var(--border);border-top-color:var(--accent);border-radius:50%;animation:spin .7s linear infinite;margin-bottom:10px}
+@keyframes spin{to{transform:rotate(360deg)}}
+.footer{text-align:center;padding:24px;color:var(--text-muted);font-size:.8rem;border-top:1px solid var(--border);margin-top:24px}
+.footer a{color:var(--accent);text-decoration:none}
+.back-top{position:fixed;bottom:32px;right:32px;width:48px;height:48px;background:var(--accent);color:#fff;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:1.3rem;cursor:pointer;box-shadow:0 4px 14px rgba(16,185,129,.3);opacity:0;transform:translateY(10px);transition:opacity .3s,transform .3s;z-index:99;border:none;user-select:none}
+.back-top.visible{opacity:1;transform:translateY(0)}
+.back-top:hover{background:var(--primary);transform:translateY(-2px)}
+@media(max-width:768px){
+  .header{padding:16px 0 12px;position:sticky}
+  .header-inner{padding:0 16px;flex-direction:column;align-items:flex-start;gap:8px}
+  .header h1{font-size:1.2rem}
+  .search-section{margin:16px auto 8px;padding:0 16px}
+  .search-row{gap:8px}
+  .search-wrap input{padding:10px 14px 10px 38px;font-size:.9rem}
+  .filter-select{padding:10px 12px;font-size:.85rem;min-width:100px}
+  .card{padding:16px;margin-bottom:10px}
+  .card-head{flex-direction:column;gap:8px}
+  .btn-expand{padding:4px 10px;font-size:.8rem}
+  .card-authors{max-width:100%;font-size:.8rem}
+  .card-doi a{font-size:.75rem}
+  .detail-grid{grid-template-columns:1fr;gap:8px}
+  .d-links{flex-direction:column;gap:8px}
+  .d-links a{display:block;padding:6px 0;font-size:.9rem}
+  .badge-year,.badge-type{font-size:.7rem;padding:2px 8px}
+  .footer{padding:16px;font-size:.75rem}
+}
+@media(max-width:640px){
+  .header-inner{flex-direction:column;align-items:flex-start}
+  .search-row{flex-direction:column}
+  .filter-select{width:100%}
+  .card-head{flex-direction:column}
+  .back-top{bottom:20px;right:20px;width:42px;height:42px;font-size:1.1rem}
+}
+</style>
+</head>
+<body>
+
+<header class="header">
+  <div class="header-inner">
+    <div>
+      <h1>Carbon Future <span style="font-size:.85rem;font-weight:400;opacity:.85">(74 articles)</span></h1>
+      <p>Article Index &amp; Search</p>
+    </div>
+    <div class="header-links">
+      <a href="https://www.sciopen.com/journal/2960-0561" target="_blank" class="header-link">Home page</a>
+      <a href="https://mc03.manuscriptcentral.com/cf" target="_blank" class="header-link">Submission link</a>
+    </div>
+  </div>
+</header>
+
+<section class="search-section">
+  <div class="search-row">
+    <div class="search-wrap">
+      <span class="icon">🔍</span>
+      <input type="text" id="searchInput" placeholder="Search by title, author, keyword...">
+    </div>
+    <select class="filter-select" id="yearFilter"><option value="">All Years</option></select>
+    <select class="filter-select" id="areaFilter"><option value="">All Areas</option></select>
+  </div>
+</section>
+
+<div class="stats-row" id="statsRow"></div>
+
+<div class="list" id="articleList">
+  <div class="center-msg"><div class="spinner"></div><div>Loading articles...</div></div>
+</div>
+
+<div class="footer">
+  Carbon Future &copy; 2026 — Data from <a href="https://www.sciopen.com" target="_blank">SciOpen</a>
+</div>
+<button id="backTop" class="back-top" title="Back to search">▴</button>
+
+<script>
+// Back to top
+(function(){
+  var $backTop = document.getElementById('backTop');
+  window.addEventListener('scroll', function(){
+    if (window.scrollY > 400) {
+      $backTop.classList.add('visible');
+    } else {
+      $backTop.classList.remove('visible');
+    }
+  });
+  $backTop.addEventListener('click', function(){
+    var search = document.getElementById('searchInput');
+    search.focus();
+    search.scrollIntoView({behavior:'smooth', block:'center'});
+  });
+})();
+</script>
+
+<script>
+// Main app
+(function(){
+  var DATA_URL = 'articles_md/articles.json?v=20260923';
+  var allArticles = [];
+  var filteredArticles = [];
+  var currentQuery = '';
+
+  var $search = document.getElementById('searchInput');
+  var $year = document.getElementById('yearFilter');
+  var $area = document.getElementById('areaFilter');
+  var $list = document.getElementById('articleList');
+  var $stats = document.getElementById('statsRow');
+
+  function esc(s) {
+    if (!s) return '';
+    return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+  }
+
+  function highlight(text, query) {
+    if (!query || !text) return esc(text || '');
+    var result = esc(text);
+    var tokens = query.trim().split(/\s+/);
+    for (var i = 0; i < tokens.length; i++) {
+      if (!tokens[i]) continue;
+      var escaped = tokens[i].replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+      var re = new RegExp('(' + escaped + ')', 'gi');
+      result = result.replace(re, '<mark style="background:#fde047;padding:0 2px;border-radius:2px">$1</mark>');
+    }
+    return result;
+  }
+
+  function fuzzyMatch(text, query) {
+    if (!query) return { match: true, score: 0 };
+    var t = (text || '').toLowerCase();
+    var q = query.toLowerCase().trim();
+    if (!q) return { match: true, score: 0 };
+    if (t.indexOf(q) !== -1) return { match: true, score: 10 };
+    var tokens = q.split(/\s+/);
+    var allMatch = true;
+    for (var i = 0; i < tokens.length; i++) {
+      if (t.indexOf(tokens[i]) === -1) { allMatch = false; break; }
+    }
+    if (allMatch) return { match: true, score: 5 };
+    var qi = 0;
+    for (var j = 0; j < t.length && qi < q.length; j++) {
+      if (t[j] === q[qi]) qi++;
+    }
+    if (qi === q.length) return { match: true, score: 2 };
+    return { match: false, score: 0 };
+  }
+
+  function searchScore(a, q) {
+    if (!q) return 1;
+    var tokens = q.toLowerCase().trim().split(/\s+/);
+    var total = 0;
+    var anyMatch = false;
+    for (var i = 0; i < tokens.length; i++) {
+      var fields = [
+        { v: a.title || '', w: 10 },
+        { v: (a.authors||[]).join(' ') || '', w: 5 },
+        { v: (a.keywords||[]).join(' ') || '', w: 4 },
+        { v: (a.research_area||[]).join(' ') || '', w: 3 },
+        { v: a.abstract || '', w: 1 }
+      ];
+      var best = 0;
+      for (var j = 0; j < fields.length; j++) {
+        var r = fuzzyMatch(fields[j].v, tokens[i]);
+        if (r.match) {
+          anyMatch = true;
+          var score = r.score * fields[j].w;
+          if (score > best) best = score;
+        }
+      }
+      total += best;
+    }
+    return anyMatch ? total : 0;
+  }
+
+  function fillFilters() {
+    var years = [], areas = [];
+    var yearSet = {}, areaSet = {};
+    allArticles.forEach(function(a){
+      if(a.year && !yearSet[a.year]) { yearSet[a.year]=1; years.push(a.year); }
+      (a.research_area||[]).forEach(function(ar){ if(ar && !areaSet[ar]) { areaSet[ar]=1; areas.push(ar); } });
+    });
+    years.sort(function(a,b){return b-a;});
+    areas.sort();
+    years.forEach(function(y){ var o=document.createElement('option'); o.value=y; o.textContent=y; $year.appendChild(o); });
+    areas.forEach(function(t){ var o=document.createElement('option'); o.value=t; o.textContent=t; $area.appendChild(o); });
+  }
+
+  function applyFilters() {
+    var q = $search.value.trim();
+    currentQuery = q;
+    var yv = $year.value, av = $area.value;
+    filteredArticles = [];
+    for (var i = 0; i < allArticles.length; i++) {
+      var a = allArticles[i];
+      if (yv && a.year != yv) continue;
+      if (av && (a.research_area||[]).indexOf(av) === -1) continue;
+      var score = searchScore(a, q);
+      if (q && score === 0) continue;
+      a._score = score;
+      filteredArticles.push(a);
+    }
+    filteredArticles.sort(function(a, b) { return b._score - a._score; });
+    render();
+  }
+
+  function render() {
+    var totalCount = allArticles.length;
+    var filteredCount = filteredArticles.length;
+    var countLabel = (filteredCount === totalCount) ? totalCount + ' articles' : filteredCount + ' / ' + totalCount + ' articles';
+
+    var statsHtml = '<div class="stat-chip"><span class="dot"></span><strong>' + countLabel + '</strong></div>';
+    $stats.innerHTML = statsHtml;
+
+    if (!filteredArticles.length) {
+      $list.innerHTML = '<div class="center-msg"><div style="font-size:2.5rem;margin-bottom:8px">🔍</div><div>No articles found</div></div>';
+      return;
+    }
+
+    var html = '';
+    for (var i = 0; i < filteredArticles.length; i++) {
+      var a = filteredArticles[i];
+      html += '<div class="card" data-idx="' + i + '">';
+      html += '<div class="card-head" onclick="window._toggleCard(this.parentElement)">';
+      html += '<div class="card-title">' + highlight(a.title.replace(/<[^>]+>/g, ''), currentQuery) + '</div>';
+      html += '<div class="badges">';
+      if (a.year) html += '<span class="badge-year">' + a.year + '</span>';
+      var volIssue = (a.volume || a.issue) ? 'Vol.' + (a.volume||'?') + ' Iss. ' + (a.issue||'?') : '';
+      if (volIssue) html += '<span class="badge-type">' + esc(volIssue) + '</span>';
+      html += '<button class="btn-expand toggle-btn" onclick="event.stopPropagation();window._toggleCard(this.closest(\'.card\'))">Expand ▾</button>';
+      html += '</div></div>';
+      html += '<div class="card-authors">' + (a.authors||[]).join(', ') + '</div>';
+      var kws = '';
+      var kwList = (a.keywords||[]).slice(0,5);
+      for (var k = 0; k < kwList.length; k++) {
+        kws += '<span class="kw">' + highlight(kwList[k].replace(/<[^>]+>/g, ''), currentQuery) + '</span>';
+      }
+      if (kws) html += '<div class="card-keywords">' + kws + '</div>';
+      if (a.research_area && a.research_area.length) {
+        html += '<div class="card-keywords"><span style="font-size:0.78rem;color:#666;margin-right:4px;font-weight:600">Research area:</span>';
+        for (var ra = 0; ra < a.research_area.length; ra++) {
+          html += '<span class="kw kw-area">' + esc(a.research_area[ra]) + '</span>';
+        }
+        html += '</div>';
+      }
+      if (a.doi) html += '<div class="card-doi"><a href="https://www.sciopen.com/article/' + a.doi + '" target="_blank" onclick="event.stopPropagation()">https://www.sciopen.com/article/' + esc(a.doi) + '</a></div>';
+      if (a.doi) {
+        html += '<div class="card-cite" onclick="event.stopPropagation()">' +
+          '<span class="card-cite-text">' + getCiteText(a) + '</span>' +
+          '<button class="card-cite-btn" onclick="window._copyCite(' + i + ')">Copy</button>' +
+          '<a class="card-cite-btn" href="javascript:void(0)" onclick="window._downloadRIS(' + i + ')" style="background:#27ae60">RIS</a>' +
+        '</div>';
+      }
+      html += '<div class="detail"><div class="detail-grid">';
+      if (a.doi) html += '<div class="d-item"><label>DOI</label><span>' + esc(a.doi) + '</span></div>';
+      if (a.volume) html += '<div class="d-item"><label>Volume(Issue)</label><span>' + a.volume + '(' + a.issue + ')</span></div>';
+      if (a.firstpage) html += '<div class="d-item"><label>Pages</label><span>' + a.firstpage + '-' + a.lastpage + '</span></div>';
+      if (a.publication_date) html += '<div class="d-item"><label>Published</label><span>' + esc(a.publication_date) + '</span></div>';
+      if (a.online_date) html += '<div class="d-item"><label>Online</label><span>' + esc(a.online_date) + '</span></div>';
+      if (a.article_type) html += '<div class="d-item"><label>Type</label><span>' + esc(a.article_type) + '</span></div>';
+      html += '</div>';
+      if (a.abstract) html += '<div class="d-abstract"><strong>Abstract:</strong> ' + highlight(a.abstract.replace(/<[^>]+>/g, ''), currentQuery) + '</div>';
+      html += '<div class="d-links">';
+      if (a.url) html += '<a href="' + a.url + '" target="_blank" onclick="event.stopPropagation()">View on SciOpen →</a>';
+      if (a.pdf) html += '<a href="' + a.pdf + '" target="_blank" onclick="event.stopPropagation()">Download PDF →</a>';
+      html += '</div></div></div>';
+    }
+    $list.innerHTML = html;
+  }
+
+  function getCiteText(a) {
+    var aus = (a.authors||[]).map(function(name) {
+      var parts = (name || '').trim().split(/\s+/);
+      if (parts.length >= 2) {
+        var last = parts[parts.length-1];
+        var firstInit = parts[0] && parts[0][0] ? parts[0][0].toUpperCase() : '';
+        return last + ' ' + firstInit;
+      }
+      return name || '';
+    });
+    var authorStr;
+    if (aus.length > 3) {
+      authorStr = aus.slice(0,3).join(', ') + ', et al';
+    } else {
+      authorStr = aus.join(', ');
+    }
+    var year = a.year || '';
+    var title = (a.title || '').replace(/<[^>]+>/g, '');
+    var volIssue = (a.volume || a.issue) ? (a.volume||'') + '(' + (a.issue||'') + ')' : '';
+    var pages = (a.firstpage && a.lastpage) ? (a.firstpage + '-' + a.lastpage) : (a.firstpage || '');
+    var doiUrl = 'https://www.sciopen.com/article/' + (a.doi || '');
+    return authorStr + '. ' + title + '. Carbon Future, ' + year + ', ' + volIssue + ': ' + pages + '. ' + doiUrl;
+  }
+
+  // Expose to global scope for onclick handlers
+  window._toggleCard = function(card) {
+    card.classList.toggle('open');
+    var btn = card.querySelector('.toggle-btn');
+    if (btn) btn.textContent = card.classList.contains('open') ? 'Collapse ▴' : 'Expand ▾';
+  };
+
+  window._copyCite = function(idx) {
+    var a = filteredArticles[idx];
+    if (!a) return;
+    var text = getCiteText(a);
+    if (navigator.clipboard) {
+      navigator.clipboard.writeText(text).catch(function(){});
+    } else {
+      var ta = document.createElement('textarea');
+      ta.value = text;
+      ta.style.position = 'fixed';
+      ta.style.opacity = '0';
+      document.body.appendChild(ta);
+      ta.select();
+      try { document.execCommand('copy'); } catch(e) {}
+      document.body.removeChild(ta);
+    }
+    var btn = event.target;
+    btn.textContent = 'Copied ✓';
+    btn.classList.add('copied');
+    setTimeout(function() {
+      btn.textContent = 'Copy';
+      btn.classList.remove('copied');
+    }, 1500);
+  };
+
+  function downloadFile(content, filename, mime) {
+    var blob = new Blob([content], { type: mime });
+    var url = URL.createObjectURL(blob);
+    var a = document.createElement('a');
+    a.href = url; a.download = filename;
+    document.body.appendChild(a); a.click();
+    document.body.removeChild(a); URL.revokeObjectURL(url);
+  }
+
+  window._downloadRIS = function(idx) {
+    var a = filteredArticles[idx];
+    if (!a) return;
+    var ris = [];
+    ris.push('TY  - JOUR');
+    (a.authors||[]).forEach(function(name) {
+      var parts = (name || '').trim().split(/\s+/);
+      if (parts.length >= 2) {
+        ris.push('AU  - ' + parts[parts.length-1] + ', ' + parts.slice(0,-1).join(' '));
+      } else {
+        ris.push('AU  - ' + (name || ''));
+      }
+    });
+    if (a.year) ris.push('PY  - ' + a.year);
+    ris.push('TI  - ' + (a.title||'').replace(/<[^>]+>/g, ''));
+    ris.push('JO  - Carbon Future');
+    ris.push('SN  - 2960-0561');
+    if (a.firstpage) ris.push('SP  - ' + a.firstpage);
+    if (a.lastpage) ris.push('EP  - ' + a.lastpage);
+    if (a.volume) ris.push('VL  - ' + a.volume);
+    if (a.issue) ris.push('IS  - ' + a.issue);
+    if (a.abstract) ris.push('AB  - ' + a.abstract.replace(/<[^>]+>/g, '').replace(/\s+/g,' ').trim());
+    if (a.doi) ris.push('UR  - https://www.sciopen.com/article/' + a.doi);
+    if (a.doi) ris.push('DO  - ' + a.doi);
+    var fn = (a.doi||'CF').replace(/[/\\]/g,'_') + '.ris';
+    downloadFile(ris.join('\r\n') + '\r\n', fn, 'application/x-research-info-systems;charset=utf-8;');
+  };
+
+  $search.addEventListener('input', debounce(applyFilters, 300));
+  $year.addEventListener('change', applyFilters);
+  $area.addEventListener('change', applyFilters);
+
+  function debounce(fn, ms) {
+    var t;
+    return function() { clearTimeout(t); t = setTimeout(fn, ms); };
+  }
+
+  // Sort articles: volume descending, issue descending, firstpage descending
+  function sortArticles(articles) {
+    articles.sort(function(a, b) {
+      var vol = (b.volume || 0) - (a.volume || 0);
+      if (vol !== 0) return vol;
+      var iss = (b.issue || 0) - (a.issue || 0);
+      if (iss !== 0) return iss;
+      return (b.firstpage || 0) - (a.firstpage || 0);
+    });
+  }
+
+  // Init
+  fetch(DATA_URL)
+    .then(function(r){ return r.json(); })
+    .then(function(data){
+      allArticles = data;
+      sortArticles(allArticles);
+      filteredArticles = allArticles.slice();
+      fillFilters();
+      render();
+    })
+    .catch(function(e){
+      $list.innerHTML = '<div class="center-msg">⚠️ Failed to load: ' + esc(e.message) + '</div>';
+    });
+
+})();
+</script>
+</body>
+</html>
