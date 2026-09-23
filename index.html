@@ -321,6 +321,7 @@ body{font-family:'Inter','Microsoft YaHei',-apple-system,BlinkMacSystemFont,'Seg
           '<span class="card-cite-text">' + getCiteText(a) + '</span>' +
           '<button class="card-cite-btn" onclick="window._copyCite(' + i + ')">Copy</button>' +
           '<a class="card-cite-btn" href="javascript:void(0)" onclick="window._downloadRIS(' + i + ')" style="background:#27ae60">RIS</a>' +
+          '<a class="card-cite-btn" href="javascript:void(0)" onclick="window._downloadBibTeX(' + i + ')" style="background:#e67e22">BibTeX</a>' +
         '</div>';
       }
       html += '<div class="detail"><div class="detail-grid">';
@@ -404,6 +405,32 @@ body{font-family:'Inter','Microsoft YaHei',-apple-system,BlinkMacSystemFont,'Seg
     document.body.appendChild(a); a.click();
     document.body.removeChild(a); URL.revokeObjectURL(url);
   }
+
+  window._downloadBibTeX = function(idx) {
+    var a = filteredArticles[idx];
+    if (!a) return;
+    var key = (a.authors && a.authors[0] ? a.authors[0].trim().split(/\s+/).pop().toLowerCase() : 'cf') + (a.year||'') + (a.firstpage||a.doi||'').replace(/[^a-z0-9]/gi,'').substring(0,6);
+    var bib = [];
+    bib.push('@article{' + key + ',');
+    if (a.authors && a.authors.length) {
+      var authorStr = a.authors.map(function(n){ return n.trim(); }).join(' and ');
+      bib.push('  author    = {' + authorStr + '},');
+    }
+    if (a.title) bib.push('  title     = {' + (a.title||'').replace(/<[^>]+>/g,'') + '},');
+    bib.push('  journal   = {Carbon Future},');
+    if (a.year) bib.push('  year      = {' + a.year + '},');
+    if (a.volume) bib.push('  volume    = {' + a.volume + '},');
+    if (a.issue) bib.push('  number    = {' + a.issue + '},');
+    if (a.firstpage) {
+      bib.push('  pages     = {' + (a.firstpage||'') + (a.lastpage ? '--' + a.lastpage : '') + '},');
+    }
+    if (a.doi) bib.push('  doi       = {' + a.doi + '},');
+    if (a.issn) bib.push('  issn      = {' + a.issn + '},');
+    if (a.publisher) bib.push('  publisher = {' + a.publisher + '},');
+    bib.push('}');
+    var fn = key + '.bib';
+    downloadFile(bib.join('\n') + '\n', fn, 'application/x-bibtex;charset=utf-8;');
+  };
 
   window._downloadRIS = function(idx) {
     var a = filteredArticles[idx];
