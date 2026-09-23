@@ -126,6 +126,7 @@ body{font-family:'Inter','Microsoft YaHei',-apple-system,BlinkMacSystemFont,'Seg
     </div>
     <select class="filter-select" id="yearFilter"><option value="">All Years</option></select>
     <select class="filter-select" id="areaFilter"><option value="">All Areas</option></select>
+    <select class="filter-select" id="typeFilter"><option value="">All Types</option></select>
   </div>
 </section>
 
@@ -170,6 +171,7 @@ body{font-family:'Inter','Microsoft YaHei',-apple-system,BlinkMacSystemFont,'Seg
   var $search = document.getElementById('searchInput');
   var $year = document.getElementById('yearFilter');
   var $area = document.getElementById('areaFilter');
+  var $type = document.getElementById('typeFilter');
   var $list = document.getElementById('articleList');
   var $stats = document.getElementById('statsRow');
 
@@ -239,27 +241,31 @@ body{font-family:'Inter','Microsoft YaHei',-apple-system,BlinkMacSystemFont,'Seg
   }
 
   function fillFilters() {
-    var years = [], areas = [];
-    var yearSet = {}, areaSet = {};
+    var years = [], areas = [], types = [];
+    var yearSet = {}, areaSet = {}, typeSet = {};
     allArticles.forEach(function(a){
       if(a.year && !yearSet[a.year]) { yearSet[a.year]=1; years.push(a.year); }
       (a.research_area||[]).forEach(function(ar){ if(ar && !areaSet[ar]) { areaSet[ar]=1; areas.push(ar); } });
+      if(a.article_type && a.article_type !== 'Issue Information' && !typeSet[a.article_type]) { typeSet[a.article_type]=1; types.push(a.article_type); }
     });
     years.sort(function(a,b){return b-a;});
     areas.sort();
+    types.sort();
     years.forEach(function(y){ var o=document.createElement('option'); o.value=y; o.textContent=y; $year.appendChild(o); });
     areas.forEach(function(t){ var o=document.createElement('option'); o.value=t; o.textContent=t; $area.appendChild(o); });
+    types.forEach(function(t){ var o=document.createElement('option'); o.value=t; o.textContent=t; $type.appendChild(o); });
   }
 
   function applyFilters() {
     var q = $search.value.trim();
     currentQuery = q;
-    var yv = $year.value, av = $area.value;
+    var yv = $year.value, av = $area.value, tv = $type.value;
     filteredArticles = [];
     for (var i = 0; i < allArticles.length; i++) {
       var a = allArticles[i];
       if (yv && a.year != yv) continue;
       if (av && (a.research_area||[]).indexOf(av) === -1) continue;
+      if (tv && a.article_type !== tv) continue;
       var score = searchScore(a, q);
       if (q && score === 0) continue;
       a._score = score;
@@ -430,6 +436,7 @@ body{font-family:'Inter','Microsoft YaHei',-apple-system,BlinkMacSystemFont,'Seg
   $search.addEventListener('input', debounce(applyFilters, 300));
   $year.addEventListener('change', applyFilters);
   $area.addEventListener('change', applyFilters);
+  $type.addEventListener('change', applyFilters);
 
   function debounce(fn, ms) {
     var t;
