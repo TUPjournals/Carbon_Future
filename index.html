@@ -409,33 +409,29 @@ body{font-family:'Inter','Microsoft YaHei',-apple-system,BlinkMacSystemFont,'Seg
   window._downloadBibTeX = function(idx) {
     var a = filteredArticles[idx];
     if (!a) return;
-    var key = (a.authors && a.authors[0] ? a.authors[0].trim().split(/\s+/).pop().toLowerCase() : 'cf') + (a.year||'') + (a.firstpage||a.doi||'').replace(/[^a-z0-9]/gi,'').substring(0,6);
+    var lastname = a.authors && a.authors[0] ? a.authors[0].trim().split(/\s+/).pop() : 'cf';
+    var key = lastname.charAt(0).toUpperCase() + lastname.slice(1).toLowerCase() + (a.year||'');
     var bib = [];
     bib.push('@article{' + key + ',');
     if (a.authors && a.authors.length) {
-      var authorStr = a.authors.map(function(n){ return n.trim(); }).join(' and ');
-      bib.push('  author    = {' + authorStr + '},');
+      bib.push('author = {' + a.authors.map(function(n){ return n.trim(); }).join(' and ') + '},');
     }
-    if (a.title) bib.push('  title     = {' + (a.title||'').replace(/<[^>]+>/g,'') + '},');
-    bib.push('  journal   = {Carbon Future},');
-    if (a.year) bib.push('  year      = {' + a.year + '},');
-    if (a.volume) bib.push('  volume    = {' + a.volume + '},');
-    if (a.issue) bib.push('  number    = {' + a.issue + '},');
+    if (a.title) bib.push('title = {' + (a.title||'').replace(/<[^>]+>/g,'') + '},');
+    if (a.year) bib.push('year = {' + a.year + '},');
+    bib.push('journal = {Carbon Future},');
+    if (a.volume) bib.push('volume = {' + a.volume + '},');
+    if (a.issue) bib.push('number = {' + a.issue + '},');
     if (a.firstpage) {
       var pages = a.firstpage;
       if (a.lastpage && a.lastpage !== a.firstpage) pages += '--' + a.lastpage;
-      bib.push('  pages     = {' + pages + '},');
+      bib.push('pages = {' + pages + '},');
     }
-    if (a.doi) bib.push('  doi       = {' + a.doi + '},');
-    if (a.issn) bib.push('  issn      = {' + a.issn + '},');
-    if (a.publisher) bib.push('  publisher = {' + a.publisher + '},');
-    if (a.url) bib.push('  url       = {' + a.url + '},');
+    if (a.keywords && a.keywords.length) bib.push('keywords = {' + a.keywords.join(', ') + '},');
+    if (a.url) bib.push('url = {' + a.url + '},');
+    if (a.doi) bib.push('doi = {' + a.doi + '},');
     if (a.abstract) {
       var abs = (a.abstract||'').replace(/<[^>]+>/g,'').replace(/\s+/g,' ').trim();
-      bib.push('  abstract  = {' + abs + '},');
-    }
-    if (a.keywords && a.keywords.length) {
-      bib.push('  keywords  = {' + a.keywords.join(', ') + '},');
+      bib.push('abstract = {' + abs + '},');
     }
     bib.push('}');
     var fn = key + '.bib';
