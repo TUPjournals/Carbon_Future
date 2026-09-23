@@ -321,7 +321,7 @@ body{font-family:'Inter','Microsoft YaHei',-apple-system,BlinkMacSystemFont,'Seg
           '<span class="card-cite-text">' + getCiteText(a) + '</span>' +
           '<button class="card-cite-btn" onclick="window._copyCite(' + i + ')">Copy</button>' +
           '<a class="card-cite-btn" href="javascript:void(0)" onclick="window._downloadRIS(' + i + ')" style="background:#27ae60">RIS</a>' +
-          '<a class="card-cite-btn" href="javascript:void(0)" onclick="window._downloadBibTeX(' + i + ')" style="background:#e67e22">BibTeX</a>' +
+          '<a class="card-cite-btn" href="javascript:void(0)" onclick="window._downloadBibTeX(' + i + ')" style="background:#9b59b6">BibTeX</a>' +
         '</div>';
       }
       html += '<div class="detail"><div class="detail-grid">';
@@ -360,8 +360,8 @@ body{font-family:'Inter','Microsoft YaHei',-apple-system,BlinkMacSystemFont,'Seg
     var year = a.year || '';
     var title = (a.title || '').replace(/<[^>]+>/g, '');
     var volIssue = (a.volume || a.issue) ? (a.volume||'') + '(' + (a.issue||'') + ')' : '';
-    var pages = (a.firstpage && a.lastpage) ? (a.firstpage + '-' + a.lastpage) : (a.firstpage || '');
-    var doiUrl = 'https://www.sciopen.com/article/' + (a.doi || '');
+    var pages = (a.firstpage && a.lastpage && a.firstpage !== a.lastpage) ? (a.firstpage + '-' + a.lastpage) : (a.firstpage || '');
+    var doiUrl = 'https://doi.org/' + (a.doi || '');
     return authorStr + '. ' + title + '. Carbon Future, ' + year + ', ' + volIssue + ': ' + pages + '. ' + doiUrl;
   }
 
