@@ -37,6 +37,7 @@ body{font-family:'Inter','Microsoft YaHei',-apple-system,BlinkMacSystemFont,'Seg
 .badges{display:flex;gap:6px;flex-shrink:0;align-items:center}
 .badge-year{background:var(--accent);color:#fff;padding:3px 10px;border-radius:14px;font-size:.75rem;font-weight:600}
 .badge-type{background:var(--accent-bg);color:var(--primary);padding:3px 10px;border-radius:14px;font-size:.75rem;font-weight:500}
+.badge-vol{background:#f0fdf4;color:#166534;padding:3px 10px;border-radius:14px;font-size:.75rem;font-weight:500}
 .btn-expand{background:var(--accent-bg);color:var(--accent);border:1px solid var(--border);padding:3px 10px;border-radius:14px;font-size:.75rem;cursor:pointer;transition:all .2s;white-space:nowrap}
 .btn-expand:hover{background:var(--accent);color:#fff}
 .card-authors{font-size:.84rem;color:#64748b;margin-top:8px;line-height:1.5;max-width:700px}
@@ -289,8 +290,9 @@ body{font-family:'Inter','Microsoft YaHei',-apple-system,BlinkMacSystemFont,'Seg
       html += '<div class="card-title">' + highlight(a.title.replace(/<[^>]+>/g, ''), currentQuery) + '</div>';
       html += '<div class="badges">';
       if (a.year) html += '<span class="badge-year">' + a.year + '</span>';
+      if (a.article_type && a.article_type !== 'Issue Information') html += '<span class="badge-type">' + esc(a.article_type) + '</span>';
       var volIssue = (a.volume || a.issue) ? 'Vol.' + (a.volume||'?') + ' Iss. ' + (a.issue||'?') : '';
-      if (volIssue) html += '<span class="badge-type">' + esc(volIssue) + '</span>';
+      if (volIssue) html += '<span class="badge-vol">' + esc(volIssue) + '</span>';
       html += '<button class="btn-expand toggle-btn" onclick="event.stopPropagation();window._toggleCard(this.closest(\'.card\'))">Expand ▾</button>';
       html += '</div></div>';
       html += '<div class="card-authors">' + (a.authors||[]).join(', ') + '</div>';
