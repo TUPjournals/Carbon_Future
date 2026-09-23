@@ -327,9 +327,8 @@ body{font-family:'Inter','Microsoft YaHei',-apple-system,BlinkMacSystemFont,'Seg
       html += '<div class="detail"><div class="detail-grid">';
       if (a.doi) html += '<div class="d-item"><label>DOI</label><span>' + esc(a.doi) + '</span></div>';
       if (a.volume) html += '<div class="d-item"><label>Volume(Issue)</label><span>' + a.volume + '(' + a.issue + ')</span></div>';
-      if (a.firstpage) html += '<div class="d-item"><label>Pages</label><span>' + a.firstpage + '-' + a.lastpage + '</span></div>';
+      if (a.firstpage) html += '<div class="d-item"><label>Article number</label><span>' + a.firstpage + (a.lastpage && a.lastpage !== a.firstpage ? '-' + a.lastpage : '') + '</span></div>';
       if (a.publication_date) html += '<div class="d-item"><label>Published</label><span>' + esc(a.publication_date) + '</span></div>';
-      if (a.online_date) html += '<div class="d-item"><label>Online</label><span>' + esc(a.online_date) + '</span></div>';
       if (a.article_type) html += '<div class="d-item"><label>Type</label><span>' + esc(a.article_type) + '</span></div>';
       html += '</div>';
       if (a.abstract) html += '<div class="d-abstract"><strong>Abstract:</strong> ' + highlight(a.abstract.replace(/<[^>]+>/g, ''), currentQuery) + '</div>';
@@ -361,6 +360,7 @@ body{font-family:'Inter','Microsoft YaHei',-apple-system,BlinkMacSystemFont,'Seg
     var title = (a.title || '').replace(/<[^>]+>/g, '');
     var volIssue = (a.volume || a.issue) ? (a.volume||'') + '(' + (a.issue||'') + ')' : '';
     var pages = (a.firstpage && a.lastpage && a.firstpage !== a.lastpage) ? (a.firstpage + '-' + a.lastpage) : (a.firstpage || '');
+    if (pages) pages = 'Article number: ' + pages;
     var doiUrl = 'https://doi.org/' + (a.doi || '');
     return authorStr + '. ' + title + '. Carbon Future, ' + year + ', ' + volIssue + ': ' + pages + '. ' + doiUrl;
   }
@@ -422,9 +422,7 @@ body{font-family:'Inter','Microsoft YaHei',-apple-system,BlinkMacSystemFont,'Seg
     if (a.volume) bib.push('volume = {' + a.volume + '},');
     if (a.issue) bib.push('number = {' + a.issue + '},');
     if (a.firstpage) {
-      var pages = a.firstpage;
-      if (a.lastpage && a.lastpage !== a.firstpage) pages += '--' + a.lastpage;
-      bib.push('pages = {' + pages + '},');
+      bib.push('pages = {Article number: ' + a.firstpage + (a.lastpage && a.lastpage !== a.firstpage ? '-' + a.lastpage : '') + '},');
     }
     if (a.keywords && a.keywords.length) bib.push('keywords = {' + a.keywords.join(', ') + '},');
     if (a.url) bib.push('url = {' + a.url + '},');
@@ -455,7 +453,7 @@ body{font-family:'Inter','Microsoft YaHei',-apple-system,BlinkMacSystemFont,'Seg
     ris.push('TI  - ' + (a.title||'').replace(/<[^>]+>/g, ''));
     ris.push('JO  - Carbon Future');
     ris.push('SN  - 2960-0561');
-    if (a.firstpage) ris.push('SP  - ' + a.firstpage);
+    if (a.firstpage) ris.push('SP  - Article number: ' + a.firstpage);
     if (a.volume) ris.push('VL  - ' + a.volume);
     if (a.issue) ris.push('IS  - ' + a.issue);
     if (a.abstract) ris.push('AB  - ' + a.abstract.replace(/<[^>]+>/g, '').replace(/\s+/g,' ').trim());
