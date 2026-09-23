@@ -1,0 +1,2413 @@
+[
+  {
+    "doi": "10.26599/CF.2024.9200007",
+    "title": "Issue Information",
+    "authors": [],
+    "keywords": [],
+    "abstract": null,
+    "volume": 2024,
+    "issue": 1,
+    "firstpage": "9200007",
+    "lastpage": "9200007",
+    "year": 2024,
+    "publication_date": "2024/3/5",
+    "online_date": "2024/1/26",
+    "publisher": "清华大学出版社",
+    "issn": "2960-0561",
+    "article_type": "Issue Information",
+    "url": "https://www.sciopen.com/article/10.26599/CF.2024.9200007",
+    "pdf": "https://www.sciopen.com/local/article_pdf/10.26599/CF.2024.9200007.pdf",
+    "research_area": []
+  },
+  {
+    "doi": "10.26599/CF.2024.9200008",
+    "title": "Identification of role of nitrogen dopants in nanocarbon catalysis",
+    "authors": [
+      "Xuefei Zhang",
+      "Xinying Lin",
+      "Xiaoyan Huang",
+      "Yiquan Chen",
+      "Sen Lin",
+      "Xing Huang",
+      "Zailai Xie"
+    ],
+    "keywords": [
+      "N-doped carbon",
+      "charge polarization",
+      "active sites",
+      "catalytic mechanism",
+      "heterogeneous catalysis"
+    ],
+    "abstract": "The influence of nitrogen dopants on the catalytic activity of carbon-based materials has been studied extensively, but the exact role of nitrogen species in these materials remains unclear. A challenge in understanding the role of nitrogen is that most nitrogen-doped nanocarbon (NC) materials are dominated by uncontrollable surface functional groups, and changes in nitrogen species often lead to variations in oxygen functional groups, which makes the specific role of nitrogen difficult to isolate. To address this issue, we developed a series of NCs containing variable types and contents of nitrogen (5–30 at.%) and a constant oxygen content of approximately 4 at.%. Results show that the different types of nitrogen in the NCs, namely, graphitic nitrogen and pyridinic nitrogen, serve as electron-donating and -withdrawing modulators, respectively, and can tailor the oxidative dehydrogenation activity of the NCs. Additionally, graphitic nitrogen plays a role in mediating frustrated Lewis pairs consisting of pyridinic nitrogen and neighboring carbon atoms. These pairs are responsible for the activation of hydrogen–hydrogen bonds, which is the rate-determining step in nitrobenzene hydrogenation.",
+    "volume": 2024,
+    "issue": 2,
+    "firstpage": "9200008",
+    "lastpage": "9200008",
+    "year": 2024,
+    "publication_date": "2024/6/5",
+    "online_date": "2024/2/4",
+    "publisher": "清华大学出版社",
+    "issn": "2960-0561",
+    "article_type": "Research Article",
+    "url": "https://www.sciopen.com/article/10.26599/CF.2024.9200008",
+    "pdf": "https://www.sciopen.com/local/article_pdf/10.26599/CF.2024.9200008.pdf",
+    "research_area": [
+      "Catalysis"
+    ]
+  },
+  {
+    "doi": "10.26599/CF.2024.9200009",
+    "title": "Fullerene-metalloporphyrin co-crystal as efficient oxygen reduction reaction electrocatalyst precursor for Zn-air batteries",
+    "authors": [
+      "Ao Yu",
+      "Qi Huang",
+      "Shixin Gao",
+      "Tingting Xu",
+      "Wei Zhang",
+      "Nimanyu Joshi",
+      "Ping Peng",
+      "Yang Yang",
+      "Fang-Fang Li"
+    ],
+    "keywords": [
+      "fullerene C<sub>60</sub>",
+      "tetraphenylporphyrin cobalt",
+      "fullerene-based co-crystal",
+      "oxygen reduction reaction",
+      "zinc-air batteries"
+    ],
+    "abstract": "Fullerene-derived carbon materials are promising catalysts for the oxygen reduction reaction (ORR) because of the presence of intrinsic defects in the carbon cage. Moreover, the nitrogen (N) species and metallic catalytic sites can effectively overcome the sluggish kinetics of O2 activation. In this work, a rod-shaped tetraphenyl-porphyrin cobalt-C60 cocrystal (CoTPP/C60) was self-assembled and then annealed to prepare a series of N, Co-codoped carbon materials. Among the resulting CoTPP/C60-X materials, CoTPP/C60-800, which was obtained at 800 °C, demonstrated a half-wave potential of 0.824 VRHE, outstanding stability, and remarkable methanol tolerance. The superior ORR performance of CoTPP/C60-800 can be attributed to the presence of abundant defects, appropriate N species (pyridine N and graphitic N), Co–Nx sites, and Co nanoparticles. Moreover, a Zn-air battery assembled using CoTPP/C60-800 as the cathode exhibited a high power density of 111.7 mW∙cm−2. This study provides a new strategy for designing and synthesizing advanced ORR catalysts for Zn-air batteries.",
+    "volume": 2024,
+    "issue": 2,
+    "firstpage": "9200009",
+    "lastpage": "9200009",
+    "year": 2024,
+    "publication_date": "2024/6/5",
+    "online_date": "2024/2/26",
+    "publisher": "清华大学出版社",
+    "issn": "2960-0561",
+    "article_type": "Research Article",
+    "url": "https://www.sciopen.com/article/10.26599/CF.2024.9200009",
+    "pdf": "https://www.sciopen.com/local/article_pdf/10.26599/CF.2024.9200009.pdf",
+    "research_area": [
+      "Catalysis"
+    ]
+  },
+  {
+    "doi": "10.26599/CF.2024.9200010",
+    "title": "Fueling the future: Innovating the path to carbon-neutral skies with CO<sub>2</sub>-to-aviation fuel",
+    "authors": [
+      "Guo Tian",
+      "Chenxi Zhang",
+      "Fei Wei"
+    ],
+    "keywords": [
+      "carbon neutral",
+      "CO<sub>2</sub>",
+      "aviation fuel"
+    ],
+    "abstract": "Considering the increasing concerns regarding climate change, a fundamental transformation in global energy policies is imperative, particularly within the aviation sector, which is historically anchored in the consumption of fossil fuels. This perspective presents a scholarly evaluation of the progression from deep-rooted fossil-fuel-dependent technologies to innovative strategies aimed at carbon neutrality, specifically focusing on the formulation of sustainable aviation fuel from CO2. An analytical review of the cutting-edge methodologies for CO2-to-jet fuel conversion is provided, and the practicality of current industrial models are assessed. This perspective explores the intricate consequences of adopting such groundbreaking technologies and evaluates their technical practicability, economic feasibility, and environmental advantages. The insights obtained from this study will substantially contribute to the discussion on energy sustainability, emphasizing the synergy between sophisticated CO2 conversion processes and the overarching goal of realizing global carbon neutrality.",
+    "volume": 2024,
+    "issue": 2,
+    "firstpage": "9200010",
+    "lastpage": "9200010",
+    "year": 2024,
+    "publication_date": "2024/6/5",
+    "online_date": "2024/4/10",
+    "publisher": "清华大学出版社",
+    "issn": "2960-0561",
+    "article_type": "Perspective",
+    "url": "https://www.sciopen.com/article/10.26599/CF.2024.9200010",
+    "pdf": "https://www.sciopen.com/local/article_pdf/10.26599/CF.2024.9200010.pdf",
+    "research_area": [
+      "Carbon economics and policy"
+    ]
+  },
+  {
+    "doi": "10.26599/CF.2024.9200011",
+    "title": "Valorization of carbon dioxide into C1 product via reverse water gas shift reaction using oxide-supported molybdenum carbides",
+    "authors": [
+      "Andrew N. Kuhn",
+      "Rachel C. Park",
+      "Siying Yu",
+      "Di Gao",
+      "Cheng Zhang",
+      "Yuanhui Zhang",
+      "Hong Yang"
+    ],
+    "keywords": [
+      "molybdenum carbide",
+      "reverse water gas shift reaction",
+      "carbon dioxide valorization"
+    ],
+    "abstract": "Conversion of carbon dioxide (CO2) to C1 products such as carbon monoxide (CO) is a critical step towards carbon valorization. The conversion has been largely carried out through the reverse water gas shift (RWGS) reaction using noble metal catalysts or copper-based nanostructures. Similarities in the electronic structures between beta phase molybdenum carbides (β-Mo2C) and platinum-group metals make them promising alternatives to traditional catalysts. In this work, we studied the effect of oxide supports (MOx, M = Al, Ce, Mg, Si, and Ti) on the formation and catalytic properties of  β-Mo2C nanoparticle catalysts. The β-Mo2C/SiO2 catalyst exhibited a mass activity of 372 μmolCO2∙ gMo2C−1∙s−1 at 400 °C and 1109 μmolCO2∙ gMo2C−1∙s−1 at 600 °C for the conversion of CO2. The β-Mo2C/SiO2 catalysts also maintained selectivity and showed structural stability in the on-stream study. The enhanced catalytic performance could be attributed to the size of nanocatalysts (4.7 nm), whereas the stability is related to the interaction with SiO2 and the low H2:CO2 feed ratio. This work highlights the application of amorphous silica in preparing metal carbide nanocatalysts. The rich defects and surface vacancies in the silica support greatly facilitate the high-rate and highly selective processes towards the valorization of CO2.",
+    "volume": 2024,
+    "issue": 2,
+    "firstpage": "9200011",
+    "lastpage": "9200011",
+    "year": 2024,
+    "publication_date": "2024/6/5",
+    "online_date": "2024/4/30",
+    "publisher": "清华大学出版社",
+    "issn": "2960-0561",
+    "article_type": "Research Article",
+    "url": "https://www.sciopen.com/article/10.26599/CF.2024.9200011",
+    "pdf": "https://www.sciopen.com/local/article_pdf/10.26599/CF.2024.9200011.pdf",
+    "research_area": [
+      "Catalysis"
+    ]
+  },
+  {
+    "doi": "10.26599/CF.2024.9200012",
+    "title": "Phosphorus modified onion-like carbon catalyzed methanol conversion to dimethoxymethane: The unique role of C–P species",
+    "authors": [
+      "Xueya Dai",
+      "Pengqiang Yan",
+      "Yunli Bai",
+      "Miao Guo",
+      "Wei Qi"
+    ],
+    "keywords": [
+      "phosphorus modification",
+      "onion-like carbon",
+      "heterogeneous catalysis",
+      "methanol",
+      "dimethoxymethane"
+    ],
+    "abstract": "One-step synthesis of dimethoxymethane (DMM) via selective oxidation of methanol under nanocarbon catalysis is a green and sustainable but challenging chemical process. In the present study, a series of phosphorus-modified onion-like carbon (POLC) was prepared, and they have shown high activity in methanol conversion to DMM reaction. The proposed POLC catalysts exhibit two kinds of P-containing species, and C–P species is considered as the key factor to ensure the high DMM formation rate via linking the chemical structure to the catalytic performance of the catalysts. A temperature-programmed desorption experiment of the intermediate product formaldehyde (FA) reveals that the physical–chemical nature behind the promotion effect of C–P species enhances the adsorption ability of the catalyst to FA, thereby ensuring the subsequent condensation reactions to form DMM under high selectivity.",
+    "volume": 2024,
+    "issue": 2,
+    "firstpage": "9200012",
+    "lastpage": "9200012",
+    "year": 2024,
+    "publication_date": "2024/6/5",
+    "online_date": "2024/6/21",
+    "publisher": "清华大学出版社",
+    "issn": "2960-0561",
+    "article_type": "Research Article",
+    "url": "https://www.sciopen.com/article/10.26599/CF.2024.9200012",
+    "pdf": "https://www.sciopen.com/local/article_pdf/10.26599/CF.2024.9200012.pdf",
+    "research_area": [
+      "Catalysis",
+      "Low-carbon chemical engineering"
+    ]
+  },
+  {
+    "doi": "10.26599/CF.2024.9200013",
+    "title": "CO<sub>2</sub> electroreduction to acetate by enhanced tandem effects of surface intermediate over Co<sub>3</sub>O<sub>4</sub> supported polyaniline catalyst",
+    "authors": [
+      "Liwen Wang",
+      "Pengfei Liu",
+      "Jie Yang",
+      "Chenjia Liang",
+      "Changshun Deng",
+      "Yinxuan Zhao",
+      "Xuefeng Guo",
+      "Luming Peng",
+      "Nianhua Xue",
+      "Qiang Wang",
+      "Weiping Ding"
+    ],
+    "keywords": [
+      "CO<sub>2</sub> electroreduction",
+      "acetate",
+      "Co<sub>3</sub>O<sub>4</sub>/PANI/C",
+      "tandem effects",
+      "oxygen vacancy"
+    ],
+    "abstract": "The electroreduction of CO2 to produce acetate is an extremely important and widely studied reaction. Herein, we report a heterogeneous electrocatalyst with Co3O4 nanoparticles immobilized on polyaniline (PANI) and cosupported by highly graphitized carbon (Co3O4/PANI/C) for the electroreduction of CO2 to acetate with high activity and selectivity. Remarkably enhanced acetate Faraday efficiency (ca. 62%) and current density (ca. 35 mA∙cm−2) were obtained under conditions of static electroreduction at −0.95 V in 0.5 M KOH aqueous electrolyte while suppressing the competitive hydrogen evolution reaction. The excellent performance of Co3O4/PANI/C is attributed to the tandem effect of the Co3O4 nanoparticles with abundant oxygen vacancies and the PANI heterogeneous interface in a favorable configuration. Density functional theory calculations revealed that the tandem configuration of Co3O4/PANI/C facilitates the rapid delivery of the key *CO intermediate formed on Co3O4 to PANI, which increases the coverage of the intermediate *CO on the electrocatalyst surface, thus promoting acetate production during the CO2 electroreduction reaction.",
+    "volume": 2024,
+    "issue": 2,
+    "firstpage": "9200013",
+    "lastpage": "9200013",
+    "year": 2024,
+    "publication_date": "2024/6/5",
+    "online_date": "2024/6/29",
+    "publisher": "清华大学出版社",
+    "issn": "2960-0561",
+    "article_type": "Research Article",
+    "url": "https://www.sciopen.com/article/10.26599/CF.2024.9200013",
+    "pdf": "https://www.sciopen.com/local/article_pdf/10.26599/CF.2024.9200013.pdf",
+    "research_area": [
+      "Catalysis"
+    ]
+  },
+  {
+    "doi": "10.26599/CF.2024.9200014",
+    "title": "Issue Information",
+    "authors": [],
+    "keywords": [],
+    "abstract": null,
+    "volume": 2024,
+    "issue": 2,
+    "firstpage": "9200014",
+    "lastpage": "9200014",
+    "year": 2024,
+    "publication_date": "2024/6/5",
+    "online_date": "2024/6/30",
+    "publisher": "清华大学出版社",
+    "issn": "2960-0561",
+    "article_type": "Issue Information",
+    "url": "https://www.sciopen.com/article/10.26599/CF.2024.9200014",
+    "pdf": "https://www.sciopen.com/local/article_pdf/10.26599/CF.2024.9200014.pdf",
+    "research_area": []
+  },
+  {
+    "doi": "10.26599/CF.2024.9200015",
+    "title": "Effective electrochemical trichloroethylene removal from water enabled by selective molecular catalysis",
+    "authors": [
+      "Yuanzuo Gao",
+      "Wanyu Zhang",
+      "Chungseok Choi",
+      "Bo Shang",
+      "Seonjeong Cheon",
+      "Aidan Francis Meese",
+      "Jae-Hong Kim",
+      "Donghui Long",
+      "John Fortner",
+      "Hailiang Wang"
+    ],
+    "keywords": [
+      "electrocatalysis",
+      "electrified membrane",
+      "trichloroethylene",
+      "water treatment"
+    ],
+    "abstract": "Electrochemistry can provide a viable and sustainable way to treat water polluted by chlorinated volatile organic compounds. However, the removal and valorization of trichloroethylene (TCE) remains as a challenge due to the lack of suitable electrocatalysts with high selectivity and activity. We herein present a catalyst, comprising cobalt phthalocyanine (CoPc) molecules assembled onto multiwalled carbon nanotubes (CNTs), that can electrochemically decompose aqueously dissolved TCE into ethylene and chloride ions at record high rates with close to 100% Faradaic efficiency. Kinetics studies reveal that the rate-determining step is the first electron transfer without proton involvement. We further show that replacing the CNT support with reduced graphene oxide (rGO) can improve the TCE treatment efficacy because of the two-dimensional nanostructure of rGO and its stronger interaction with CoPc molecules. Incorporating the CoPc/rGO catalyst into an electrified membrane filtration device, we demonstrate 95% TCE removal from simulated water samples with environmentally relevant TCE and electrolyte concentrations.",
+    "volume": 2024,
+    "issue": 3,
+    "firstpage": "9200015",
+    "lastpage": "9200015",
+    "year": 2024,
+    "publication_date": "2024/9/30",
+    "online_date": "2024/9/5",
+    "publisher": "清华大学出版社",
+    "issn": "2960-0561",
+    "article_type": "Research Article",
+    "url": "https://www.sciopen.com/article/10.26599/CF.2024.9200015",
+    "pdf": "https://www.sciopen.com/local/article_pdf/10.26599/CF.2024.9200015.pdf",
+    "research_area": [
+      "Catalysis"
+    ]
+  },
+  {
+    "doi": "10.26599/CF.2024.9200016",
+    "title": "Carbon-based material for CO<sub>2</sub> catalytic conversion applications",
+    "authors": [
+      "Wenhang Wang",
+      "Yang Wang",
+      "Xiangjin Kong",
+      "Hui Ning",
+      "Mingbo Wu"
+    ],
+    "keywords": [
+      "carbon material",
+      "CO<sub>2</sub> hydrogenation",
+      "catalyst design"
+    ],
+    "abstract": "Carbon dioxide (CO2) is not only a greenhouse gas but also an abundant carbon resource. CO2 hydrogenation from electrocatalysis and thermocatalysis to high-value-added chemicals has attracted wide attention. The development of a catalyst was critical in the reaction, and the key is the innovation of its synthesis strategy. Carbon materials are widely used in CO2 hydrogenation because of their unique physical and chemical properties. Carbon species could play many roles during catalyst preparation and reaction, not only as bulk catalysts but also as structure modifiers of catalyst, support of catalyst, and electronic regulator of catalyst. In this review, the developmental strategy of catalysts by using a carbon species-assisted method in our research group was summarized, which can be applied to CO2 thermochemical and electrochemical hydrogenation. This review aims to provide insights into CO2 hydrogenation through the design of carbon-based catalysts.",
+    "volume": 2024,
+    "issue": 3,
+    "firstpage": "9200016",
+    "lastpage": "9200016",
+    "year": 2024,
+    "publication_date": "2024/9/30",
+    "online_date": "2024/9/10",
+    "publisher": "清华大学出版社",
+    "issn": "2960-0561",
+    "article_type": "Review",
+    "url": "https://www.sciopen.com/article/10.26599/CF.2024.9200016",
+    "pdf": "https://www.sciopen.com/local/article_pdf/10.26599/CF.2024.9200016.pdf",
+    "research_area": [
+      "Catalysis",
+      "Carbon materials"
+    ]
+  },
+  {
+    "doi": "10.26599/CF.2024.9200017",
+    "title": "The future of carbon anodes for lithium-ion batteries: The rational regulation of graphite interphase",
+    "authors": [
+      "Bin Cao",
+      "Mengjiao Du",
+      "Zirong Guo",
+      "Huan Liu",
+      "Chong Yan",
+      "Aibing Chen",
+      "Xiang Chen",
+      "Cheng Tang",
+      "Jia-Qi Huang",
+      "Qiang Zhang"
+    ],
+    "keywords": [
+      "graphite anode",
+      "solid electrolyte interphase",
+      "Li-ion batteries",
+      "surface coating",
+      "electrode−electrolyte interface regulation",
+      "fast-charging carbon anode"
+    ],
+    "abstract": "Interphase regulation of graphite anodes is indispensable for augmenting the performance of lithium-ion batteries (LIBs). The resulting solid electrolyte interphase (SEI) is crucial in ensuring anode stability, electrolyte compatibility, and efficient charge transfer kinetics, which in turn dictates the cyclability, fast-charging capability, temperature tolerance, and safety of carbon anodes. Continuous research endeavors are deepening our comprehension of the interphasial chemistry, underscoring the imperative to refine the SEI through economically viable and scalable techniques. The ongoing advancement of surface coating techniques involving amorphous carbons or Li-ion conductors, along with electrolyte formulations optimization such as the integration of film-forming additives, has become the cornerstones in regulating the SEI. These innovations are reshaping the landscape of current LIBs by refining the electrode interphase, paving the way to construct more potent and efficient energy storage systems. The relentless drive to optimize the interphase through cutting-edge technologies is central to the future of LIBs, with the ambitious goals of achieving higher energy densities, ensuring safety, and promoting sustainability in energy storage solutions. This review affords a comprehensive overview of the progression in carbon anode development and current status of their industrialization, underscoring the critical role of interphase regulation engineering in advancing the LIB technology.",
+    "volume": 2024,
+    "issue": 3,
+    "firstpage": "9200017",
+    "lastpage": "9200017",
+    "year": 2024,
+    "publication_date": "2024/9/30",
+    "online_date": "2024/9/24",
+    "publisher": "清华大学出版社",
+    "issn": "2960-0561",
+    "article_type": "Review",
+    "url": "https://www.sciopen.com/article/10.26599/CF.2024.9200017",
+    "pdf": "https://www.sciopen.com/local/article_pdf/10.26599/CF.2024.9200017.pdf",
+    "research_area": [
+      "Low-carbon energy"
+    ]
+  },
+  {
+    "doi": "10.26599/CF.2024.9200018",
+    "title": "Rational design of multifunctional framework materials for sustainable photocatalysis",
+    "authors": [
+      "Yingjie Fan",
+      "Wenbin Lin"
+    ],
+    "keywords": [
+      "metal-organic frameworks",
+      "covalent organic frameworks",
+      "artificial photosynthesis",
+      "photoredox catalysis"
+    ],
+    "abstract": "Photocatalysis harnesses photon energy to drive chemical reactions under mild conditions that would otherwise be thermodynamically uphill. Nature provides a blueprint for designing photocatalytic systems, as seen in photosynthesis, by assembling light-harvesting antenna complexes, electron transport chains, and catalytic enzymes to perform highly complex light-driven chemical syntheses. While methods leveraging the synergy between photosensitizers and catalytic complexes have been widely explored in photocatalysis, the hierarchical assembly of these components in material systems has been less studied. The emergence of framework materials, including metal-organic frameworks and covalent organic frameworks provides new opportunities for designing advanced photocatalysts based on these molecular material platforms. This minireview focuses on the design of framework materials for sustainable photocatalysis. We will discuss the design of framework materials for artificial photosynthesis and several important organic transformations and highlight the advantages of these catalytic framework materials over their homogeneous counterparts. Framework material-based photocatalysts are readily recovered from reactions and reused in multiple reaction runs, further contributing to the development of sustainable photocatalytic processes.",
+    "volume": 2024,
+    "issue": 3,
+    "firstpage": "9200018",
+    "lastpage": "9200018",
+    "year": 2024,
+    "publication_date": "2024/9/30",
+    "online_date": "2024/9/26",
+    "publisher": "清华大学出版社",
+    "issn": "2960-0561",
+    "article_type": "Review",
+    "url": "https://www.sciopen.com/article/10.26599/CF.2024.9200018",
+    "pdf": "https://www.sciopen.com/local/article_pdf/10.26599/CF.2024.9200018.pdf",
+    "research_area": [
+      "Catalysis"
+    ]
+  },
+  {
+    "doi": "10.26599/CF.2024.9200019",
+    "title": "Multi-atomic catalysts: Pioneering applications in the pursuit of carbon neutrality",
+    "authors": [
+      "Jiarui Yang",
+      "Dingsheng Wang"
+    ],
+    "keywords": [
+      "single-atom catalysts",
+      "multi-atom catalysts",
+      "electrocatalysts",
+      "carbon neutrality"
+    ],
+    "abstract": "Since the introduction of single-atom catalysts (SACs), they have attracted considerable attention. Their high atomic efficiency and simple coordination environment make SACs a promising alternative to commercial catalysts. However, they face limitations, often showing relatively low efficiency in producing multi-carbon products. In contrast, multi-atomic catalysts (MACs), with their higher exposure of active sites, may outperform SACs owing to the synergistic effects between adjacent metallic centers. Therefore, it is essential to review the opportunities and challenges of MACs in the carbon neutrality field, offering potential guidance for future research.",
+    "volume": 2024,
+    "issue": 3,
+    "firstpage": "9200019",
+    "lastpage": "9200019",
+    "year": 2024,
+    "publication_date": "2024/9/30",
+    "online_date": "2024/9/29",
+    "publisher": "清华大学出版社",
+    "issn": "2960-0561",
+    "article_type": "Review",
+    "url": "https://www.sciopen.com/article/10.26599/CF.2024.9200019",
+    "pdf": "https://www.sciopen.com/local/article_pdf/10.26599/CF.2024.9200019.pdf",
+    "research_area": [
+      "Catalysis",
+      "Carbon economics and policy"
+    ]
+  },
+  {
+    "doi": "10.26599/CF.2024.9200020",
+    "title": "Regulation of cobalt active sites by antimony to match adsorption configuration for propyne semihydrogenation",
+    "authors": [
+      "Xiaohu Ge",
+      "Ziyue Kou",
+      "Nina Fei",
+      "Yueqiang Cao",
+      "Hao Jiang",
+      "Xinggui Zhou",
+      "Xuezhi Duan"
+    ],
+    "keywords": [
+      "Propyne semihydrogenation",
+      "Co–Sb intermetallic",
+      "adsorption behavior",
+      "site isolation",
+      "propylene selectivity"
+    ],
+    "abstract": "Designing and fabricating atomically uniform active sites toward favorable adsorption configuration of essential species to match specific reaction pathways is of great importance in catalytic semihydrogenations, yet it remains challenging. In this research, we present a straightforward method for synthesizing a CoSb intermetallic catalyst through the structural conversion of layered double hydroxide precursors, optimizing Co sites for configuration matching in propyne semihydrogenation. Characterizations using X-ray diffraction, high resolution transmission electron microscopy, and X-ray absorption spectroscopy demonstrate the formation of P63/mmc CoSb intermetallic phase. The CoSb intermetallic catalyst, with its well-organized atomic surface and optimized electronic structure, achieves 97.0% propylene selectivity with nearly complete propyne conversion. Temperature-programmed surface reaction and desorption measurements, along with theoretical calculations, unravel that this exceptional selectivity arises from the kinetically preferred desorption of propylene over its further hydrogenation to undesired propane byproduct on the finely regulated Co sites of the CoSb intermetallic catalyst.",
+    "volume": 2024,
+    "issue": 3,
+    "firstpage": "9200020",
+    "lastpage": "9200020",
+    "year": 2024,
+    "publication_date": "2024/9/30",
+    "online_date": "2024/9/29",
+    "publisher": "清华大学出版社",
+    "issn": "2960-0561",
+    "article_type": "Research Article",
+    "url": "https://www.sciopen.com/article/10.26599/CF.2024.9200020",
+    "pdf": "https://www.sciopen.com/local/article_pdf/10.26599/CF.2024.9200020.pdf",
+    "research_area": [
+      "Low-carbon chemical engineering",
+      "Low-carbon energy",
+      "Catalysis"
+    ]
+  },
+  {
+    "doi": "10.26599/CF.2024.9200021",
+    "title": "Issue Information",
+    "authors": [],
+    "keywords": [],
+    "abstract": null,
+    "volume": 2024,
+    "issue": 3,
+    "firstpage": "9200021",
+    "lastpage": "9200021",
+    "year": 2024,
+    "publication_date": "2024/9/30",
+    "online_date": "2024/9/30",
+    "publisher": "清华大学出版社",
+    "issn": "2960-0561",
+    "article_type": "Issue Information",
+    "url": "https://www.sciopen.com/article/10.26599/CF.2024.9200021",
+    "pdf": "https://www.sciopen.com/local/article_pdf/10.26599/CF.2024.9200021.pdf",
+    "research_area": []
+  },
+  {
+    "doi": "10.26599/CF.2024.9200022",
+    "title": "Metal-free carbon-nitrogen@carbon-type hybrid electrocatalysts for peroxide-producing oxygen reduction reaction",
+    "authors": [
+      "Bin Wu",
+      "Dulce M. Morales",
+      "Mingren Liu",
+      "Dongjiu Xie",
+      "Ping Feng",
+      "Yan Lu",
+      "Marcel Risch",
+      "Martin Oschatz",
+      "Tristan Petit"
+    ],
+    "keywords": [
+      "hybrids",
+      "electrocatalysts",
+      "oxygen reduction reaction",
+      "metal-free electrocatalyst",
+      "nanoporous carbon"
+    ],
+    "abstract": "Hydrogen peroxide (H2O2) is a widely utilized chemical in environmental cleaning, medical disinfection, and chemical engineering. Compared to the traditional anthraquinone oxidation method, the electrocatalytic oxygen reduction reaction (ORR) has become a promising alternative following the trends towards decentralized production schemes for base chemicals as well as the implementation of renewable energy sources to drive chemical reactions. ORR is attractive for the production of H2O2 due to its environmental friendliness, safety, and reliability. However, its wider application is still restricted by the sluggish reaction kinetics and low selectivity due to the competitive reaction of the oxygen reduction to H2O. In this context, nitrogen-rich carbon electrocatalysts with tunable adsorption properties and high electrical conductivity are promising materials for improved selectivity. A precise tailoring of their chemical structure is however required to embed peroxide-producing catalytic sites within a conductive environment. Herein, a metal-free carbon-nitrogen (CN)-type nanoporous carbon loaded onto a carbon matrix (CN@C) was designed as an ORR catalyst for highly selective peroxide synthesis in alkaline media. An average electron transfer number of 2.2 has been determined by the Koutecký–Levich analysis, indicating that CN@C materials exhibit a high selectivity for electrochemical H2O2 synthesis.",
+    "volume": 2024,
+    "issue": 4,
+    "firstpage": "9200022",
+    "lastpage": "9200022",
+    "year": 2024,
+    "publication_date": "2024/12/1",
+    "online_date": "2024/11/22",
+    "publisher": "清华大学出版社",
+    "issn": "2960-0561",
+    "article_type": "Research Article",
+    "url": "https://www.sciopen.com/article/10.26599/CF.2024.9200022",
+    "pdf": "https://www.sciopen.com/local/article_pdf/10.26599/CF.2024.9200022.pdf",
+    "research_area": [
+      "Catalysis"
+    ]
+  },
+  {
+    "doi": "10.26599/CF.2024.9200023",
+    "title": "Techno-economic analysis of hydrogen-driven calcium looping process for flue gas decarbonization",
+    "authors": [
+      "Dongliang Zhang",
+      "Hanke Li",
+      "Qiangqiang Wu",
+      "Guangxing Yang",
+      "Hao-Fan Wang",
+      "Yonghai Cao",
+      "Hongjuan Wang",
+      "Siyu Yang",
+      "Hao Yu"
+    ],
+    "keywords": [
+      "calcium looping",
+      "carbon capture",
+      "hydrogen-driven",
+      "process integration",
+      "techno-economic analysis"
+    ],
+    "abstract": "A techno-economic analysis was performed for a hydrogen-driven calcium looping (CaL) process capable of capturing 5 × 104–7 × 104 metric tons of CO2 per year from flue gas. The study investigated the use of coke oven gas (COG) and wind-photovoltaic to hydrogen (WPTH) as hydrogen sources. With COG as the hydrogen source, the CaL process yielded an annual production of 1.49 × 108 Nm3 CH4, an energy efficiency of 84.77%, and a payback period of 5.49 years. Conversely, using WPTH as the hydrogen source resulted in a lower annual CH4 output of 3.9 × 107 Nm3, a reduced energy efficiency of 65.04%, and annual losses of 62.10 million USD. In the near to mid-term, the hydrogen-driven CaL process enabled by COG is practically viable for industrial-scale operation. Using WPTH as the hydrogen source provides some improvements in certain aspects but drawbacks in others compared to COG. However, the considerably higher cost of producing green hydrogen remains a substantial hindrance to the process’s economic feasibility.",
+    "volume": 2024,
+    "issue": 4,
+    "firstpage": "9200023",
+    "lastpage": "9200023",
+    "year": 2024,
+    "publication_date": "2024/12/1",
+    "online_date": "2024/12/13",
+    "publisher": "清华大学出版社",
+    "issn": "2960-0561",
+    "article_type": "Research Article",
+    "url": "https://www.sciopen.com/article/10.26599/CF.2024.9200023",
+    "pdf": "https://www.sciopen.com/local/article_pdf/10.26599/CF.2024.9200023.pdf",
+    "research_area": [
+      "Low-carbon energy"
+    ]
+  },
+  {
+    "doi": "10.26599/CF.2024.9200024",
+    "title": "Large specific surface area carbons for electrochemical energy storage",
+    "authors": [
+      "Di Geng",
+      "Yichao Huang",
+      "Jing Feng",
+      "Chuanqing Wang",
+      "Tong Wei",
+      "Zhuangjun Fan"
+    ],
+    "keywords": [
+      "carbon materials",
+      "large specific surface area",
+      "energy storage",
+      "supercapacitors",
+      "batteries"
+    ],
+    "abstract": "Large specific surface area (SSA) carbons have been demonstrated to be effective active materials and conductive substrates for energy storage devices, such as supercapacitors and batteries, due to their designable pore structures and buffering frameworks, as well as excellent electrical conductivity and chemical stability. Recently, tremendous efforts have been made in the design and preparation of large SSA carbons as electrode materials for energy storage devices, which can significantly enhance their capacitance, power and energy density, lifespan, and preeminent safety. In this review, recent advances in the development of large SSA carbons from structures and properties, porous carbon classifications, and preparation strategies to energy storage applications in supercapacitors, lithium-ion batteries, lithium-sulfur batteries, and zinc-air batteries are discussed. Finally, current challenges, future research directions, and prospects in the development of large SSA carbons for energy storage applications are highlighted.",
+    "volume": 2024,
+    "issue": 4,
+    "firstpage": "9200024",
+    "lastpage": "9200024",
+    "year": 2024,
+    "publication_date": "2024/12/1",
+    "online_date": "2024/12/25",
+    "publisher": "清华大学出版社",
+    "issn": "2960-0561",
+    "article_type": "Review",
+    "url": "https://www.sciopen.com/article/10.26599/CF.2024.9200024",
+    "pdf": "https://www.sciopen.com/local/article_pdf/10.26599/CF.2024.9200024.pdf",
+    "research_area": [
+      "Low-carbon energy",
+      "Carbon materials"
+    ]
+  },
+  {
+    "doi": "10.26599/CF.2024.9200025",
+    "title": "Synthesis of high-performance photocatalysts for solar-driven hydrogen production and carbon dioxide reduction",
+    "authors": [
+      "Chan Woo Lee",
+      "Jeong Hyun Kim",
+      "Megalamane S. Bootharaju",
+      "Taeghwan Hyeon",
+      "Byoung-Hoon Lee"
+    ],
+    "keywords": [
+      "photocatalysts",
+      "clean energy production",
+      "photocatalytic CO<sub>2</sub> reduction",
+      "photoreforming of plastic wastes"
+    ],
+    "abstract": "Photocatalysis presents a promising pathway for clean energy generation by leveraging solar energy under environmentally benign conditions with minimal pollutant emissions. However, its widespread application is hindered by low catalytic efficiency, stemming from limited light absorption, rapid recombination of photo-excited electrons, and suboptimal charge carrier potential for target reactions. This review discusses advanced strategies to enhance photocatalytic performance by modulating photocatalytic supports and refining co-catalysts. Techniques such as hydrogenation and extrinsic doping of photocatalytic supports are highlighted for their ability to broaden light absorption and prolong electron lifetimes. Additionally, the strategic design of co-catalysts, including the use of nanoclusters and atomically dispersed catalysts, is emphasized for optimizing charge carrier potential and improving atomic utilization efficiency. This review aims to guide researchers in developing high-performance photocatalysts for clean energy applications, including CO2 reduction and plastic waste photoreforming, thereby contributing to the advancement of sustainable energy technologies.",
+    "volume": 2024,
+    "issue": 4,
+    "firstpage": "9200025",
+    "lastpage": "9200025",
+    "year": 2024,
+    "publication_date": "2024/12/1",
+    "online_date": "2024/12/24",
+    "publisher": "清华大学出版社",
+    "issn": "2960-0561",
+    "article_type": "Review",
+    "url": "https://www.sciopen.com/article/10.26599/CF.2024.9200025",
+    "pdf": "https://www.sciopen.com/local/article_pdf/10.26599/CF.2024.9200025.pdf",
+    "research_area": [
+      "Catalysis",
+      "Low-carbon energy"
+    ]
+  },
+  {
+    "doi": "10.26599/CF.2024.9200026",
+    "title": "The importance of graphene stacking sequence in the Li-intercalation mechanism",
+    "authors": [
+      "Pascal Puech",
+      "Shaorui Chen",
+      "Yuxin Xiang",
+      "Tianzhao Hu",
+      "Marc Monthioux",
+      "Lili Zhang",
+      "Feng Li"
+    ],
+    "keywords": [
+      "intercalation",
+      "stacking",
+      "Raman",
+      "battery"
+    ],
+    "abstract": "Graphenic materials used as anodes in lithium-ion batteries have the lowest specific capacity at around 2000 °C. Consequently, graphite is predominantly used, and few studies have investigated the intermediate annealing temperature range of 2000 °C. Starting from a graphitizable coke, this study investigates the lithium-intercalation capacity of graphite materials at increasing carbonization temperatures (1700, 2000, 2100, and 2500 °C). The results are correlated with the structural evolution determined via X-ray diffraction (XRD). The variation in Li-intercalation performance is assigned to the evolution of graphene stacking sequences. Intercalation begins during the early stages of graphitization with the appearance of AB pairs (AB stacking sequence), indicating that the mechanism starts even before the formation of the true graphitic structure. The sample carbonized at 2100 °C exhibits the highest concentration of AB pairs of graphenes, approaching 50%. Consequently, electrical characteristics during lithiation/delithiation reveal a marked transition from stage 1/stage 2 to stage 2/stage 2L in turbostratically stacked samples, while more graphitized samples with AB pairs and then graphitic (ABA, etc.) sequences display a stage 2/stage 2L to stage 2L/stage 3 transition. Raman spectroscopy and anode color changes confirm the various stages. This research enhances our understanding of the lithium-intercalation process in graphite materials in relation to the structural composition of the average crystallite.",
+    "volume": 2024,
+    "issue": 4,
+    "firstpage": "9200026",
+    "lastpage": "9200026",
+    "year": 2024,
+    "publication_date": "2024/12/1",
+    "online_date": "2024/12/25",
+    "publisher": "清华大学出版社",
+    "issn": "2960-0561",
+    "article_type": "Research Article",
+    "url": "https://www.sciopen.com/article/10.26599/CF.2024.9200026",
+    "pdf": "https://www.sciopen.com/local/article_pdf/10.26599/CF.2024.9200026.pdf",
+    "research_area": [
+      "Carbon materials",
+      "Low-carbon energy"
+    ]
+  },
+  {
+    "doi": "10.26599/CF.2024.9200027",
+    "title": "What insights can we learn from dimensionally stable anodes (DSAs)?",
+    "authors": [
+      "Xianbiao Fu"
+    ],
+    "keywords": [
+      "dimensionally stable anodes",
+      "gas-bubble effect",
+      "chlor-alkali electrolysis",
+      "stability assessment",
+      "mixed metal oxide"
+    ],
+    "abstract": "The chlor-alkali process is a cornerstone of the chemical industry. The development of dimensionally stable anodes (DSAs) has revolutionized the chlor-alkali industry by significantly improving the efficiency and stability of chlorine production. Originally designed to address the limitations of graphite and platinum anodes, DSAs are composed of titanium substrates coated with mixed metal oxides, such as ruthenium and titanium oxides, which offer superior catalytic stability and corrosion resistance. This perspective explores the historical evolution of DSAs, their intrinsic properties, and performance benefits, emphasizing the pivotal role of the gas-bubble effect in reducing cell voltage and subsequently reducing energy consumption. The development of DSA provides a clear example of how optimizing catalyst composition, refining the preparation process, and managing gas bubble dynamics can significantly enhance the stability and efficiency of industrial electrochemical systems. These critical insights can extend to other important electrochemical processes, such as water electrolysis and fuel cells. This perspective identifies the need for standardized stability testing protocols to enhance the evaluation of catalyst durability.",
+    "volume": 2024,
+    "issue": 4,
+    "firstpage": "9200027",
+    "lastpage": "9200027",
+    "year": 2024,
+    "publication_date": "2024/12/1",
+    "online_date": "2024/12/27",
+    "publisher": "清华大学出版社",
+    "issn": "2960-0561",
+    "article_type": "Perspective",
+    "url": "https://www.sciopen.com/article/10.26599/CF.2024.9200027",
+    "pdf": "https://www.sciopen.com/local/article_pdf/10.26599/CF.2024.9200027.pdf",
+    "research_area": [
+      "Low-carbon energy",
+      "Catalysis"
+    ]
+  },
+  {
+    "doi": "10.26599/CF.2024.9200029",
+    "title": "Issue Information",
+    "authors": [],
+    "keywords": [],
+    "abstract": null,
+    "volume": 2024,
+    "issue": 4,
+    "firstpage": "9200029",
+    "lastpage": "9200029",
+    "year": 2024,
+    "publication_date": "2024/12/1",
+    "online_date": "2024/12/30",
+    "publisher": "清华大学出版社",
+    "issn": "2960-0561",
+    "article_type": "Issue Information",
+    "url": "https://www.sciopen.com/article/10.26599/CF.2024.9200029",
+    "pdf": "https://www.sciopen.com/local/article_pdf/10.26599/CF.2024.9200029.pdf",
+    "research_area": []
+  },
+  {
+    "doi": "10.26599/CF.2025.9200028",
+    "title": "Unveiling the Eley–Rideal mechanism: H<sub>2</sub> activation for nitrobenzene hydrogenation on nitrogen-doped carbon nanotubes",
+    "authors": [
+      "Hongquan Fu",
+      "Kuntao Huang",
+      "Jialong Zhang",
+      "Yonghai Cao",
+      "Hongjuan Wang",
+      "Hejun Gao",
+      "Yunwen Liao",
+      "Shuang Li",
+      "Hao Yu"
+    ],
+    "keywords": [
+      "carbon catalysis",
+      "hydrogenation",
+      "graphitic nitrogen",
+      "pyridinic nitrogen",
+      "synergistic effect",
+      "DFT calculation"
+    ],
+    "abstract": "Nitrogen-doped carbon nanotubes (NCNTs) emerge as an efficient metal-free catalyst for the hydrogenation of nitrobenzene to aniline, utilizing molecular hydrogen (H2) as the reducing agent. However, the mechanism of H2 activation on NCNTs is under debate so far. Here, we unveil the catalytic mechanism of NCNTs in this reaction through a comprehensive approach combining experimental and theoretical investigations. Our findings indicate that NCNTs are unable to directly dissociate H2 molecules, suggesting that the hydrogenation reaction does not proceed via the conventional Horiuti–Polanyi mechanism. Instead, we propose an Eley–Rideal mechanism, where H2 molecules are activated upon adsorption on the surface of NCNTs with adsorbed nitrobenzene molecules. Graphitic nitrogen (NG) and pyridine nitrogen (NP) are identified as the primary active sites. However, at higher nitrogen contents, the synergistic interaction between NP and NG is detrimental to catalytic activity, emphasizing that increased nitrogen content does not necessarily enhance performance. Further experiments demonstrate that, in addition to direct H2 activation, the transfer hydrogenation in protic solvents significantly boosts the overall reaction rate. Our work provides deep insights into the mechanism of H2 activation for the nitrobenzene hydrogenation catalyzed by NCNTs and offers theoretical guidance for the rational design of high-performance metal-free catalysts in catalytic hydrogenation reactions.",
+    "volume": 2025,
+    "issue": 1,
+    "firstpage": "9200028",
+    "lastpage": "9200028",
+    "year": 2025,
+    "publication_date": "2025/3/1",
+    "online_date": "2025/2/17",
+    "publisher": "清华大学出版社",
+    "issn": "2960-0561",
+    "article_type": "Research Article",
+    "url": "https://www.sciopen.com/article/10.26599/CF.2025.9200028",
+    "pdf": "https://www.sciopen.com/local/article_pdf/10.26599/CF.2025.9200028.pdf",
+    "research_area": [
+      "Catalysis",
+      "Low-carbon energy",
+      "Carbon materials"
+    ]
+  },
+  {
+    "doi": "10.26599/CF.2025.9200030",
+    "title": "High performance Li-ion capacitor achieved by rational design of carbon cloth based intercalated anode and porous cathode",
+    "authors": [
+      "Jiang Deng",
+      "Haiyan Wang",
+      "Yong Wang"
+    ],
+    "keywords": [
+      "Li-ion capacitor",
+      "graphite intercalated compounds",
+      "porous carbon",
+      "free-standing electrode",
+      "carbon cloth"
+    ],
+    "abstract": "Developing energy storage devices with high energy and power density requires rigorously optimizing both the anode and cathode materials. This work presents a novel approach utilizing commercially available carbon cloth, composed of carbon fibers with a graphitic shell and an amorphous carbon core, as a free-standing electrode for lithium-ion capacitors (LICs). The aligned graphitic layers in the carbon fibers, combined with the three-dimensional structure of the free-standing electrode, reduce tortuosity and enhance power density. To further improve the ion transport kinetics, we employed an FeCl3 pre-insertion strategy, expanding the graphite lattice in the outer shell of the carbon fibers and significantly improving the Li+ ion diffusion rate, leading to enhanced rate capability. The LICs were fabricated using FeCl3 pre-inserted carbon cloth as a free-standing anode and a porous carbon cloth cathode derived from high-temperature activation. The device achieved an energy density of 5.2 mWh/cm3 (37.7 Wh/kg), surpassing that of commercial 3.6 V lithium-ion batteries (3.2 mWh/cm3), with a power density of 6 mW/cm3. Additionally, the LIC exhibited excellent cycling stability, retaining 86% of its initial capacitance after 10,000 charge–discharge cycles. This study demonstrates a promising strategy for fabricating high-performance and scalable energy storage devices by integrating material design with advanced electrode engineering.",
+    "volume": 2025,
+    "issue": 1,
+    "firstpage": "9200030",
+    "lastpage": "9200030",
+    "year": 2025,
+    "publication_date": "2025/3/1",
+    "online_date": "2025/2/28",
+    "publisher": "清华大学出版社",
+    "issn": "2960-0561",
+    "article_type": "Research Article",
+    "url": "https://www.sciopen.com/article/10.26599/CF.2025.9200030",
+    "pdf": "https://www.sciopen.com/local/article_pdf/10.26599/CF.2025.9200030.pdf",
+    "research_area": [
+      "Carbon materials",
+      "Low-carbon energy"
+    ]
+  },
+  {
+    "doi": "10.26599/CF.2025.9200031",
+    "title": "Research on the direct synthesis of glycerol carbonate from carbon dioxide and glycerol",
+    "authors": [
+      "Dan Yang",
+      "Yating Wu",
+      "Yiwen Zhao",
+      "Yifei Wang",
+      "Chunmei Zhou",
+      "Yihu Dai",
+      "Xiaoyue Wan",
+      "Yuguang Jin",
+      "Yanhui Yang"
+    ],
+    "keywords": [
+      "heterogeneous catalysis",
+      "glycerol carbonate",
+      "glycerol",
+      "carbon dioxide",
+      "mechanism"
+    ],
+    "abstract": "Using biodiesel-based glycerol as raw material to directly synthesize glycerol carbonate with CO2 can not only promote the benign development of biodiesel industry, but also have positive significance for carbon reduction. However, the glycerol-CO2 reaction is unfavorable in thermodynamics and kinetics, leading to a poor catalytic property. In order to achieve high activation of glycerol and CO2, as well as break the low reaction efficiency, accurately and effectively reinforcing the reaction process and tuning the structure of catalysts are of significance. In this survey, we summarize the recent advances of the direct synthesis of glycerol carbonate from carbon dioxide and glycerol in the view of both the catalyst design and the process intensification. Particularly, the thermocatalysis, photothermal catalysis, and electrothermal catalysis are discussed. In addition, the structure–activity relationship and mechanism based on activated glycerol and CO2 over the heterogeneous catalysts are also presented. Furthermore, we also provide some feasible strategies for catalyst preparation and process intensification to promote the catalytic properties.",
+    "volume": 2025,
+    "issue": 1,
+    "firstpage": "9200031",
+    "lastpage": "9200031",
+    "year": 2025,
+    "publication_date": "2025/3/1",
+    "online_date": "2025/2/21",
+    "publisher": "清华大学出版社",
+    "issn": "2960-0561",
+    "article_type": "Review",
+    "url": "https://www.sciopen.com/article/10.26599/CF.2025.9200031",
+    "pdf": "https://www.sciopen.com/local/article_pdf/10.26599/CF.2025.9200031.pdf",
+    "research_area": [
+      "Catalysis"
+    ]
+  },
+  {
+    "doi": "10.26599/CF.2025.9200032",
+    "title": "Customizing copper structure via controlled exsolution of CuAl<sub>2</sub>O<sub>4</sub> for enhanced CO<sub>2</sub> hydrogenation to methanol",
+    "authors": [
+      "Xiaohang Sun",
+      "Jingpeng Zhang",
+      "Yue Pan",
+      "Gang Lin",
+      "Zhengwen Li",
+      "Dong Su",
+      "Binhang Yan"
+    ],
+    "keywords": [
+      "CO<sub>2</sub> to methanol",
+      "CuAl<sub>2</sub>O<sub>4</sub> spinel",
+      "reduction-exsolution",
+      "structural tunability",
+      "<i>in-situ</i> characterization"
+    ],
+    "abstract": "CO2 hydrogenation over Cu-based catalysts has the potential to enable green methanol synthesis. A unique reduction-exsolution strategy based on CuAl2O4 spinel is proposed to significantly enhance the structural tunability and catalytic performance of Cu-based catalysts. In-situ characterization demonstrates that this strategy can synthesize catalysts featuring uniform dispersed Cu particles, abundant surface Cu+ species and oxygen vacancies, and superior methanol selectivity and yields. By exploiting CuAl2O4 as the precursor, this reduction-exsolution strategy also enriches Cu/oxide interfacial sites, on which the methanol yield of optimized ZnO/CuAl2O4 catalyst has surpassed that of a commercial Cu/ZnO/Al2O3 catalyst. Detailed structure-performance correlations highlight the broad applicability of this design principle, offering new avenues for developing efficient Cu-based catalysts.",
+    "volume": 2025,
+    "issue": 1,
+    "firstpage": "9200032",
+    "lastpage": "9200032",
+    "year": 2025,
+    "publication_date": "2025/3/1",
+    "online_date": "2025/2/28",
+    "publisher": "清华大学出版社",
+    "issn": "2960-0561",
+    "article_type": "Research Article",
+    "url": "https://www.sciopen.com/article/10.26599/CF.2025.9200032",
+    "pdf": "https://www.sciopen.com/local/article_pdf/10.26599/CF.2025.9200032.pdf",
+    "research_area": [
+      "Catalysis",
+      "Low-carbon energy"
+    ]
+  },
+  {
+    "doi": "10.26599/CF.2025.9200033",
+    "title": "Progress in passive daytime radiative cooling from spectral design to real application",
+    "authors": [
+      "Zhuojing Zhao",
+      "Siming Zhao",
+      "Jiaqi Xu",
+      "Xueke Wu",
+      "Zhenyu Guo",
+      "Ya Huang",
+      "Rufan Zhang"
+    ],
+    "keywords": [
+      "radiative cooling",
+      "spectral design",
+      "building thermal management",
+      "human thermal management",
+      "switchable radiative cooling"
+    ],
+    "abstract": "High-performance cooling technology is increasingly critical due to the rising frequency of extremely hot weather caused by global warming. Passive daytime radiative cooling (PDRC) is an emerging zero-energy-consumption technology that provides sub-ambient cooling under strong solar conditions by emitting heat to the cold outer space (~ 3 K) while minimizing heat gain from solar irradiation. This technology has attracted wide attention and achieved huge progress in the past decade. Recently, extensive efforts have been devoted to constructing high-performance PDRC materials in various fields, such as thermal management of buildings, human comfort, equipment, and dynamic devices. However, there is still a big gap between the laboratory-reported PDRC materials and their practical applications because of their high costs, complex manufacturing processes, insufficient cooling performance, and potential nano- or micro-hazards. In this review, we summarized recent advancements in PDRC technology and focused on the spectral design, cooling mechanisms, and practical applications of PDRC materials. We also discussed the challenges and strategies for bridging the gap between academic research and real-world implementation. We hope that this review will provide more insight into the further development of advanced PDRC technologies.",
+    "volume": 2025,
+    "issue": 1,
+    "firstpage": "9200033",
+    "lastpage": "9200033",
+    "year": 2025,
+    "publication_date": "2025/3/1",
+    "online_date": "2025/2/26",
+    "publisher": "清华大学出版社",
+    "issn": "2960-0561",
+    "article_type": "Review",
+    "url": "https://www.sciopen.com/article/10.26599/CF.2025.9200033",
+    "pdf": "https://www.sciopen.com/local/article_pdf/10.26599/CF.2025.9200033.pdf",
+    "research_area": [
+      "Low-carbon energy"
+    ]
+  },
+  {
+    "doi": "10.26599/CF.2025.9200034",
+    "title": "Cu nanoparticles embedded in fluorinated mesoporous carbon for enhanced CO<sub>2</sub> electroreduction to C<sub>2</sub> products",
+    "authors": [
+      "Yao Ma",
+      "Taishi Xiao",
+      "Kerun Zhu",
+      "Dongyuan Zhao",
+      "Wei Li"
+    ],
+    "keywords": [
+      "copper catalyst",
+      "fluorine",
+      "mesoporous carbon",
+      "confinement",
+      "CO<sub>2</sub>RR"
+    ],
+    "abstract": "The utilization of renewable electricity to drive the electrochemical CO2 reduction reaction (CO2RR) presents an attractive avenue for achieving carbon neutrality, as it facilitates the conversion of CO2 into valuable chemicals and fuels. However, producing high-energy-density multi-carbon hydrocarbon products (C2+) still suffers from low selectivity, and the process proves highly sensitive to both catalyst structure and electrolyte conditions. Here, we report the synthesis of fluorinated mesoporous carbon-confined copper nanoparticles (Cu@F-MC) via a bottom-up molecular self-assembly and carbonization strategy. The Cu@F-MC catalyst established a two-dimensional (2D) mesoporous structure with well-dispersed 6.5 nm-wide mesopores and a high surface area. The confinement effect of mesoporous carbon enabled the small size and well dispersion of Cu nanoparticles (~ 10 nm). The fluorine-doped structure not only effectively inhibited the side hydrogen evolution reaction, but also modulated the local electronic structures of Cu nanoparticles toward multi-carbon product generation. Thus, the Cu@F-MC exhibited a high current density of 500 mA·cm−2 with an ethanol Faradaic efficiency (FE) of 40% for CO2 reduction in a flow cell, and a prolonged stability with over 50% selectivity for  FEC2+ during a 70h continuous electrolysis in the membrane electrode assembly test. This strategy offers a promising approach to concurrently improve the selectivity and stability of copper-based catalysts in CO2RR.",
+    "volume": 2025,
+    "issue": 1,
+    "firstpage": "9200034",
+    "lastpage": "9200034",
+    "year": 2025,
+    "publication_date": "2025/3/1",
+    "online_date": "2025/2/26",
+    "publisher": "清华大学出版社",
+    "issn": "2960-0561",
+    "article_type": "Research Article",
+    "url": "https://www.sciopen.com/article/10.26599/CF.2025.9200034",
+    "pdf": "https://www.sciopen.com/local/article_pdf/10.26599/CF.2025.9200034.pdf",
+    "research_area": [
+      "Catalysis",
+      "Low-carbon energy"
+    ]
+  },
+  {
+    "doi": "10.26599/CF.2025.9200035",
+    "title": "MOF-derived 3D hierarchical porous TiO<sub>2</sub> @ NPC @ S as high-performance cathodes for Li-S batteries",
+    "authors": [
+      "Peng Shi",
+      "Chengyao Zhu",
+      "Chuxin Chen",
+      "Ying Luo",
+      "Feng Sun",
+      "Xuan Du",
+      "Tao Zhou",
+      "Guo Gao"
+    ],
+    "keywords": [
+      "lithium-sulfur battery",
+      "metal–organic frameworks",
+      "sulfur composites"
+    ],
+    "abstract": "The capacity of traditional lithium-ion batteries has approached theoretical limits, and exploring lithium-sulfur batteries (LSBs) with high capacity and energy density is highly desired. Metal–organic framework (MOF)-derived materials are among the most crucial candidates for LSBs. The objectives of present work are improving the electrical conductivity, slowing down the volume expansion, and inducing the notorious “shuttle effect”. In this work, we developed MOF-derived nanoporous carbon (NPC)-coated composite TiO2@NPC as ideal sulfur host for Li-S batteries. The NPC offers sufficient space for the expansion of sulfur volume during electrochemical cycling process, while forming a conductive framework to promote the transport of ion and electron. High sulfur loading of 64.09% was obtained through both physical and chemical strategies. The TiO2@NPC@S cathode with multifunctional effects exhibits outstanding long-term cycling performance, presenting an initial capacity of up to 1327.35 mAh/g at 0.5 C with an average capacity decrease of 0.18% per cycle. It exhibits commendable rate capabilities, achieving 928 mAh/g at 1 C and 743 mAh/g at 1.5 C. The electrochemical performance of the synthesized TiO2@NPC@S is significant superior to the commercial Y-50@S materials. This work provides a successful approach for designing novel high-performance cathodes in LSBs.",
+    "volume": 2025,
+    "issue": 1,
+    "firstpage": "9200035",
+    "lastpage": "9200035",
+    "year": 2025,
+    "publication_date": "2025/3/1",
+    "online_date": "2025/3/4",
+    "publisher": "清华大学出版社",
+    "issn": "2960-0561",
+    "article_type": "Research Article",
+    "url": "https://www.sciopen.com/article/10.26599/CF.2025.9200035",
+    "pdf": "https://www.sciopen.com/local/article_pdf/10.26599/CF.2025.9200035.pdf",
+    "research_area": [
+      "Catalysis",
+      "Low-carbon energy"
+    ]
+  },
+  {
+    "doi": "10.26599/CF.2025.9200036",
+    "title": "Issue Information",
+    "authors": [],
+    "keywords": [],
+    "abstract": null,
+    "volume": 2025,
+    "issue": 1,
+    "firstpage": "9200036",
+    "lastpage": "9200036",
+    "year": 2025,
+    "publication_date": "2025/3/1",
+    "online_date": "2025/3/27",
+    "publisher": "清华大学出版社",
+    "issn": "2960-0561",
+    "article_type": "Issue Information",
+    "url": "https://www.sciopen.com/article/10.26599/CF.2025.9200036",
+    "pdf": "https://www.sciopen.com/local/article_pdf/10.26599/CF.2025.9200036.pdf",
+    "research_area": []
+  },
+  {
+    "doi": "10.26599/CF.2025.9200037",
+    "title": "Metal oxide semiconductor-based methane sensing",
+    "authors": [
+      "Renjie Chen",
+      "Shuyu Lin",
+      "Zhongtian Wang",
+      "Yi Xia",
+      "Lan Xiang"
+    ],
+    "keywords": [
+      "CH<sub>4</sub> sensors",
+      "metal oxide semiconductors",
+      "sensitivity",
+      "selectivity",
+      "stability",
+      "humidity resistance"
+    ],
+    "abstract": "Real-time and sensitive detection of methane (CH4) is vital to the safety of life and production due to the explosivity and greenhouse effect of methane. Currently, metal oxide semiconductor (MOS)-based chemiresistive sensors are considered as an effective approach for their low cost, highly tunable structures, and easy fabrication. However, disadvantages like high working temperature, low sensitivity, and unsatisfying selectivity limit their potential wide application. In order to achieve the goal of high-performance MOS-based methane sensors, in this review, from the basic mechanism of MOS-based gas sensing and the property of methane, possible strategies of improving methane sensing performances in multiple aspects have been summarized systematically, including sensitivity, selectivity, stability, and humidity resistance. Recent progress in the research and development of metal oxide semiconductor-based methane sensor technology is also surveyed in this review. Finally, the future trends and perspectives of MOS-based chemiresistive methane sensors are proposed.",
+    "volume": 2025,
+    "issue": 2,
+    "firstpage": "9200037",
+    "lastpage": "9200037",
+    "year": 2025,
+    "publication_date": "2025/6/1",
+    "online_date": "2025/2/26",
+    "publisher": "清华大学出版社",
+    "issn": "2960-0561",
+    "article_type": "Review",
+    "url": "https://www.sciopen.com/article/10.26599/CF.2025.9200037",
+    "pdf": "https://www.sciopen.com/local/article_pdf/10.26599/CF.2025.9200037.pdf",
+    "research_area": []
+  },
+  {
+    "doi": "10.26599/CF.2025.9200038",
+    "title": "Cu-doped CeMnO<sub>2</sub>-supported Pt catalysts with high activity at industrial operating conditions for preferential CO oxidation in H<sub>2</sub>",
+    "authors": [
+      "Jianlin Cao",
+      "Tao Xing",
+      "Zongzhuang Sun",
+      "Sheng Wei",
+      "Jiaqi Wang",
+      "Lexin Mao",
+      "Tao Liu",
+      "Zhi Li",
+      "Yongxiao Tuo",
+      "Xin Zhou",
+      "Hao Yan",
+      "Yibin Liu",
+      "Xiang Feng",
+      "Chaohe Yang",
+      "De Chen"
+    ],
+    "keywords": [
+      "preferential oxidation of CO",
+      "Cu catalyst",
+      "wide temperature window",
+      "realistic condition",
+      "dual active sites"
+    ],
+    "abstract": "Developing efficient, stable, and inexpensive catalysts for the preferential CO oxidation in H2 (CO-PROX) over a wide temperature range in the presence of CO2 and H2O is indispensable for the hydrogen purification process. Herein, CuO was introduced to the CeMnO2-supported Pt catalyst to modulate the oxygen activation capacity and provide the available number of active sites in CO-PROX. One part of the CuO species doped into CeO2 strongly interacts with Ce, thus enhancing the oxygen transfer capacity of the catalyst. The other part of CuO species located on the surface of the catalyst provides extra Cu+ sites available for low-temperature CO adsorption. This synergistic interaction with Pt sites further enhances CO and O2 activation, broadening the temperature window of high activity. The optimal Pt-10CuO/CeMnO2 catalyst exhibits complete CO conversion (CO/O2 ratio of 1:1) within the practical temperature range of 130–190 °C, even in the presence of CO2 and H2O, and remains stable at 150 °C for 76 h testing without any deactivation. This work will give a novel approach for the design of highly efficient inexpensive catalysts for industrial preferential oxidation of CO in H2, especially in the presence of CO2 and H2O.",
+    "volume": 2025,
+    "issue": 2,
+    "firstpage": "9200038",
+    "lastpage": "9200038",
+    "year": 2025,
+    "publication_date": "2025/6/1",
+    "online_date": "2025/3/14",
+    "publisher": "清华大学出版社",
+    "issn": "2960-0561",
+    "article_type": "Research Article",
+    "url": "https://www.sciopen.com/article/10.26599/CF.2025.9200038",
+    "pdf": "https://www.sciopen.com/local/article_pdf/10.26599/CF.2025.9200038.pdf",
+    "research_area": [
+      "Catalysis"
+    ]
+  },
+  {
+    "doi": "10.26599/CF.2025.9200039",
+    "title": "Efficient catalytic conversion of polyethylene terephthalate to dimethyl terephthalate over mesoporous Beta zeolite supported zinc oxide",
+    "authors": [
+      "Xiaoxue Mu",
+      "Dongquan Lin",
+      "Jian Zhang",
+      "Xiaoyuan Qin",
+      "Jianbin Huang",
+      "Feng-Shou Xiao"
+    ],
+    "keywords": [
+      "mesoporous zeolite",
+      "zinc species",
+      "polyethylene terephthalate",
+      "methanolysis",
+      "dimethyl terephthalate"
+    ],
+    "abstract": "Methanolysis of polyethylene terephthalate to dimethyl terephthalate is a sustainable route for recycling of polyethylene terephthalate (PET) plastic. Herein, we demonstrate that mesoporous Beta zeolite supported zinc oxide (Zn-Beta-meso) is efficient for methanolysis of polyethylene terephthalate to dimethyl terephthalate, exhibiting ~ 99.9% dimethyl terephthalate yield at 180 °C after reaction for 30 min. Model reactions confirmed that the key step in PET methanolysis was the methanolysis of 2-hydroxyethyl methyl terephthalate to form dimethyl terephthalate, where the highly dispersed zinc species are the active sites for this step. In addition, the Zn-Beta-meso catalyst was active for the methanolysis of various PET substrates. When bottle with pigment, terylene, transparent adhesive tape, and soundproof cotton were applied as the substrates, full PET conversion and higher than 99.0% dimethyl terephthalate yield were obtained.",
+    "volume": 2025,
+    "issue": 2,
+    "firstpage": "9200039",
+    "lastpage": "9200039",
+    "year": 2025,
+    "publication_date": "2025/6/1",
+    "online_date": "2025/3/6",
+    "publisher": "清华大学出版社",
+    "issn": "2960-0561",
+    "article_type": "Research Article",
+    "url": "https://www.sciopen.com/article/10.26599/CF.2025.9200039",
+    "pdf": "https://www.sciopen.com/local/article_pdf/10.26599/CF.2025.9200039.pdf",
+    "research_area": [
+      "Catalysis"
+    ]
+  },
+  {
+    "doi": "10.26599/CF.2025.9200040",
+    "title": "Asymmetric Cu<sub>1</sub>-N<sub>3</sub>-P-C active centers for efficient acetylene hydrochlorination",
+    "authors": [
+      "Yuxiang Bao",
+      "Xiuhui Zheng",
+      "Chang Liu",
+      "Xing Lv",
+      "Yinming Guo",
+      "Baorui Li",
+      "Jianlin Cao",
+      "Yujie Gao",
+      "Juncong Yuan",
+      "Mengxin Wang",
+      "Zhe Ma",
+      "Yongxiao Tuo",
+      "Hao Yan",
+      "Lina Li",
+      "Yibin Liu",
+      "Xiaobo Chen",
+      "Xiang Feng",
+      "Chaohe Yang",
+      "De Chen"
+    ],
+    "keywords": [
+      "acetylene hydrochlorination",
+      "copper catalysis",
+      "Cu<sub>1</sub>-N<sub>3</sub>-P-C complex",
+      "kinetic analysis",
+      "intrinsic stability"
+    ],
+    "abstract": "We investigated the pivotal role of active center symmetry on the stability of reactant adsorption and the transition state dynamics within the context of acetylene hydrochlorination. Our innovative approach involved the integration of phosphorus into a nitrogen-doped carbon framework and introduced the single Cu center, culminating in the development of novel copper-nitrogen-phosphorus-carbon (Cu-NPC) catalysts. These catalysts are distinguished by their asymmetrical Cu1-N3-P-C chemical environment. Our kinetic studies shed light on the underlying mechanisms contributing to the superior performance of the Cu-NPC catalysts. These catalysts not only enhance the reaction rate by moderating the adsorption strength of reactants, thereby optimizing the reaction kinetics, but also demonstrate an outstanding ability to mitigate the risk of carbon deposition, a common challenge that compromises catalyst longevity and efficiency. This is evidenced by a notably low deactivation rate of 0.027 h−1 at a high C2H2 weight hourly space velocity (WHSV) of 1.4  gC2H2⋅gcat−1⋅h−1. This research not only advances our understanding of the critical influence of active center symmetry on catalyst performance but also paves the way for the rational design of advanced catalysts tailored for specific industrial applications.",
+    "volume": 2025,
+    "issue": 1,
+    "firstpage": "9200040",
+    "lastpage": "9200040",
+    "year": 2025,
+    "publication_date": "2025/3/1",
+    "online_date": "2025/3/10",
+    "publisher": "清华大学出版社",
+    "issn": "2960-0561",
+    "article_type": "Research Article",
+    "url": "https://www.sciopen.com/article/10.26599/CF.2025.9200040",
+    "pdf": "https://www.sciopen.com/local/article_pdf/10.26599/CF.2025.9200040.pdf",
+    "research_area": [
+      "Catalysis"
+    ]
+  },
+  {
+    "doi": "10.26599/CF.2025.9200041",
+    "title": "Opportunities of one-dimensional van der Waals materials and heterostructures as fuel cell catalyst layers",
+    "authors": [
+      "Miaoyu Lu",
+      "Ziang Chen",
+      "Jingyu Sun",
+      "Rong Xiang"
+    ],
+    "keywords": [
+      "1D van der Waals heterostructures",
+      "fuel cells",
+      "proton exchange membrane fuel cell",
+      "catalyst layer"
+    ],
+    "abstract": "Fuel cells (FCs) have attracted considerable attention as one of the environmental-friendly energy conversion systems. Strenuous efforts have been devoted to addressing challenges in the catalyst layers (CLs), mainly pertaining to the redox kinetics, mass transport, water management, and mechanical durability. As an emerging direction, one-dimensional (1D) van der Waals (vdW) materials and heterostructures have demonstrated great potential in electronic devices. Their remarkable characteristics, including high electrical conductivity, superior thermal property, outstanding mechanical strength and rigidness, nanoscale curvature, and nearly infinite atomic combination, hold promise for overcoming these challenges. Despite their promising attributes, research on the applications of 1D vdW materials and heterostructures in FCs remains in its infancy, let alone comprehensive reviews targeting this area. Inspired by these considerations, this review summarizes the key properties of 1D vdW materials and heterostructures that underpin their potential applications in CLs. Design strategies of 1D vdW heterostructures are also proposed. Finally, future research directions are outlined to foster the advancement of 1D vdW materials and heterostructures in FCs and energy devices.",
+    "volume": 2025,
+    "issue": 2,
+    "firstpage": "9200041",
+    "lastpage": "9200041",
+    "year": 2025,
+    "publication_date": "2025/6/1",
+    "online_date": "2025/4/3",
+    "publisher": "清华大学出版社",
+    "issn": "2960-0561",
+    "article_type": "Review",
+    "url": "https://www.sciopen.com/article/10.26599/CF.2025.9200041",
+    "pdf": "https://www.sciopen.com/local/article_pdf/10.26599/CF.2025.9200041.pdf",
+    "research_area": [
+      "Catalysis",
+      "Low-carbon energy"
+    ]
+  },
+  {
+    "doi": "10.26599/CF.2025.9200042",
+    "title": "Single/dual-metal active-site oxides for rechargeable zinc-air batteries: Fundamental properties, advancements, challenges, and future perspectives",
+    "authors": [
+      "Yunrui Li",
+      "Ping Zhu",
+      "Fan Lan",
+      "Run Li",
+      "Ya Huang",
+      "Rufan Zhang"
+    ],
+    "keywords": [
+      "metal oxides",
+      "ORR",
+      "OER",
+      "rechargeable zinc-air batteries"
+    ],
+    "abstract": "Rechargeable zinc-air batteries (RZABs) are considered one of the most promising candidates for advanced energy storage and conversion in the near future. The RZABs’ efficiency is closely tied to the performances of the oxygen reduction reaction (ORR) and the oxygen evolution reaction (OER) occurring at the air cathode. Metal-oxide catalysts occupy a crucial role in reducing the reaction energy barriers and improving the ORR and OER performance. Two types of metal-oxide electrocatalysts used in RZABs are single-metal active-site (SMAS) and dual-metal active-site (DMAS) oxides, both of which significantly impact the efficiency and durability of ORR and OER. This review presents a comprehensive analysis of the advancements in SMAS and DMAS, especially single-phase DMAS oxides, offering significant insights into the design of high-performance bifunctional oxygen electrocatalysts and RZABs.",
+    "volume": 2025,
+    "issue": 3,
+    "firstpage": "9200042",
+    "lastpage": "9200042",
+    "year": 2025,
+    "publication_date": "2025/9/5",
+    "online_date": "2025/6/11",
+    "publisher": "清华大学出版社",
+    "issn": "2960-0561",
+    "article_type": "Review",
+    "url": "https://www.sciopen.com/article/10.26599/CF.2025.9200042",
+    "pdf": "https://www.sciopen.com/local/article_pdf/10.26599/CF.2025.9200042.pdf",
+    "research_area": [
+      "Catalysis",
+      "Low-carbon energy"
+    ]
+  },
+  {
+    "doi": "10.26599/CF.2025.9200043",
+    "title": "Liquid-phase selective hydrogenation of acetylene with the feed composition of front-end process",
+    "authors": [
+      "Zhenyu Kang",
+      "Xiaocheng Lan",
+      "Tiefeng Wang"
+    ],
+    "keywords": [
+      "selective hydrogenation",
+      "ethylene purification",
+      "front-end",
+      "liquid phase",
+      "catalyst stability"
+    ],
+    "abstract": "The selective hydrogenation process is industrially used to remove trace acetylene from ethylene-rich streams. In this work, N-methyl-2-pyrrolidone (NMP) was introduced as a liquid phase to the front-end hydrogenation process, with using Pd/SiO2 as a model catalyst, to improve the selectivity to ethylene. In the liquid-phase hydrogenation, a high ethylene selectivity of ~ 80% was obtained at an acetylene conversion of 99.69% by using two reactors in series. In contrast, the ethylene selectivity was only ~ 40% in the gas phase at a similar acetylene conversion of 99.76%. The superiority of the liquid-phase hydrogenation was attributed to the extremely low ratios of C2H4/C2H2 (β) and H2/C2H2 (γ) and low concentration of C2H4 in NMP. In addition, the liquid phase can prevent ethylene loss even at higher reaction temperatures. Catalyst stability in the liquid-phase hydrogenation was studied to identify optimal operating conditions. Lower acetylene concentration and higher hydrogen concentration, which can be adjusted by varying temperature and pressure, were found to favor catalyst stability.",
+    "volume": 2025,
+    "issue": 2,
+    "firstpage": "9200043",
+    "lastpage": "9200043",
+    "year": 2025,
+    "publication_date": "2025/6/1",
+    "online_date": "2025/5/14",
+    "publisher": "清华大学出版社",
+    "issn": "2960-0561",
+    "article_type": "Research Article",
+    "url": "https://www.sciopen.com/article/10.26599/CF.2025.9200043",
+    "pdf": "https://www.sciopen.com/local/article_pdf/10.26599/CF.2025.9200043.pdf",
+    "research_area": [
+      "Catalysis",
+      "Low-carbon energy"
+    ]
+  },
+  {
+    "doi": "10.26599/CF.2025.9200044",
+    "title": "Synergistic construction of high-performance lithium-sulfur batteries with sulfur-free cathodes and CMK-3 modified separators",
+    "authors": [
+      "Guohong Kang",
+      "Furan Wang",
+      "Tiancheng Wang",
+      "Zehao Shi",
+      "Shengrui Cui",
+      "Ning Wang",
+      "Ge Su",
+      "Zengqi Zhang",
+      "Wei Liu",
+      "Yongcheng Jin"
+    ],
+    "keywords": [
+      "Li-S batteries",
+      "Li<sub>2</sub>S<sub>6</sub>",
+      "S-free cathode",
+      "CMK-3 modified separator",
+      "efficient sulfur utilization"
+    ],
+    "abstract": "Lithium-sulfur (Li-S) batteries are considered a leading candidate for advanced energy storage applications, primarily because of their exceptional energy density. However, their commercialization remains challenged by persistent obstacles, including slow reaction kinetics, volumetric electrode changes, and shuttle effects. Herein, a novel configuration of Li-S batteries is proposed. It is constructed by a S-free cathode, a polypropylene (PP) separator modified by CMK-3, and an electrolyte containing Li2S6. This simplifies the fabrication process of Li-S batteries, greatly improving active material utilization and mitigating the shuttle effect. The porous cathode effectively absorbs long-chain polysulfides and facilitates their redox. Similarly, the CMK-3 modified separator can also serve as a second reaction field, which suppresses polysulfide shuttle and enhances the utilization efficiency of active materials. The results indicate that under the synergistic effects of the S-free cathode and modified separator, the batteries exhibit excellent performance at low temperature or high rate. The fabricated batteries exhibit an initial capacity of 1082 mAh∙g−1 at 2 C, and retain 906 mAh∙g−1 after 200 cycles. Furthermore, these batteries demonstrate a discharge capacity reaching 1189 mAh∙g−1 at −15 °C and 0.1 C. This method introduces an innovative approach to simplify the preparation process of Li-S cathodes.",
+    "volume": 2025,
+    "issue": 2,
+    "firstpage": "9200044",
+    "lastpage": "9200044",
+    "year": 2025,
+    "publication_date": "2025/6/1",
+    "online_date": "2025/5/26",
+    "publisher": "清华大学出版社",
+    "issn": "2960-0561",
+    "article_type": "Research Article",
+    "url": "https://www.sciopen.com/article/10.26599/CF.2025.9200044",
+    "pdf": "https://www.sciopen.com/local/article_pdf/10.26599/CF.2025.9200044.pdf",
+    "research_area": [
+      "Low-carbon energy"
+    ]
+  },
+  {
+    "doi": "10.26599/CF.2025.9200045",
+    "title": "Synergistic effects of promoters in Fe/YZrO<sub><i>x</i></sub> catalysts for CO<sub>2</sub> hydrogenation to higher hydrocarbons",
+    "authors": [
+      "Laura Krausser",
+      "Elizaveta A. Fedorova",
+      "Carsten R. Kreyenschulte",
+      "Christoph Kubis",
+      "Angelika Brückner",
+      "Qingxin Yang",
+      "Evgenii V. Kondratenko"
+    ],
+    "keywords": [
+      "Fe-based catalysts",
+      "CO<sub>2</sub> hydrogenation",
+      "promoters",
+      "<i>operando</i> characterization"
+    ],
+    "abstract": "The search for suitable support materials and optimal promoters is an attractive approach to control the product selectivity in Fe-catalyzed CO2 hydrogenation to C2+-hydrocarbons (CO2-modified Fischer–Tropsch synthesis (CO2-FTS)). This study systematically investigates the effects of metal oxide dopants for ZrO2 as well as a K promoter with or without a transition metal co-promoter for supported FeOx species in Fe/ZrO2-based catalysts on their performance in CO2-FTS. By combining K with a Mn promoter (Mn/K ratio = 0.4) on a Fe/YZrOx catalyst, CH4 selectivity was hindered without decreasing C2-C4 olefin selectivity at 300 °C and 15 bar. The low CH4 selectivity is worth mentioning in comparison with state-of-the-art Fe-based catalysts. The reaction-induced catalyst restructuring was analyzed, revealing a positive influence of the transition metal promoters on the in-situ formation of catalytically active Fe carbides. Temperature-programmed experiments provided insight into the catalyst ability to interact with CO2 and H2, and thus into the nature of surface iron carbides formed in-situ. Furthermore, the influence of K and Mn on the formation of surface intermediates under realistic conditions was studied using operando diffuse reflectance infrared Fourier transform spectroscopy (DRIFTS), complementing our understanding of the role of the promoters in improving the formation of the desired products.",
+    "volume": 2025,
+    "issue": 2,
+    "firstpage": "9200045",
+    "lastpage": "9200045",
+    "year": 2025,
+    "publication_date": "2025/6/1",
+    "online_date": "2025/5/22",
+    "publisher": "清华大学出版社",
+    "issn": "2960-0561",
+    "article_type": "Research Article",
+    "url": "https://www.sciopen.com/article/10.26599/CF.2025.9200045",
+    "pdf": "https://www.sciopen.com/local/article_pdf/10.26599/CF.2025.9200045.pdf",
+    "research_area": [
+      "Catalysis",
+      "Low-carbon energy"
+    ]
+  },
+  {
+    "doi": "10.26599/CF.2025.9200046",
+    "title": "Issue Information",
+    "authors": [],
+    "keywords": [],
+    "abstract": null,
+    "volume": 2025,
+    "issue": 2,
+    "firstpage": "9200046",
+    "lastpage": "9200046",
+    "year": 2025,
+    "publication_date": "2025/6/1",
+    "online_date": "2025/6/24",
+    "publisher": "清华大学出版社",
+    "issn": "2960-0561",
+    "article_type": "Issue Information",
+    "url": "https://www.sciopen.com/article/10.26599/CF.2025.9200046",
+    "pdf": "https://www.sciopen.com/local/article_pdf/10.26599/CF.2025.9200046.pdf",
+    "research_area": []
+  },
+  {
+    "doi": "10.26599/CF.2025.9200047",
+    "title": "Depositing Pt nanoparticles on crumpled Ti<sub>3</sub>C<sub>2</sub>T<sub><i>x</i></sub> for enhanced electrochemical sensing",
+    "authors": [
+      "Huaqing Chen",
+      "Tianshu Chu",
+      "Shundong Ge",
+      "Bowei Zhang",
+      "Fu-Zhen Xuan",
+      "Rui Yin"
+    ],
+    "keywords": [
+      "MXenes",
+      "dopamine sensors",
+      "nanoparticles",
+      "crumpled structure"
+    ],
+    "abstract": "Dopamine plays a crucial role in regulating various brain functions, making the development of highly sensitive detection methods and precise quantitative analysis techniques of great significance. However, realizing highly selective and sensitive detection of dopamine in complex biological environments remains a challenge. Here, we prepared three-dimensional (3D) crumpled Ti3C2Tx structures loaded with Pt nanoparticles (Pt/Na-Ti3C2Tx) by wet chemical reduction and ion intercalation. The synergistic coupling between Pt nanoparticles and MXene support facilitates efficient electron transfer between dopamine and the electrode surface, thereby improving the sensing performance of dopamine. Furthermore, this wrinkled structure not only enhances the specific surface area by inhibiting the stacking of layered Ti3C2Tx nanosheets, but also effectively prevents the agglomeration of nanoparticles. The experimental results showed that Pt/Na-Ti3C2Tx possessed a wide linear range (0.1–100 μM), a low detection limit (0.029 μM), and a high sensitivity (0.556 μA·μM−1·cm−2). This work proposes an innovative strategy for achieving highly sensitive dopamine detection while advancing the utilization of MXene-based nanocomposites in electrochemical sensor development.",
+    "volume": 2025,
+    "issue": 2,
+    "firstpage": "9200047",
+    "lastpage": "9200047",
+    "year": 2025,
+    "publication_date": "2025/6/1",
+    "online_date": "2025/5/30",
+    "publisher": "清华大学出版社",
+    "issn": "2960-0561",
+    "article_type": "Research Article",
+    "url": "https://www.sciopen.com/article/10.26599/CF.2025.9200047",
+    "pdf": "https://www.sciopen.com/local/article_pdf/10.26599/CF.2025.9200047.pdf",
+    "research_area": []
+  },
+  {
+    "doi": "10.26599/CF.2025.9200048",
+    "title": "MOF-derived N-doped porous carbon nanorods supporting NiCo@Pt for enhanced electrocatalytic methanol oxidation",
+    "authors": [
+      "Tong Wang",
+      "Shokhrukhbek Askarov",
+      "Xun Jiang",
+      "Yunqi Yu",
+      "Salman Khan",
+      "Yaoyuan Zhang",
+      "Kangcheng Chen",
+      "Daxin Shi",
+      "Qin Wu",
+      "Hansheng Li"
+    ],
+    "keywords": [
+      "Pt-based catalysts",
+      "N-doped porous carbon",
+      "methanol oxidation",
+      "direct methanol fuel cells"
+    ],
+    "abstract": "Several innovative platinum-based catalysts employing diverse metal–organic framework (MOF)-derived materials to alloy Pt with transition metals (Ni, Co) and integrating them into nitrogen-doped porous carbon (NPC) nanorod frameworks, NiCo@Pt/NPC, were prepared, which have unique properties for electrocatalytic methanol oxidation reaction (MOR). The structure properties of NiCo@Pt with NPC supporting layer were explored by several characterizations such as X-ray photoelectron spectroscopy (XPS), Fourier transform infrared (FTIR), energy dispersive X-ray spectroscopy (EDS), and X-ray diffraction (XRD). Moreover, the structure–activity relationship of NiCo@Pt/NPC was carefully studied. The NiCo@Pt/NPC-T800-X15-t15 exhibited exceptional performance of methanol oxidation, with a mass activity reaching 821.4 mA·mgPt−1, 2.4 times higher than that of commercial Pt/C. Furthermore, compared with the commercial Pt/C, it maintained a steady current density 7.7 times higher. Compared with commercial Pt/C, the CO intermediate peak potential exhibited a 57-mV negative shift, primarily attributed to the interfacial effects between NiCo@Pt nanoparticles and NPC of the composite material, improving electron transport and preventing nanoparticle agglomeration, thereby considerably increasing MOR efficiency. This study provides innovative pathways for advancing Pt-alloy catalyst systems and novel approaches for the improvement of MOR catalysts.",
+    "volume": 2025,
+    "issue": 3,
+    "firstpage": "9200048",
+    "lastpage": "9200048",
+    "year": 2025,
+    "publication_date": "2025/9/5",
+    "online_date": "2025/6/18",
+    "publisher": "清华大学出版社",
+    "issn": "2960-0561",
+    "article_type": "Research Article",
+    "url": "https://www.sciopen.com/article/10.26599/CF.2025.9200048",
+    "pdf": "https://www.sciopen.com/local/article_pdf/10.26599/CF.2025.9200048.pdf",
+    "research_area": [
+      "Catalysis"
+    ]
+  },
+  {
+    "doi": "10.26599/CF.2025.9200049",
+    "title": "Direct-ink-write 3D printing of flexible all-solid-state micro-supercapacitor based on MXene-hydroxylated nanocellulose-carbon nanotubes",
+    "authors": [
+      "Xi Zhang",
+      "Ze Zhou",
+      "Shundong Ge",
+      "Xiaohui Tang",
+      "Bowei Zhang",
+      "Fu-Zhen Xuan"
+    ],
+    "keywords": [
+      "3D printing",
+      "MXene",
+      "micro-supercapacitors",
+      "microelectronic devices"
+    ],
+    "abstract": "Micro-supercapacitors (MSCs) face significant limitations due to low energy density despite their high power density and long cycle life. In this study, single-layer Ti3C2Tx nanosheets were employed to fabricate a MXene-hydroxylated nanocellulose-carbon nanotube (MHC) composite ink, which was used to fabricate high-energy flexible MSCs via direct ink writing three-dimensional (3D) printing technology. The introduction of the rheological modifier hydroxylated nanocellulose (HNC) not only constructs interlayer spacers to inhibit nanosheet restacking but also optimizes the rheological properties and 3D printability of the composite ink. Meanwhile, the synergistic effect of carbon nanotubes (CNTs) as conductive agents enhances interlayer electron transport and electrochemical performance. Benefiting from the rational design of the ink and printing process, the fabricated MSCs exhibit high-precision structures (electrode width of 250 μm and electrode area of 0.2625 cm2) and outstanding energy storage properties, achieving an areal capacitance of 543 mF·cm−2, an energy density of 27.15 μWh·cm−2, and a power density of 6 mW·cm−2, significantly surpassing previously reported MXene-based MSCs. Moreover, the flexible all-solid-state MSCs demonstrate excellent performance stability under mechanical bending, series/parallel module integration, and long-term cycling tests, providing a customizable energy storage solution for flexible wearable microelectronic systems.",
+    "volume": 2025,
+    "issue": 3,
+    "firstpage": "9200049",
+    "lastpage": "9200049",
+    "year": 2025,
+    "publication_date": "2025/9/5",
+    "online_date": "2025/6/5",
+    "publisher": "清华大学出版社",
+    "issn": "2960-0561",
+    "article_type": "Research Article",
+    "url": "https://www.sciopen.com/article/10.26599/CF.2025.9200049",
+    "pdf": "https://www.sciopen.com/local/article_pdf/10.26599/CF.2025.9200049.pdf",
+    "research_area": [
+      "Carbon materials"
+    ]
+  },
+  {
+    "doi": "10.26599/CF.2025.9200050",
+    "title": "Halide perovskites for water oxidation photocatalysis: A first-principles study on transition metal-doped CsPbBr<sub>3</sub>",
+    "authors": [
+      "Jie Chen",
+      "Wenhao Dong",
+      "Xin Hong",
+      "Yiqing Wang",
+      "Kaini Zhang",
+      "Shaohua Shen"
+    ],
+    "keywords": [
+      "photocatalytic water oxidation",
+      "halide perovskites",
+      "first-principles calculations",
+      "CsPbBr<sub>3</sub>",
+      "transition metal doping"
+    ],
+    "abstract": "Photocatalytic water oxidation (WO), a pivotal and universal half-reaction in photocatalysis, limits the efficiency of photocatalytic reactions involving WO due to its sluggish kinetics. Metal halide perovskites, particularly all-inorganic CsPbBr3, exhibit promising photophysical properties but suffer from low efficiency for WO and instability in humid environments. Herein, we employed first-principles calculations to investigate the intrinsic properties of cubic-phase CsPbBr3 for WO photocatalysis. The (001)-PbBr2 surface was identified as the most thermodynamically stable face under humid conditions, serving as the basis for evaluating the effects of transition metals (Fe, Co, Ni, Cu, and Zn) doping. The density of states, Bader charges, and formation energies of transition metal-doped (001)-PbBr2 surfaces were calculated to evaluate the structure stability. The water oxidation mechanisms of the pristine and doped (001)-PbBr2 surface were investigated by calculating the water adsorption energy and analyzing the structural evolution of WO intermediates, revealing that Co and Ni doping can enhance the WO activity on the (001)-PbBr2 surface. This study provides a theoretical prediction for designing durable and efficient halide perovskite-based photocatalysts for WO photocatalysis.",
+    "volume": 2025,
+    "issue": 3,
+    "firstpage": "9200050",
+    "lastpage": "9200050",
+    "year": 2025,
+    "publication_date": "2025/9/5",
+    "online_date": "2025/7/29",
+    "publisher": "清华大学出版社",
+    "issn": "2960-0561",
+    "article_type": "Research Article",
+    "url": "https://www.sciopen.com/article/10.26599/CF.2025.9200050",
+    "pdf": "https://www.sciopen.com/local/article_pdf/10.26599/CF.2025.9200050.pdf",
+    "research_area": [
+      "Catalysis"
+    ]
+  },
+  {
+    "doi": "10.26599/CF.2025.9200052",
+    "title": "Lattice Cl<sup>−</sup> reconstruction in a ternary hydroxychloride pre-electrocatalyst for efficient saline water oxidation",
+    "authors": [
+      "Mingyang Wei",
+      "Jing Wang",
+      "Xiaoqing Ma",
+      "Yuzhe Cao",
+      "Xiaolei Yuan",
+      "Lixia Yang",
+      "Zhao Cai"
+    ],
+    "keywords": [
+      "seawater splitting",
+      "electrocatalysis",
+      "hydroxychloride",
+      "pre-catalyst",
+      "corrosion resistance"
+    ],
+    "abstract": "The development of efficient electrocatalysts for saline water oxidation (SWO) is imperative for advancing seawater splitting technology to produce green hydrogen. In this work, we report a NiFeCo hydroxychloride pre-electrocatalyst with the merits of high surface area and anti-corrosion, which exhibited both active and stable SWO performance. The lattice Cl− of NiFeCo hydroxychloride was leached during catalysis, leading to the 35.4% enlarged surface area of the catalysts, which showed a SWO overpotential of 369 mV at 100 mA·cm−2, which is 105 and 154 mV lower than that of the NiFeCo layered double hydroxide and commercial RuO2 catalysts, respectively. Moreover, in-situ Raman demonstrated the incorporation of electrolyte Cl− to the lattice of the catalysts and the re-formation of Co–Cl bonds, which resulted in the enhanced anti-corrosion performance and high electrocatalytic stability for 100 h. These results provide a convincing demonstration of the reconstruction of ternary hydroxychloride pre-electrocatalysts for efficient seawater splitting hydrogen production.",
+    "volume": 2025,
+    "issue": 3,
+    "firstpage": "9200052",
+    "lastpage": "9200052",
+    "year": 2025,
+    "publication_date": "2025/9/5",
+    "online_date": "2025/8/4",
+    "publisher": "清华大学出版社",
+    "issn": "2960-0561",
+    "article_type": "Research Article",
+    "url": "https://www.sciopen.com/article/10.26599/CF.2025.9200052",
+    "pdf": "https://www.sciopen.com/local/article_pdf/10.26599/CF.2025.9200052.pdf",
+    "research_area": [
+      "Catalysis"
+    ]
+  },
+  {
+    "doi": "10.26599/CF.2025.9200053",
+    "title": "<i>In-operando</i> two-dimensional X-ray imaging of CO<sub>2</sub> electrolyzer",
+    "authors": [
+      "Qiucheng Xu",
+      "Bjørt Óladóttir Joensen",
+      "Nishithan C. Kani",
+      "Jakub Drnec",
+      "Andrea Sartori",
+      "Ib Chorkendorff",
+      "Brian Seger"
+    ],
+    "keywords": [
+      "<i>operando</i> characterization",
+      "X-ray diffraction",
+      "CO<sub>2</sub> electrolysis",
+      "membrane-electrode assembly",
+      "salt formation"
+    ],
+    "abstract": "Membrane-electrode assembly (MEA)-based electrochemical devices offer a promising pathway toward sustainable chemical production. However, achieving high-resolution in-operando characterization of an MEA cross-section remains a significant challenge. In this work, we developed and demonstrated an in-operando two-dimensional (2D) X-ray diffraction imaging technique to visualize and analyze the internal processes of an MEA-based CO2 electrolyzer. By combining a serpentine scanning strategy with synchrotron-based wide-angle X-ray scattering, we achieved spatially resolved mapping of key components and chemical species within the MEA, with particular focus on comparing the corresponding regions at the land and channel areas of the flow field. Our results reveal that the salt formation initiates and accumulates preferentially within the gas diffusion layer at the channel region, in contrast to the land region. Structural modeling and diffusion length analysis based on the 2D X-ray diffraction maps indicate that faster CO2 transport in the channel region, enabled by shorter diffusion pathways, leads to more substantial salt formation. This study highlights the utility of in-operando 2D X-ray diffraction imaging as a powerful diagnostic tool in MEA systems.",
+    "volume": 2025,
+    "issue": 3,
+    "firstpage": "9200053",
+    "lastpage": "9200053",
+    "year": 2025,
+    "publication_date": "2025/9/5",
+    "online_date": "2025/9/9",
+    "publisher": "清华大学出版社",
+    "issn": "2960-0561",
+    "article_type": "Research Article",
+    "url": "https://www.sciopen.com/article/10.26599/CF.2025.9200053",
+    "pdf": "https://www.sciopen.com/local/article_pdf/10.26599/CF.2025.9200053.pdf",
+    "research_area": [
+      "Low-carbon chemical engineering",
+      "Low-carbon energy"
+    ]
+  },
+  {
+    "doi": "10.26599/CF.2025.9200054",
+    "title": "Implanting titanium-oxo clusters into PVDF membrane matrix for photocatalytic self-cleaning in a continuous flow-through process",
+    "authors": [
+      "Wensong Duan",
+      "Guoliang Wang",
+      "Yue Wang",
+      "Tingting Guan",
+      "Xiaofeng Cui",
+      "Yujie Xiong"
+    ],
+    "keywords": [
+      "photocatalytic membrane reactor",
+      "ultrafiltration membranes",
+      "self-cleaning",
+      "continuous flow process"
+    ],
+    "abstract": "The photocatalytic ultrafiltration membranes have been demonstrated to be efficient for the treatment of various wastewaters under mild conditions at low cost, but it remains challenging to maintain their high efficiency due to irreversible membrane fouling, low mass transfer efficiency in the photocatalyst layer, and low stability of the membrane to ultraviolet (UV) radiation. To this end, negatively-charged amphiphilic polyvinylidene fluoride (PVDF) ultrafiltration membranes were prepared, and polyoxotitanium clusters (PTCs) with broad visible light response were incorporated into them to develop a self-cleaning membrane. High resolution transmission electron microscopy (HRTEM), high-angle annular dark-field scanning transmission electron microscopy (HAADF-STEM), and corresponding energy dispersive X-ray spectrometry (EDS) verify that the sub-nanometer PTCs are uniformly implanted into the membrane pore. The hydraulic test shows that the pores are not blocked by the implanted photocatalysts. The optimized composite photocatalytic membrane (PM3) benefits from the electrostatic enrichment of the basement membrane and the efficient mass transfer in a nanoscale confined channel. This allows the membrane to self-clean by degrading dyes under visible light irradiation. Compared with the original membrane, PM3 could maintain high permeate flux and dye rejection rate with negative fouling ratio during 5 cycles. This design enabled efficient removal of Rhodamine B (RhB, &gt; 85%) during 200 min of continuous separation, whereas it could only maintain less than 50 min on the original membrane. This work provides a common and facile process to develop photocatalytic ultrafiltration membranes with catalysts confined in nanoscale channels for efficient wastewater treatment.",
+    "volume": 2025,
+    "issue": 3,
+    "firstpage": "9200054",
+    "lastpage": "9200054",
+    "year": 2025,
+    "publication_date": "2025/9/5",
+    "online_date": "2025/9/19",
+    "publisher": "清华大学出版社",
+    "issn": "2960-0561",
+    "article_type": "Research Article",
+    "url": "https://www.sciopen.com/article/10.26599/CF.2025.9200054",
+    "pdf": "https://www.sciopen.com/local/article_pdf/10.26599/CF.2025.9200054.pdf",
+    "research_area": [
+      "Catalysis",
+      "Low-carbon chemical engineering"
+    ]
+  },
+  {
+    "doi": "10.26599/CF.2025.9200055",
+    "title": "Issue Information",
+    "authors": [],
+    "keywords": [],
+    "abstract": null,
+    "volume": 2025,
+    "issue": 3,
+    "firstpage": "9200055",
+    "lastpage": "9200055",
+    "year": 2025,
+    "publication_date": "2025/3/1",
+    "online_date": "2025/9/26",
+    "publisher": "清华大学出版社",
+    "issn": "2960-0561",
+    "article_type": "Issue Information",
+    "url": "https://www.sciopen.com/article/10.26599/CF.2025.9200055",
+    "pdf": "https://www.sciopen.com/local/article_pdf/10.26599/CF.2025.9200055.pdf",
+    "research_area": []
+  },
+  {
+    "doi": "10.26599/CF.2025.9200056",
+    "title": "Hetero-engineering-driven hydroxyl radical generation on ZnO-pillared MXene enables moisture-tolerant methane sensing at ppm level",
+    "authors": [
+      "Renjie Chen",
+      "Yi Xia",
+      "Li Yang",
+      "Sufang He",
+      "Qiuni Zhao",
+      "Xiang Li",
+      "Yunzhu Wang",
+      "Jiyun Gao",
+      "Ming Hou",
+      "Mingjun Wang",
+      "Liexing Zhou",
+      "Lan Xiang",
+      "Sridhar Komarneni",
+      "Shenghui Guo"
+    ],
+    "keywords": [
+      "pillared Ti<sub>3</sub>C<sub>2</sub>T<sub><i>x</i></sub>",
+      "ppm level methane",
+      "room temperature",
+      "humid condition",
+      "photogenerated hydroxyl"
+    ],
+    "abstract": "Ambient methane detection remains constrained by humidity interference and insufficient sensitivity at room temperature. Compared with standalone Ti3C2Tx MXene, hetero-structured ZnO-pillared Ti3C2Tx MXene was engineered via a simple self-assembly method at room temperature, achieving breakthrough room-temperature moisture-tolerant CH4 sensing at ppm level (&lt; 1 ppm detection limit, response of 21.3% to 100 ppm CH4 at 80% relative humidity (RH). Through in-situ electronic paramagnetic resonance (EPR) and Fourier transform infrared (FT-IR) spectroscopy, we demonstrate visible-light-driven hydroxyl radical (·OH) generation at ZnO/MXene interfaces in humid conditions. These radicals activate the catalytic conversion from CH4 to CO2 at reduced energy barriers, overcoming humidity poisoning by preferential H2O dissociation, enhancing the sensing performance together with the increased hole concentration and the improved activity of oxygen species. This study not only paves a new way for designing MXene-based gas sensors adaptable to diverse environmental conditions, but also establishes a hetero-engineering paradigm for radical-mediated gas detection.",
+    "volume": 2025,
+    "issue": 4,
+    "firstpage": "9200056",
+    "lastpage": "9200056",
+    "year": 2025,
+    "publication_date": "2025/12/1",
+    "online_date": "2025/11/3",
+    "publisher": "清华大学出版社",
+    "issn": "2960-0561",
+    "article_type": "Research Article",
+    "url": "https://www.sciopen.com/article/10.26599/CF.2025.9200056",
+    "pdf": "https://www.sciopen.com/local/article_pdf/10.26599/CF.2025.9200056.pdf",
+    "research_area": [
+      "Catalysis"
+    ]
+  },
+  {
+    "doi": "10.26599/CF.2025.9200057",
+    "title": "Toward circular nitrogen: Electrochemical ammonia recovery using redox-active materials",
+    "authors": [
+      "Rui Wang"
+    ],
+    "keywords": [
+      "ammonia recovery",
+      "redox-active materials",
+      "sustainable agriculture"
+    ],
+    "abstract": "Ammonia (NH3) recovery plays a pivotal role in closing the nitrogen cycle by recycling ammonia from waste streams and mitigating environmental pollution. Electrochemical ammonia recovery is promising for distributed ammonia recovery, which requires ammonia transport through diffusion and migration or (de)intercalation. Using redox-active materials for ammonia recovery is an emerging strategy that enables selective ammonia uptake without expensive ion-exchange membranes, although ammonium recovery mechanisms and related process design require further exploration. This review summarizes the recent developments in ammonia recovery using redox-active materials, especially Prussian blue analogs, through electrochemical and electrochemical–chemical cycles. The working principles of redox-active materials and key evaluation metrics, such as stability, selectivity, and kinetics, are systematically discussed. Redox-active materials allow selective ammonia uptake driven by either renewable electricity or even spontaneously through the oxidation of organic matter in manure wastewater. We also discuss opportunities and challenges for practical ammonia recovery and environmental remediation using redox-active materials.",
+    "volume": 2025,
+    "issue": 4,
+    "firstpage": "9200057",
+    "lastpage": "9200057",
+    "year": 2025,
+    "publication_date": "2025/12/1",
+    "online_date": "2025/11/20",
+    "publisher": "清华大学出版社",
+    "issn": "2960-0561",
+    "article_type": "Review",
+    "url": "https://www.sciopen.com/article/10.26599/CF.2025.9200057",
+    "pdf": "https://www.sciopen.com/local/article_pdf/10.26599/CF.2025.9200057.pdf",
+    "research_area": [
+      "Low-carbon chemical engineering"
+    ]
+  },
+  {
+    "doi": "10.26599/CF.2025.9200058",
+    "title": "Dual-component interfacial design enables 21% efficient organic solar cells",
+    "authors": [
+      "Yongsheng Chen"
+    ],
+    "keywords": [],
+    "abstract": null,
+    "volume": 2025,
+    "issue": 4,
+    "firstpage": "9200058",
+    "lastpage": "9200058",
+    "year": 2025,
+    "publication_date": "2025/12/1",
+    "online_date": "2025/11/14",
+    "publisher": "清华大学出版社",
+    "issn": "2960-0561",
+    "article_type": "Highlight",
+    "url": "https://www.sciopen.com/article/10.26599/CF.2025.9200058",
+    "pdf": "https://www.sciopen.com/local/article_pdf/10.26599/CF.2025.9200058.pdf",
+    "research_area": [
+      "Low-carbon energy"
+    ]
+  },
+  {
+    "doi": "10.26599/CF.2025.9200059",
+    "title": "Device-level synchrotron-based <i>operando</i> characterization of electrochemistry at scale",
+    "authors": [
+      "Qihao Li",
+      "Héctor D. Abruña"
+    ],
+    "keywords": [
+      "<i>operando</i> characterization",
+      "synchrotron",
+      "electrochemical device",
+      "electrocatalysis"
+    ],
+    "abstract": "Electrochemical energy conversion devices, such as fuel cells and water electrolyzers, offer high power densities and efficiencies, along with quiet, emission-free operation, making them attractive candidates for large-scale applications. Advancing these technologies requires the development of materials including catalysts, membranes, and diffusion media that can deliver the performance and durability metrics necessary for practical deployment. However, the true/relevant active states of materials often exist only under operating conditions of electrochemical devices, making them inaccessible to conventional ex situ characterization techniques. Thus, the characterization of electrochemical devices under operating conditions, namely operando, can offer critical and valuable insights for guiding/informing material development. Synchrotron-based hard X-ray (&gt; 5 keV) techniques are particularly well-suited for operando characterization of electrochemical devices due to their high penetration depth and relatively weak interactions, enabling the probing of various internal components. The various synchrotron X-ray based characterization techniques can provide comprehensive information including chemical (valence) states, coordination environments, and structures across different length scales. The use of these techniques provides unique opportunities to capture active states of materials and track evolving dynamics. In this perspective, we provide an overview of the device-level operando characterization using synchrotron-based X-ray techniques and highlight its potential to inform and accelerate material development towards the large-scale deployment of electrochemical technologies.",
+    "volume": 2025,
+    "issue": 4,
+    "firstpage": "9200059",
+    "lastpage": "9200059",
+    "year": 2025,
+    "publication_date": "2025/12/1",
+    "online_date": "2025/11/28",
+    "publisher": "清华大学出版社",
+    "issn": "2960-0561",
+    "article_type": "Perspective",
+    "url": "https://www.sciopen.com/article/10.26599/CF.2025.9200059",
+    "pdf": "https://www.sciopen.com/local/article_pdf/10.26599/CF.2025.9200059.pdf",
+    "research_area": [
+      "Catalysis",
+      "Low-carbon energy"
+    ]
+  },
+  {
+    "doi": "10.26599/CF.2025.9200060",
+    "title": "Failure mechanisms in PEM water electrolyzers",
+    "authors": [
+      "Shaoyun Hao",
+      "Peng Zhu",
+      "Haotian Wang"
+    ],
+    "keywords": [
+      "acidic OER",
+      "PEM electrolyzer",
+      "dissolution"
+    ],
+    "abstract": "The failure of anode catalysts for the oxygen evolution reaction (OER) in proton exchange membrane (PEM) electrolyzers poses a significant barrier to their commercial deployment. In PEM electrolyzers, anode catalysts typically degrade due to the extremely oxidative environment and low local pH at the anode. Under these harsh conditions, catalysts may dissolve into the electrolyte, detach from the membrane, or become contaminated by impurities. These degradation processes are interconnected and complex, rather than isolated issues. Consequently, improving catalyst materials alone has only a limited impact on the overall system performance. In this perspective, we systematically review the causes of anode catalyst failure and their effects on the PEM electrolyzer stability. We pay special attention to the limitations of current approaches, including material shortcomings, changes in electrode structure, and gaps in system-level strategies. A thorough understanding of these challenges is crucial. Achieving a stable anode for acidic OER requires deep insight into the failure mechanisms under real PEM operating conditions. By integrating advances in catalyst design, electrochemical characterization, engineering solutions, and data-driven methods, we can address these limitations effectively. This comprehensive approach is essential to accelerate the development and enable the widespread adoption of PEM electrolyzers.",
+    "volume": 2025,
+    "issue": 4,
+    "firstpage": "9200060",
+    "lastpage": "9200060",
+    "year": 2025,
+    "publication_date": "2025/12/1",
+    "online_date": "2025/11/28",
+    "publisher": "清华大学出版社",
+    "issn": "2960-0561",
+    "article_type": "Perspective",
+    "url": "https://www.sciopen.com/article/10.26599/CF.2025.9200060",
+    "pdf": "https://www.sciopen.com/local/article_pdf/10.26599/CF.2025.9200060.pdf",
+    "research_area": [
+      "Catalysis",
+      "Low-carbon chemical engineering"
+    ]
+  },
+  {
+    "doi": "10.26599/CF.2025.9200061",
+    "title": "Insights into the carbon nanotube effect on the electrochemical performance of red phosphorus anode",
+    "authors": [
+      "Yanbin Wei",
+      "Chenxi Zhang",
+      "Yukang Zhu",
+      "Zonglong Li",
+      "Sibo Chen",
+      "Fei Wei"
+    ],
+    "keywords": [
+      "red phosphorus",
+      "carbon nanotube",
+      "sodium-ion batteries",
+      "anode"
+    ],
+    "abstract": "Red phosphorus (Red P) is considered the most promising anode material for sodium-ion batteries (SIBs) because it possesses the highest theoretical capacity. However, its large volume expansion leads to rapid capacity decay, and its low conductivity limits fast charge–discharge capability, hindering the practical application. Here, Red P/single-walled carbon nanotube (SWCNT) and Red P/multi-walled carbon nanotube (MWCNT) composites were prepared by an evaporation–condensation method. After 100 cycles, Red P/SWCNT delivers a discharge capacity of 1512.6 mAh·g−1, demonstrating stable long-term cycling performance, fast rate capability, and high initial Coulombic efficiency (ICE). The stress of Red P/SWCNT decreases from 7.2 (initial cycle) to 0.6 GPa (long cycle), whereas that of Red P/MWCNT decreases from 8.5 (initial cycle) to 1.7 GPa (long cycle) due to an approximately 30 nm thicker solid–electrolyte interphase (SEI) compared with SWCNT. The lower stress in Red P/SWCNT results in minimal cracking and a significant reduction in irreversible Na3P formation, which is central to improving the electrochemical performance. These findings show that constructing a flexibl and highly conductive SWCNT network can effectively mitigates the stress caused by volume expansion and prevents the crack propagation in Red P. This work provides theoretical guidance for the development of Red P-based anodes for SIBs.",
+    "volume": 2025,
+    "issue": 4,
+    "firstpage": "9200061",
+    "lastpage": "9200061",
+    "year": 2025,
+    "publication_date": "2025/12/1",
+    "online_date": "2025/12/17",
+    "publisher": "清华大学出版社",
+    "issn": "2960-0561",
+    "article_type": "Research Article",
+    "url": "https://www.sciopen.com/article/10.26599/CF.2025.9200061",
+    "pdf": "https://www.sciopen.com/local/article_pdf/10.26599/CF.2025.9200061.pdf",
+    "research_area": [
+      "Carbon materials"
+    ]
+  },
+  {
+    "doi": "10.26599/CF.2025.9200062",
+    "title": "Electrocatalytic glycerol valorization: From catalyst design to integrated systems",
+    "authors": [
+      "Kaiwei Meng",
+      "Lin Dong",
+      "Wenjun Zhang",
+      "Yanqin Wang",
+      "Zupeng Chen"
+    ],
+    "keywords": [
+      "electrocatalysis",
+      "glycerol oxidation",
+      "biomass valorization",
+      "coupling",
+      "industrial electrocatalysis"
+    ],
+    "abstract": "The electrochemical glycerol oxidation reaction (GOR) has emerged as a sustainable pathway for transforming biodiesel byproducts into valuable resources, while addressing the growing demand for renewable energy and green chemical production. This perspective provides a comprehensive examination of recent advances in GOR technology, with a particular emphasis on catalyst design, reaction mechanisms, and system integration strategies. It highlights key challenges related to selectivity, stability, and scalability, which are critical for advancing the technology toward industrial applications. We explore how both noble metals (e.g., Pt, Au, and Pd) and non-noble metal alternatives (e.g., Ni, Co, and Cu) can be engineered through various methods, such as facet control, single-atom incorporation, and dynamic potential modulation, to selectively preserve C–C bonds and direct selectivity toward valuable multi-carbon products. Beyond standalone GOR processes, the integration with cathodic reactions presents new opportunities for system-level optimization. We discuss the benefits of coupling GOR with cathodic reactions, such as hydrogen evolution reaction (HER), carbon dioxide reduction reaction (CO2RR), and nitrate reduction reaction (NO3RR), which not only reduce the energy consumption but also enable the co-production of high-value chemicals and clean fuels. Despite the significant progress in GOR technology, several critical challenges remain for its industrial implementation, including mass transfer limitations, tolerance to crude glycerol, and long-term stability. This perspective provides a roadmap for addressing these challenges, proposing targeted solutions ranging from advanced membrane-electrode assemblies to integrated techno-economic assessments. Ultimately, this work aims to guide the field beyond a focus on catalyst activity, toward a holistic paradigm that prioritizes system-level integration and economic viability, thereby accelerating the industrialization of GOR technology.",
+    "volume": 2025,
+    "issue": 4,
+    "firstpage": "9200062",
+    "lastpage": "9200062",
+    "year": 2025,
+    "publication_date": "2025/12/1",
+    "online_date": "2025/12/22",
+    "publisher": "清华大学出版社",
+    "issn": "2960-0561",
+    "article_type": "Perspective",
+    "url": "https://www.sciopen.com/article/10.26599/CF.2025.9200062",
+    "pdf": "https://www.sciopen.com/local/article_pdf/10.26599/CF.2025.9200062.pdf",
+    "research_area": [
+      "Catalysis"
+    ]
+  },
+  {
+    "doi": "10.26599/CF.2025.9200063",
+    "title": "Issue Information",
+    "authors": [],
+    "keywords": [],
+    "abstract": null,
+    "volume": 2025,
+    "issue": 4,
+    "firstpage": "9200063",
+    "lastpage": "9200063",
+    "year": 2025,
+    "publication_date": "2025/12/1",
+    "online_date": "2025/12/26",
+    "publisher": "清华大学出版社",
+    "issn": "2960-0561",
+    "article_type": "Issue Information",
+    "url": "https://www.sciopen.com/article/10.26599/CF.2025.9200063",
+    "pdf": "https://www.sciopen.com/local/article_pdf/10.26599/CF.2025.9200063.pdf",
+    "research_area": []
+  },
+  {
+    "doi": "10.26599/CF.2026.9200064",
+    "title": "Highly paired dual-atom catalysts boost ammonia electrosynthesis",
+    "authors": [
+      "Li Li",
+      "Xinliang Feng"
+    ],
+    "keywords": [],
+    "abstract": null,
+    "volume": 2026,
+    "issue": 1,
+    "firstpage": "9200064",
+    "lastpage": "9200064",
+    "year": 2026,
+    "publication_date": "2026/3/5",
+    "online_date": "2026/1/6",
+    "publisher": "清华大学出版社",
+    "issn": "2960-0561",
+    "article_type": "Highlight",
+    "url": "https://www.sciopen.com/article/10.26599/CF.2026.9200064",
+    "pdf": "https://www.sciopen.com/local/article_pdf/10.26599/CF.2026.9200064.pdf",
+    "research_area": [
+      "Catalysis"
+    ]
+  },
+  {
+    "doi": "10.26599/CF.2026.9200065",
+    "title": "Chemo-bio catalytic strategy for upcycling carbonaceous waste to value-added products",
+    "authors": [
+      "Jing Xi",
+      "Junhe Ma",
+      "Yiqun Yang",
+      "Yan Yan",
+      "Na Chen",
+      "Quan Yuan"
+    ],
+    "keywords": [
+      "chemo-bio catalytic strategy",
+      "carbonaceous waste",
+      "value-added products",
+      "microbial metabolism"
+    ],
+    "abstract": "The conversion of carbonaceous waste into value-added chemicals represents a sustainable waste management paradigm with the potential to alleviate mounting global carbon emission pressures and environmental crises. The inherent chemical inertness of carbonaceous wastes, such as CO2 and plastics, necessitates harsh recycling conditions, making it challenging to achieve both high conversion and high selectivity, which severely limits the process efficiency. Conversely, enzyme-driven biotransformations operate under ambient conditions with exceptional selectivity, but are hindered by narrow substrate scope and slow kinetics. By synergistically integrating the high efficiency of chemical catalysis with the precision of biosynthetic pathways, chemo-bio catalytic integrated strategies offer a promising alternative. These approaches enable continuous energy input for enzymatic upgrading of carbon waste through chemical energy-transduction mechanisms, while converting complex carbonaceous materials into small molecule intermediates that are readily assimilated by microbes, thus overcoming limitations in both substrate scope and energy supply. This perspective systematically summarizes recent advances and evolving trends in chemo-bio integrated strategies for the valorization of carbonaceous waste. We provide a comprehensive analysis from the perspectives of spatially coupled and spatially decoupled systems, and further examine persistent challenges related to efficiency enhancement, system robustness, energy utilization, and scalable integration.",
+    "volume": 2026,
+    "issue": 1,
+    "firstpage": "9200065",
+    "lastpage": "9200065",
+    "year": 2026,
+    "publication_date": "2026/3/5",
+    "online_date": "2026/1/20",
+    "publisher": "清华大学出版社",
+    "issn": "2960-0561",
+    "article_type": "Perspective",
+    "url": "https://www.sciopen.com/article/10.26599/CF.2026.9200065",
+    "pdf": "https://www.sciopen.com/local/article_pdf/10.26599/CF.2026.9200065.pdf",
+    "research_area": [
+      "Catalysis"
+    ]
+  },
+  {
+    "doi": "10.26599/CF.2026.9200066",
+    "title": "Oxygen-tolerant CO<sub>2</sub> capture using protected redox-driven reverse bias bipolar membrane electrodialysis",
+    "authors": [
+      "Dawei Xi",
+      "Panlin Zhao",
+      "Manav Bansal",
+      "Olivia T. Vulpin",
+      "Shannon W. Boettcher",
+      "Michael J. Aziz"
+    ],
+    "keywords": [
+      "carbon capture",
+      "bipolar membrane",
+      "electrodialysis",
+      "redox mediation"
+    ],
+    "abstract": "Electrochemical methods for carbon capture potentially have the advantage of low cost and low energy consumption. The practical applicability of pH-swing carbon capture processes driven by proton-coupled redox-active molecules has been limited by the sensitivity of reduced molecules to oxidation by O2. In those CO2 capture processes, the molecules are reduced, basifying the electrolyte; the electrolyte containing the reduced molecules is exposed to air or flue gas containing CO2 but also containing enough O2 to oxidize the molecules. O2 sensitivity would not be problematic if the electrolyte that captures CO2 contains the oxidized form of the molecule instead; this can be accomplished by switching from an electron-driven system to an ion-driven system. We report the development and performance of a two-chamber flow cell incorporating a reverse-bias bipolar membrane (BPM) and non-proton-coupled redox-active molecules for ion-driven pH-swing. When using ferri/ferrocyanide electrolytes in this cell with a BPM, the cell pH can be spatially swung with the oxidized side basified for CO2 capture and the reduced side acidified for release. Buffering agents and cell rebalancing mediators improved the efficiency and stability of the system. This work points out an alternative way of employing redox couples for electrochemically-powered pH swings.",
+    "volume": 2026,
+    "issue": 1,
+    "firstpage": "9200066",
+    "lastpage": "9200066",
+    "year": 2026,
+    "publication_date": "2026/3/5",
+    "online_date": "2026/1/28",
+    "publisher": "清华大学出版社",
+    "issn": "2960-0561",
+    "article_type": "Research Article",
+    "url": "https://www.sciopen.com/article/10.26599/CF.2026.9200066",
+    "pdf": "https://www.sciopen.com/local/article_pdf/10.26599/CF.2026.9200066.pdf",
+    "research_area": [
+      "Low-carbon chemical engineering",
+      "Low-carbon energy"
+    ]
+  },
+  {
+    "doi": "10.26599/CF.2026.9200067",
+    "title": "Photo-thermo synergistic catalysis for methane conversion",
+    "authors": [
+      "Chengzhi Guo",
+      "Xiyi Li",
+      "Yang Lan"
+    ],
+    "keywords": [
+      "photo-thermo synergistic catalysis",
+      "methane conversion",
+      "C–H activation",
+      "selectivity."
+    ],
+    "abstract": "The direct conversion of abundant methane into valuable products represents a promising strategy for constructing new chemical synthesis networks. However, conventional thermocatalysis often suffers from moderate selectivity and stability due to the harsh reaction conditions required for methane activation, while photocatalysis typically exhibits low conversion rates owing to intrinsic limitations such as charge recombination and poor mass transfer. Photo-thermo synergistic catalysis has emerged as a next-generation approach that integrates photo and thermal energy inputs, leveraging photons to overcome activation barriers and phonons to accelerate bulk/surface kinetics, thereby addressing the limitations of single-energy systems. In this review, we clarify the advantages and limitations of dual-energy versus single-energy approaches, explain four distinct synergistic modes between photo and thermo, and summarise recent strategies for methane valorisation into a range of valuable products. We also discuss the roles of photon and phonon in modulating reaction kinetics and product selectivity. Finally, we propose insights into current challenges and potential solutions, including scientific performance evaluation, expansion of product scope, development of dual-energy in-situ characterisation techniques, photo-thermo reactor design, and AI-driven catalyst discovery.",
+    "volume": 2026,
+    "issue": 1,
+    "firstpage": "9200067",
+    "lastpage": "9200067",
+    "year": 2026,
+    "publication_date": "2026/3/5",
+    "online_date": "2026/3/2",
+    "publisher": "清华大学出版社",
+    "issn": "2960-0561",
+    "article_type": "Review",
+    "url": "https://www.sciopen.com/article/10.26599/CF.2026.9200067",
+    "pdf": "https://www.sciopen.com/local/article_pdf/10.26599/CF.2026.9200067.pdf",
+    "research_area": [
+      "Catalysis"
+    ]
+  },
+  {
+    "doi": "10.26599/CF.2026.9200068",
+    "title": "Dielectric-mediated interfacial ion transport enabling stable lithium metal batteries",
+    "authors": [
+      "Shuoqing Zhang",
+      "Haotian Zhu",
+      "Junyi Hua",
+      "Jinze Wang",
+      "Long Li",
+      "Long Chen",
+      "Ruhong Li",
+      "Lixin Chen",
+      "Xiulin Fan",
+      "Tao Deng"
+    ],
+    "keywords": [
+      "lithium metal anode",
+      "dielectric regulation",
+      "ion transport",
+      "electrolyte engineering",
+      "lithium battery"
+    ],
+    "abstract": "Unregulated interfacial electric fields critically undermine the stability of lithium-metal batteries (LMBs) by driving heterogeneous Li+ flux and dendritic deposition. Here, we report a dielectric-mediated electrolyte design that actively modulates the local electric field to enable uniform Li+ transport and Li0 deposition. By integrating fluorinated diluents with varying dielectric constants into localized high-concentration electrolytes (LHCE), a stable dielectric environment was constructed at the Li–electrolyte interface. Specifically, the high-dielectric diluent 1,1,1,3,3-pentafluorobutane facilitates electrolyte to realize uniform and flat lithium deposition under high current density of 3 mA·cm−2 by suppressing the electrostatic tip effect that typically triggers dendrite formation. The optimized electrolyte achieves high Coulombic efficiency (&gt; 99.5%), negligible growth in interfacial impedance, and stable cycling in thin Li-based cells. Moreover, Li (30 μm)||LiCoO2 (3.6 mAh·cm−2) full cells retain 80% of their initial capacity after 250 cycles within a voltage window of 3–4.5 V, outperforming the reference cells (&lt; 50 cycles) using high-concentration electrolyte and LHCE with low-dielectric-constant diluent. The strategy of dielectric-mediated interface homogenizes electric field distribution and stabilizes ion transport beyond conventional interphase-focused approaches. This work establishes dielectric modulation as a viable paradigm for interfacial regulation, advancing the design of high-energy-density LMBs.",
+    "volume": 2026,
+    "issue": 1,
+    "firstpage": "9200068",
+    "lastpage": "9200068",
+    "year": 2026,
+    "publication_date": "2026/3/5",
+    "online_date": "2026/3/6",
+    "publisher": "清华大学出版社",
+    "issn": "2960-0561",
+    "article_type": "Research Article",
+    "url": "https://www.sciopen.com/article/10.26599/CF.2026.9200068",
+    "pdf": "https://www.sciopen.com/local/article_pdf/10.26599/CF.2026.9200068.pdf",
+    "research_area": [
+      "Low-carbon energy"
+    ]
+  },
+  {
+    "doi": "10.26599/CF.2026.9200069",
+    "title": "Directing photocatalysis toward practical applications from powder to films",
+    "authors": [
+      "Yifan Lin",
+      "Yuning Cai",
+      "Jiaxin Su",
+      "Guigang Zhang",
+      "Sibo Wang",
+      "Masakazu Anpo",
+      "Yuanxing Fang"
+    ],
+    "keywords": [
+      "photocatalytic",
+      "films",
+      "deposition",
+      "solar to chemical conversion"
+    ],
+    "abstract": "Over the past three decades, substantial efforts have been dedicated to developing high-performance photocatalysts for solar fuel production and scaling up their applications, particularly through the fabrication of photocatalytic thin films. These efforts have led to significant advancements moving towards practical applications. In this review, various techniques have been introduced to achieve thin films over time, including vapor deposition, solution-phase growth, and in-situ polymerization, each tailored to different materials and their applications. Ultimately, the choice of method should be based on a comprehensive evaluation of factors such as efficiency, stability, process complexity, and cost in the context of solar fuel production. This review seeks to address the critical question of how to guide photoredox catalysis toward practical implementation, contributing to sustainable solutions for global energy, environmental, and other challenges.",
+    "volume": 2026,
+    "issue": 1,
+    "firstpage": "9200069",
+    "lastpage": "9200069",
+    "year": 2026,
+    "publication_date": "2026/3/5",
+    "online_date": "2026/3/25",
+    "publisher": "清华大学出版社",
+    "issn": "2960-0561",
+    "article_type": "Review",
+    "url": "https://www.sciopen.com/article/10.26599/CF.2026.9200069",
+    "pdf": "https://www.sciopen.com/local/article_pdf/10.26599/CF.2026.9200069.pdf",
+    "research_area": [
+      "Catalysis"
+    ]
+  },
+  {
+    "doi": "10.26599/CF.2026.9200070",
+    "title": "Tuning reaction pathways via acetylene recycling to synergistically boost solid carbon yield in methane plasma pyrolysis",
+    "authors": [
+      "Zefang Niu",
+      "Mingyu Zhao",
+      "Baichao Zhang",
+      "Hao Xiong",
+      "Vinu Viswanath",
+      "Wajdi Sadat",
+      "AbdulRahman AlSuhaibani",
+      "Bandar Solami",
+      "Aqil Jamal",
+      "Osamah Siddiqui",
+      "Xiao Chen",
+      "Fei Wei"
+    ],
+    "keywords": [
+      "methane pyrolysis",
+      "plasma technology",
+      "solid carbon",
+      "acetylene recycling",
+      "graphitization",
+      "hydrogen production"
+    ],
+    "abstract": "Methane plasma pyrolysis represents a promising clean technology for solid carbon production, enabling simultaneous hydrogen generation without direct CO2 emissions. Current research primarily focuses on single-feed methane processes, yet the strategic utilization of byproduct acetylene to enhance reaction efficiency and product value remains underexplored. This study systematically optimized key parameters—including plasma power, methane flow rate, and nozzle design—achieving a methane conversion rate of 91.3% and a solid carbon selectivity of 21.9%. Furthermore, an innovative cyclic feeding strategy combining methane and in-situ-generated acetylene was proposed. This approach significantly boosted solid carbon selectivity to 36.9%, outperforming conventional pure methane feeding. Mechanistic analysis revealed that acetylene not only redirects reaction pathways toward solid carbon formation but also acts as an efficient carbon source and template, promoting the synthesis of highly graphitized solid carbon with a graphitization degree of 89.2%. These findings provide critical insights into plasma-driven carbon material synthesis and establish a foundation for sustainable manufacturing through byproduct valorization.",
+    "volume": 2026,
+    "issue": 1,
+    "firstpage": "9200070",
+    "lastpage": "9200070",
+    "year": 2026,
+    "publication_date": "2026/3/5",
+    "online_date": "2026/3/27",
+    "publisher": "清华大学出版社",
+    "issn": "2960-0561",
+    "article_type": "Research Article",
+    "url": "https://www.sciopen.com/article/10.26599/CF.2026.9200070",
+    "pdf": "https://www.sciopen.com/local/article_pdf/10.26599/CF.2026.9200070.pdf",
+    "research_area": [
+      "Low-carbon energy",
+      "Carbon materials"
+    ]
+  },
+  {
+    "doi": "10.26599/CF.2026.9200071",
+    "title": "Covalently bonded TiO<sub>2</sub>/graphene interfaces: Interplay between structure, electronic properties, and photocatalytic activity revealed by computational studies",
+    "authors": [
+      "Manasi R Mulay",
+      "Natalia Martsinovich"
+    ],
+    "keywords": [
+      "photocatalysis",
+      "TiO<sub>2</sub>",
+      "graphene",
+      "interface",
+      "heterojunction",
+      "electronic structure"
+    ],
+    "abstract": "Composites of TiO2 with graphene and other carbon-based nanomaterials are widely used as photocatalysts, since they improve the efficiency of TiO2 photocatalysts by reducing charge recombination and extending TiO2 light-harvesting to the visible range. However, the exact nature of binding at TiO2/graphene interfaces is still unclear. Experimental studies show that Ti–C and Ti–O–C covalent bonds are often present in TiO2/graphene heterostructures. In this study, we used density functional theory to investigate the nature of binding at the interfaces of graphene with the anatase polymorph of TiO2. We investigated graphene binding with both the most stable (101) surface of anatase and the less stable but more photocatalytically active (100) and (001) surfaces, and analysed the electronic properties of these interfaces. We found that pristine graphene binds to anatase surfaces by physisorption, while graphene with carbon vacancies can form covalent bonds to TiO2. The presence of these covalent bonds alters the electronic structure of TiO2/graphene composites, creating hybridised states that may facilitate charge transfer and hinder electron–hole recombination. This study highlights the important role of defects, such as vacancies, in creating interfacial covalent bonds that may be responsible for the high photocatalytic activity of TiO2/graphene heterostructures.",
+    "volume": 2026,
+    "issue": 2,
+    "firstpage": "9200071",
+    "lastpage": "9200071",
+    "year": 2026,
+    "publication_date": "2026/6/5",
+    "online_date": "2026/4/15",
+    "publisher": "清华大学出版社",
+    "issn": "2960-0561",
+    "article_type": "Research Article",
+    "url": "https://www.sciopen.com/article/10.26599/CF.2026.9200071",
+    "pdf": "https://www.sciopen.com/local/article_pdf/10.26599/CF.2026.9200071.pdf",
+    "research_area": [
+      "Catalysis",
+      "Carbon materials"
+    ]
+  },
+  {
+    "doi": "10.26599/CF.2026.9200072",
+    "title": "Green reorganization of lignin aromatic units toward porous carbon for ultrahigh performance supercapacitors",
+    "authors": [
+      "Jiabin Wen",
+      "Weiyu Lin",
+      "Chaoyang Wang",
+      "Xinyue Li",
+      "Jina Yu",
+      "Juanjuan Bian",
+      "Kang Sun",
+      "Songbo Chen",
+      "Guowu Zhan"
+    ],
+    "keywords": [
+      "lignin-derived carbon",
+      "hierarchical porosity",
+      "green reorganization",
+      "supercapacitors"
+    ],
+    "abstract": "Lignin, the most abundant aromatic biopolymer on Earth, serves as a sustainable but underutilized precursor for advanced carbon materials. Herein, we introduce a green hydrothermal reorganization strategy designed to direct the transformation of lignin into porous carbons with an ultrahigh specific surface area for advanced supercapacitors. The hydrothermal treatment effectively removes hydroxylated functional groups while preserving and enriching aromatized lignin units, resulting in a structurally optimized precursor for subsequent reorganization into porous carbon. The optimized carbon material (HEHLC-800) demonstrates an exceptionally high specific surface area of approximately 3598 m2·g−1, accompanied by a well-balanced distribution of micropores and mesopores. In symmetric supercapacitor configurations, HEHLC-800 delivers significantly superior energy-power characteristics compared to commercial activated carbon (YP-80). Specifically, it achieves a high energy density of 91.9 Wh·kg−1 at a power density of 427.5 W·kg−1 and retains 70.2 Wh·kg−1 even at a high power density of 43.7 kW·kg−1 under a 3.5 V ionic liquid electrolyte. This work offers a sustainable and scalable route for producing biomass-derived carbons that exceed commercial benchmarks in high-energy supercapacitors.",
+    "volume": 2026,
+    "issue": 1,
+    "firstpage": "9200072",
+    "lastpage": "9200072",
+    "year": 2026,
+    "publication_date": "2026/3/5",
+    "online_date": "2026/3/26",
+    "publisher": "清华大学出版社",
+    "issn": "2960-0561",
+    "article_type": "Research Article",
+    "url": "https://www.sciopen.com/article/10.26599/CF.2026.9200072",
+    "pdf": "https://www.sciopen.com/local/article_pdf/10.26599/CF.2026.9200072.pdf",
+    "research_area": [
+      "Carbon materials",
+      "Low-carbon energy"
+    ]
+  },
+  {
+    "doi": "10.26599/CF.2026.9200073",
+    "title": "Dynamic covalent organic framework linkages unlock efficient H<sub>2</sub>O<sub>2</sub> photosynthesis",
+    "authors": [
+      "Yuheng Jiang",
+      "Bastian Mei"
+    ],
+    "keywords": [],
+    "abstract": null,
+    "volume": 2026,
+    "issue": 2,
+    "firstpage": "9200073",
+    "lastpage": "9200073",
+    "year": 2026,
+    "publication_date": "2026/6/5",
+    "online_date": "2026/4/22",
+    "publisher": "清华大学出版社",
+    "issn": "2960-0561",
+    "article_type": "Highlight",
+    "url": "https://www.sciopen.com/article/10.26599/CF.2026.9200073",
+    "pdf": "https://www.sciopen.com/local/article_pdf/10.26599/CF.2026.9200073.pdf",
+    "research_area": []
+  },
+  {
+    "doi": "10.26599/CF.2026.9200074",
+    "title": "Issue Information",
+    "authors": [],
+    "keywords": [],
+    "abstract": null,
+    "volume": 2026,
+    "issue": 1,
+    "firstpage": "9200074",
+    "lastpage": "9200074",
+    "year": 2026,
+    "publication_date": "2026/3/1",
+    "online_date": "2026/3/30",
+    "publisher": "清华大学出版社",
+    "issn": "2960-0561",
+    "article_type": "Issue Information",
+    "url": "https://www.sciopen.com/article/10.26599/CF.2026.9200074",
+    "pdf": "https://www.sciopen.com/local/article_pdf/10.26599/CF.2026.9200074.pdf",
+    "research_area": []
+  },
+  {
+    "doi": "10.26599/CF.2026.9200075",
+    "title": "Cascade CO<sub>(2)</sub> electroreduction and downstream reactions for carbon product upgrading",
+    "authors": [
+      "Zhizheng Wu"
+    ],
+    "keywords": [
+      "CO<sub>(2)</sub> electroreduction",
+      "downstream reaction",
+      "cascade"
+    ],
+    "abstract": "Electrochemical reduction of CO2/CO (eCO(2)R) powered by renewable electricity to produce value-added chemicals offers a promising pathway toward sustainable fuel production. Although advances in catalyst design and system engineering have enabled CO2/CO electroreduction to achieve high current densities for generating hydrocarbons and oxygenates, the products remain largely limited to small carbon molecules (C1–C3). Recently, significant progress has been made in cascading eCO(2)R with downstream reactions to expand the product spectrum toward polymeric or higher-value carbon products. However, comprehensive summaries and perspectives on these cascade systems remain scarce in the eCO(2)R literature. This review systematically summarizes recent developments in cascade eCO(2)R and downstream conversion. The advantages of integrating eCO(2)R with additional reaction steps are analyzed, followed by a discussion of representative systems that couple eCO(2)R with thermo-catalytic, biological, and electrochemical processes. Finally, the key challenges facing this emerging field are highlighted, along with perspectives on future research directions.",
+    "volume": 2026,
+    "issue": 2,
+    "firstpage": "9200075",
+    "lastpage": "9200075",
+    "year": 2026,
+    "publication_date": "2026/6/5",
+    "online_date": "2026/4/29",
+    "publisher": "清华大学出版社",
+    "issn": "2960-0561",
+    "article_type": "Review",
+    "url": "https://www.sciopen.com/article/10.26599/CF.2026.9200075",
+    "pdf": "https://www.sciopen.com/local/article_pdf/10.26599/CF.2026.9200075.pdf",
+    "research_area": [
+      "Catalysis",
+      "Low-carbon chemical engineering"
+    ]
+  },
+  {
+    "doi": "10.26599/CF.2026.9200076",
+    "title": "Activation and transformation of carbon dioxide by gas-phase species: Mechanisms and advances",
+    "authors": [
+      "Chuman Sun",
+      "Fengxiang Zhang",
+      "Xiaowang Li",
+      "Jiabi Ma"
+    ],
+    "keywords": [
+      "carbon dioxide activation",
+      "mass spectrometry",
+      "theoretical calculations",
+      "gas-phase chemistry"
+    ],
+    "abstract": "CO2 activation and transformation processes are essential for sustainable energy development and environmental remediation. In this review, we describe our advances in the use of gas-phase ions to mediate these processes, which have provided unique molecular-level mechanistic insights by combining mass spectrometry and density functional theory calculations. This review is structured around three fundamental CO2 transformation reactions: reduction to CO through O-atom transfer to a suitable oxygen acceptor, B–C bond formation via reactions with metal borides, and C–N bond formation via coupling with NH3 or N2. The fundamental knowledge uncovered in these gas-phase studies establishes a foundational framework for future research and the rational design of novel catalytic systems for CO2 conversion.",
+    "volume": 2026,
+    "issue": 2,
+    "firstpage": "9200076",
+    "lastpage": "9200076",
+    "year": 2026,
+    "publication_date": "2026/6/5",
+    "online_date": "2026/5/20",
+    "publisher": "清华大学出版社",
+    "issn": "2960-0561",
+    "article_type": "Review",
+    "url": "https://www.sciopen.com/article/10.26599/CF.2026.9200076",
+    "pdf": "https://www.sciopen.com/local/article_pdf/10.26599/CF.2026.9200076.pdf",
+    "research_area": [
+      "Catalysis"
+    ]
+  },
+  {
+    "doi": "10.26599/CF.2026.9200077",
+    "title": "Bridging microstructure and electrochemistry: Advanced modification strategies for hard carbon anode",
+    "authors": [
+      "Xiping Zhang",
+      "Dan You",
+      "Wenhao Yang",
+      "Jinpeng Liu",
+      "Haoyu Chen",
+      "Yiyong Zhang",
+      "Ziyi Zhu",
+      "Shuang Zhou",
+      "Xue Li"
+    ],
+    "keywords": [
+      "sodium-ion batteries",
+      "hard carbon",
+      "sodium storage mechanisms",
+      "performance optimization"
+    ],
+    "abstract": "Hard carbon is the most commercially viable anode for sodium-ion batteries, with low operating potential, high reversible capacity, abundant raw materials and low manufacturing cost. However, its intrinsic structural disorder, characterized by randomly stacked turbostratic graphene layers, nanopores and amorphous regions, has sparked long-standing debates on fundamental sodium storage mechanisms, significantly impeding rational electrode design and industrial translation. This review overviews sodium storage processes in hard carbon, analyzes synergistic contributions of intercalation, pore filling and surface adsorption, and establishes microstructural-electrochemical performance correlations. It focuses on four mainstream modification strategies: Precursor engineering, pore structure regulation, heteroatom doping and interface engineering, elucidating their enhancement mechanisms and discussing inherent limitations and trade-offs. Finally, it outlines key challenges and future directions, providing critical theoretical and technical guidance for next-generation hard carbon anodes and practical sodium-ion battery deployment.",
+    "volume": 2026,
+    "issue": 2,
+    "firstpage": "9200077",
+    "lastpage": "9200077",
+    "year": 2026,
+    "publication_date": "2026/6/5",
+    "online_date": "2026/6/29",
+    "publisher": "清华大学出版社",
+    "issn": "2960-0561",
+    "article_type": "Review",
+    "url": "https://www.sciopen.com/article/10.26599/CF.2026.9200077",
+    "pdf": "https://www.sciopen.com/local/article_pdf/10.26599/CF.2026.9200077.pdf",
+    "research_area": [
+      "Carbon materials",
+      "Low-carbon energy",
+      "Low-carbon chemical engineering"
+    ]
+  },
+  {
+    "doi": "10.26599/CF.2026.9200078",
+    "title": "Influence of electrolyte and pH value on the photoelectrochemical oxidation of 5-hydroxymethylfurfural using mesoporous tungsten oxide photoanodes",
+    "authors": [
+      "Lukas Max Mayer",
+      "Ines Bauer",
+      "Julia Petra Wölfel",
+      "Frank Hahn",
+      "Roland Marschall"
+    ],
+    "keywords": [
+      "5-hydroxymethylfurfual",
+      "WO<sub>3</sub>",
+      "photoelectrochemical",
+      "organic oxidation"
+    ],
+    "abstract": "Photoelectrochemical (PEC) water splitting is a promising strategy for providing clean, sustainable fuel. However, its efficiency is limited by the high overpotential and sluggish kinetics of the oxygen evolution reaction. To improve oxidation kinetics and produce a higher-value product, it is possible to oxidize organic molecules instead. One such molecule is 5-hydroxymethylfurfural (HMF), which can be converted into the high-value platform chemical 2,5-furandicarboxylic acid (FDCA). In this study, we used porous tungsten oxide (WO3) photoanodes to oxidize HMF photoelectrochemically. Our work focuses on electrolyte selection for this conversion reaction, and we therefore conducted a detailed reproducible study. Furthermore, we carried out a mechanistic investigation and studied the capability of oxidizing the reaction intermediates to support our electrolyte choice. Using the most suitable electrolytes in a self-designed flow-cell setup enabled us to produce FDCA (0.02 mM) for the first time using WO3 photoanodes under AM 1.5 G illumination. Due to the identification of the side products maleic acid and formic acid, this work also provides knowledge for further optimization of PEC HMF oxidation.",
+    "volume": 2026,
+    "issue": 2,
+    "firstpage": "9200078",
+    "lastpage": "9200078",
+    "year": 2026,
+    "publication_date": "2026/6/5",
+    "online_date": "2026/6/25",
+    "publisher": "清华大学出版社",
+    "issn": "2960-0561",
+    "article_type": "Research Article",
+    "url": "https://www.sciopen.com/article/10.26599/CF.2026.9200078",
+    "pdf": "https://www.sciopen.com/local/article_pdf/10.26599/CF.2026.9200078.pdf",
+    "research_area": []
+  },
+  {
+    "doi": "10.26599/CF.2026.9200079",
+    "title": "Shaping the carbon future together: Introducing the Future series",
+    "authors": [],
+    "keywords": [],
+    "abstract": null,
+    "volume": 2026,
+    "issue": 2,
+    "firstpage": "9200079",
+    "lastpage": "9200079",
+    "year": 2026,
+    "publication_date": "2026/6/5",
+    "online_date": "2026/6/25",
+    "publisher": "清华大学出版社",
+    "issn": "2960-0561",
+    "article_type": "Editorial",
+    "url": "https://www.sciopen.com/article/10.26599/CF.2026.9200079",
+    "pdf": "https://www.sciopen.com/local/article_pdf/10.26599/CF.2026.9200079.pdf",
+    "research_area": []
+  },
+  {
+    "doi": "10.26599/CF.2026.9200080",
+    "title": "Graded recycling of real-world waste plastics",
+    "authors": [
+      "Tao Zhang",
+      "Ji Yang",
+      "Ding Ma"
+    ],
+    "keywords": [],
+    "abstract": null,
+    "volume": 2026,
+    "issue": 2,
+    "firstpage": "9200080",
+    "lastpage": "9200080",
+    "year": 2026,
+    "publication_date": "2026/6/5",
+    "online_date": "2026/6/25",
+    "publisher": "清华大学出版社",
+    "issn": "2960-0561",
+    "article_type": "Future",
+    "url": "https://www.sciopen.com/article/10.26599/CF.2026.9200080",
+    "pdf": "https://www.sciopen.com/local/article_pdf/10.26599/CF.2026.9200080.pdf",
+    "research_area": []
+  },
+  {
+    "doi": "10.26599/CF.2026.9200081",
+    "title": "Issue Information",
+    "authors": [],
+    "keywords": [],
+    "abstract": null,
+    "volume": 2026,
+    "issue": 2,
+    "firstpage": "9200081",
+    "lastpage": "9200081",
+    "year": 2026,
+    "publication_date": "2026/6/1",
+    "online_date": "2026/6/30",
+    "publisher": "清华大学出版社",
+    "issn": "2960-0561",
+    "article_type": "Issue Information",
+    "url": "https://www.sciopen.com/article/10.26599/CF.2026.9200081",
+    "pdf": "https://www.sciopen.com/local/article_pdf/10.26599/CF.2026.9200081.pdf",
+    "research_area": []
+  }
+]
