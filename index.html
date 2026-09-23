@@ -429,6 +429,14 @@ body{font-family:'Inter','Microsoft YaHei',-apple-system,BlinkMacSystemFont,'Seg
     if (a.doi) bib.push('  doi       = {' + a.doi + '},');
     if (a.issn) bib.push('  issn      = {' + a.issn + '},');
     if (a.publisher) bib.push('  publisher = {' + a.publisher + '},');
+    if (a.url) bib.push('  url       = {' + a.url + '},');
+    if (a.abstract) {
+      var abs = (a.abstract||'').replace(/<[^>]+>/g,'').replace(/\s+/g,' ').trim();
+      bib.push('  abstract  = {' + abs + '},');
+    }
+    if (a.keywords && a.keywords.length) {
+      bib.push('  keywords  = {' + a.keywords.join(', ') + '},');
+    }
     bib.push('}');
     var fn = key + '.bib';
     downloadFile(bib.join('\n') + '\n', fn, 'application/x-bibtex;charset=utf-8;');
