@@ -422,7 +422,9 @@ body{font-family:'Inter','Microsoft YaHei',-apple-system,BlinkMacSystemFont,'Seg
     if (a.volume) bib.push('  volume    = {' + a.volume + '},');
     if (a.issue) bib.push('  number    = {' + a.issue + '},');
     if (a.firstpage) {
-      bib.push('  pages     = {' + (a.firstpage||'') + (a.lastpage ? '--' + a.lastpage : '') + '},');
+      var pages = a.firstpage;
+      if (a.lastpage && a.lastpage !== a.firstpage) pages += '--' + a.lastpage;
+      bib.push('  pages     = {' + pages + '},');
     }
     if (a.doi) bib.push('  doi       = {' + a.doi + '},');
     if (a.issn) bib.push('  issn      = {' + a.issn + '},');
@@ -450,11 +452,10 @@ body{font-family:'Inter','Microsoft YaHei',-apple-system,BlinkMacSystemFont,'Seg
     ris.push('JO  - Carbon Future');
     ris.push('SN  - 2960-0561');
     if (a.firstpage) ris.push('SP  - ' + a.firstpage);
-    if (a.lastpage) ris.push('EP  - ' + a.lastpage);
     if (a.volume) ris.push('VL  - ' + a.volume);
     if (a.issue) ris.push('IS  - ' + a.issue);
     if (a.abstract) ris.push('AB  - ' + a.abstract.replace(/<[^>]+>/g, '').replace(/\s+/g,' ').trim());
-    if (a.doi) ris.push('UR  - https://www.sciopen.com/article/' + a.doi);
+    if (a.doi) ris.push('UR  - https://doi.org/' + a.doi);
     if (a.doi) ris.push('DO  - ' + a.doi);
     var fn = (a.doi||'CF').replace(/[/\\]/g,'_') + '.ris';
     downloadFile(ris.join('\r\n') + '\r\n', fn, 'application/x-research-info-systems;charset=utf-8;');
