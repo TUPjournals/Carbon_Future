@@ -329,7 +329,7 @@ body{font-family:'Inter','Microsoft YaHei',-apple-system,BlinkMacSystemFont,'Seg
       if (a.volume) html += '<div class="d-item"><label>Volume(Issue)</label><span>' + a.volume + '(' + a.issue + ')</span></div>';
       if (a.firstpage) html += '<div class="d-item"><label>Article number</label><span>' + a.firstpage + (a.lastpage && a.lastpage !== a.firstpage ? '-' + a.lastpage : '') + '</span></div>';
       if (a.publication_date) html += '<div class="d-item"><label>Published</label><span>' + esc(a.publication_date) + '</span></div>';
-      if (a.article_type) html += '<div class="d-item"><label>Type</label><span>' + esc(a.article_type) + '</span></div>';
+
       html += '</div>';
       if (a.abstract) html += '<div class="d-abstract"><strong>Abstract:</strong> ' + highlight(a.abstract.replace(/<[^>]+>/g, ''), currentQuery) + '</div>';
       html += '<div class="d-links">';
