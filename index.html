@@ -315,7 +315,7 @@ body{font-family:'Inter','Microsoft YaHei',-apple-system,BlinkMacSystemFont,'Seg
         }
         html += '</div>';
       }
-      if (a.doi) html += '<div class="card-doi"><a href="https://doi.org/' + a.doi + '" target="_blank" onclick="event.stopPropagation()">https://www.doi.org/' + esc(a.doi) + '</a></div>';
+      if (a.doi) html += '<div class="card-doi"><a href="https://www.sciopen.com/article/' + a.doi + '" target="_blank" onclick="event.stopPropagation()">https://www.sciopen.com/article/' + esc(a.doi) + '</a></div>';
       if (a.doi) {
         html += '<div class="card-cite" onclick="event.stopPropagation()">' +
           '<span class="card-cite-text">' + getCiteText(a) + '</span>' +
@@ -333,7 +333,7 @@ body{font-family:'Inter','Microsoft YaHei',-apple-system,BlinkMacSystemFont,'Seg
       html += '</div>';
       if (a.abstract) html += '<div class="d-abstract"><strong>Abstract:</strong> ' + highlight(a.abstract.replace(/<[^>]+>/g, ''), currentQuery) + '</div>';
       html += '<div class="d-links">';
-      
+      if (a.url) html += '<a href="' + a.url + '" target="_blank" onclick="event.stopPropagation()">View on SciOpen →</a>';
       if (a.pdf) html += '<a href="' + a.pdf + '" target="_blank" onclick="event.stopPropagation()">Download PDF →</a>';
       html += '</div></div></div>';
     }
@@ -412,7 +412,7 @@ body{font-family:'Inter','Microsoft YaHei',-apple-system,BlinkMacSystemFont,'Seg
     var lastname = a.authors && a.authors[0] ? a.authors[0].trim().split(/\s+/).pop() : 'cf';
     var key = lastname.charAt(0).toUpperCase() + lastname.slice(1).toLowerCase() + (a.year||'');
     var bib = [];
-    bib.push('@article{' + key + ', ');
+    bib.push('@article{' + key + ',');
     if (a.authors && a.authors.length) {
       bib.push('author = {' + a.authors.map(function(n){ return n.trim(); }).join(' and ') + '},');
     }
@@ -422,11 +422,10 @@ body{font-family:'Inter','Microsoft YaHei',-apple-system,BlinkMacSystemFont,'Seg
     if (a.volume) bib.push('volume = {' + a.volume + '},');
     if (a.issue) bib.push('number = {' + a.issue + '},');
     if (a.firstpage) {
-      bib.push('pages = {' + (a.firstpage && a.lastpage && a.firstpage !== a.lastpage ? a.firstpage + '-' + a.lastpage : a.firstpage || '') + '},');
+      bib.push('pages = {Article number: ' + a.firstpage + (a.lastpage && a.lastpage !== a.firstpage ? '-' + a.lastpage : '') + '},');
     }
     if (a.keywords && a.keywords.length) bib.push('keywords = {' + a.keywords.join(', ') + '},');
-    if (a.abstract) bib.push('abstract = {' + a.abstract.replace(/<[^>]+>/g, '').replace(/\s+/g, ' ').trim() + '},');
-    if (a.doi) bib.push('url = {https://doi.org/' + a.doi + '},');
+    if (a.url) bib.push('url = {' + a.url + '},');
     if (a.doi) bib.push('doi = {' + a.doi + '},');
     if (a.abstract) {
       var abs = (a.abstract||'').replace(/<[^>]+>/g,'').replace(/\s+/g,' ').trim();
@@ -434,7 +433,7 @@ body{font-family:'Inter','Microsoft YaHei',-apple-system,BlinkMacSystemFont,'Seg
     }
     bib.push('}');
     var fn = key + '.bib';
-    downloadFile(bib.join('\r\n') + '\r\n', fn, 'application/x-bibtex;charset=utf-8;');
+    downloadFile(bib.join('\n') + '\n', fn, 'application/x-bibtex;charset=utf-8;');
   };
 
   window._downloadRIS = function(idx) {
@@ -454,7 +453,7 @@ body{font-family:'Inter','Microsoft YaHei',-apple-system,BlinkMacSystemFont,'Seg
     ris.push('TI  - ' + (a.title||'').replace(/<[^>]+>/g, ''));
     ris.push('JO  - Carbon Future');
     ris.push('SN  - 2960-0561');
-    if (a.firstpage) ris.push('SP  - Article number: ' + a.firstpage);
+    if (a.firstpage) ris.push('SP  - ' + a.firstpage);
     if (a.volume) ris.push('VL  - ' + a.volume);
     if (a.issue) ris.push('IS  - ' + a.issue);
     if (a.abstract) ris.push('AB  - ' + a.abstract.replace(/<[^>]+>/g, '').replace(/\s+/g,' ').trim());
