@@ -412,7 +412,7 @@ body{font-family:'Inter','Microsoft YaHei',-apple-system,BlinkMacSystemFont,'Seg
     var lastname = a.authors && a.authors[0] ? a.authors[0].trim().split(/\s+/).pop() : 'cf';
     var key = lastname.charAt(0).toUpperCase() + lastname.slice(1).toLowerCase() + (a.year||'');
     var bib = [];
-    bib.push('@article{' + key + ',');
+    bib.push('@article{' + key + ', ');
     if (a.authors && a.authors.length) {
       bib.push('author = {' + a.authors.map(function(n){ return n.trim(); }).join(' and ') + '},');
     }
@@ -422,9 +422,9 @@ body{font-family:'Inter','Microsoft YaHei',-apple-system,BlinkMacSystemFont,'Seg
     if (a.volume) bib.push('volume = {' + a.volume + '},');
     if (a.issue) bib.push('number = {' + a.issue + '},');
     if (a.firstpage) {
-      bib.push('pages = {Article number: ' + a.firstpage + (a.lastpage && a.lastpage !== a.firstpage ? '-' + a.lastpage : '') + '},');
+      bib.push('pages = {' + (a.firstpage && a.lastpage && a.firstpage !== a.lastpage ? a.firstpage + '-' + a.lastpage : a.firstpage || '') + '},');
     }
-    if (a.keywords && a.keywords.length) bib.push('keywords = {' + a.keywords.join(', ') + '},');
+    if (a.keywords && a.keywords.length) bib.push('keywords = {' + a.keywords.map(function(k){ return k.replace(/<[^>]+>/g,'').trim(); }).filter(Boolean).join(', ') + '},');
     if (a.url) bib.push('url = {' + a.url + '},');
     if (a.doi) bib.push('doi = {' + a.doi + '},');
     if (a.abstract) {
@@ -433,7 +433,7 @@ body{font-family:'Inter','Microsoft YaHei',-apple-system,BlinkMacSystemFont,'Seg
     }
     bib.push('}');
     var fn = key + '.bib';
-    downloadFile(bib.join('\n') + '\n', fn, 'application/x-bibtex;charset=utf-8;');
+    downloadFile(bib.join('\r\n') + '\r\n', fn, 'application/x-bibtex;charset=utf-8;');
   };
 
   window._downloadRIS = function(idx) {
