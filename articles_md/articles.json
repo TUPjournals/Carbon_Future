@@ -992,6 +992,54 @@
     "research_area": []
   },
   {
+    "doi": "10.26599/CF.2025.9200040",
+    "title": "Asymmetric Cu<sub>1</sub>-N<sub>3</sub>-P-C active centers for efficient acetylene hydrochlorination",
+    "authors": [
+      "Yuxiang Bao",
+      "Xiuhui Zheng",
+      "Chang Liu",
+      "Xing Lv",
+      "Yinming Guo",
+      "Baorui Li",
+      "Jianlin Cao",
+      "Yujie Gao",
+      "Juncong Yuan",
+      "Mengxin Wang",
+      "Zhe Ma",
+      "Yongxiao Tuo",
+      "Hao Yan",
+      "Lina Li",
+      "Yibin Liu",
+      "Xiaobo Chen",
+      "Xiang Feng",
+      "Chaohe Yang",
+      "De Chen"
+    ],
+    "keywords": [
+      "acetylene hydrochlorination",
+      "copper catalysis",
+      "Cu<sub>1</sub>-N<sub>3</sub>-P-C complex",
+      "kinetic analysis",
+      "intrinsic stability"
+    ],
+    "abstract": "We investigated the pivotal role of active center symmetry on the stability of reactant adsorption and the transition state dynamics within the context of acetylene hydrochlorination. Our innovative approach involved the integration of phosphorus into a nitrogen-doped carbon framework and introduced the single Cu center, culminating in the development of novel copper-nitrogen-phosphorus-carbon (Cu-NPC) catalysts. These catalysts are distinguished by their asymmetrical Cu1-N3-P-C chemical environment. Our kinetic studies shed light on the underlying mechanisms contributing to the superior performance of the Cu-NPC catalysts. These catalysts not only enhance the reaction rate by moderating the adsorption strength of reactants, thereby optimizing the reaction kinetics, but also demonstrate an outstanding ability to mitigate the risk of carbon deposition, a common challenge that compromises catalyst longevity and efficiency. This is evidenced by a notably low deactivation rate of 0.027 h−1 at a high C2H2 weight hourly space velocity (WHSV) of 1.4  gC2H2⋅gcat−1⋅h−1. This research not only advances our understanding of the critical influence of active center symmetry on catalyst performance but also paves the way for the rational design of advanced catalysts tailored for specific industrial applications.",
+    "volume": 2,
+    "issue": 1,
+    "firstpage": "9200040",
+    "lastpage": "9200040",
+    "year": 2025,
+    "publication_date": "2025/3/1",
+    "online_date": "2025/3/10",
+    "publisher": "清华大学出版社",
+    "issn": "2960-0561",
+    "article_type": "Research Article",
+    "url": "https://www.sciopen.com/article/10.26599/CF.2025.9200040",
+    "pdf": "https://www.sciopen.com/local/article_pdf/10.26599/CF.2025.9200040.pdf",
+    "research_area": [
+      "Catalysis"
+    ]
+  },
+  {
     "doi": "10.26599/CF.2025.9200037",
     "title": "Metal oxide semiconductor-based methane sensing",
     "authors": [
@@ -1104,54 +1152,6 @@
     ]
   },
   {
-    "doi": "10.26599/CF.2025.9200040",
-    "title": "Asymmetric Cu<sub>1</sub>-N<sub>3</sub>-P-C active centers for efficient acetylene hydrochlorination",
-    "authors": [
-      "Yuxiang Bao",
-      "Xiuhui Zheng",
-      "Chang Liu",
-      "Xing Lv",
-      "Yinming Guo",
-      "Baorui Li",
-      "Jianlin Cao",
-      "Yujie Gao",
-      "Juncong Yuan",
-      "Mengxin Wang",
-      "Zhe Ma",
-      "Yongxiao Tuo",
-      "Hao Yan",
-      "Lina Li",
-      "Yibin Liu",
-      "Xiaobo Chen",
-      "Xiang Feng",
-      "Chaohe Yang",
-      "De Chen"
-    ],
-    "keywords": [
-      "acetylene hydrochlorination",
-      "copper catalysis",
-      "Cu<sub>1</sub>-N<sub>3</sub>-P-C complex",
-      "kinetic analysis",
-      "intrinsic stability"
-    ],
-    "abstract": "We investigated the pivotal role of active center symmetry on the stability of reactant adsorption and the transition state dynamics within the context of acetylene hydrochlorination. Our innovative approach involved the integration of phosphorus into a nitrogen-doped carbon framework and introduced the single Cu center, culminating in the development of novel copper-nitrogen-phosphorus-carbon (Cu-NPC) catalysts. These catalysts are distinguished by their asymmetrical Cu1-N3-P-C chemical environment. Our kinetic studies shed light on the underlying mechanisms contributing to the superior performance of the Cu-NPC catalysts. These catalysts not only enhance the reaction rate by moderating the adsorption strength of reactants, thereby optimizing the reaction kinetics, but also demonstrate an outstanding ability to mitigate the risk of carbon deposition, a common challenge that compromises catalyst longevity and efficiency. This is evidenced by a notably low deactivation rate of 0.027 h−1 at a high C2H2 weight hourly space velocity (WHSV) of 1.4  gC2H2⋅gcat−1⋅h−1. This research not only advances our understanding of the critical influence of active center symmetry on catalyst performance but also paves the way for the rational design of advanced catalysts tailored for specific industrial applications.",
-    "volume": 2,
-    "issue": 1,
-    "firstpage": "9200040",
-    "lastpage": "9200040",
-    "year": 2025,
-    "publication_date": "2025/3/1",
-    "online_date": "2025/3/10",
-    "publisher": "清华大学出版社",
-    "issn": "2960-0561",
-    "article_type": "Research Article",
-    "url": "https://www.sciopen.com/article/10.26599/CF.2025.9200040",
-    "pdf": "https://www.sciopen.com/local/article_pdf/10.26599/CF.2025.9200040.pdf",
-    "research_area": [
-      "Catalysis"
-    ]
-  },
-  {
     "doi": "10.26599/CF.2025.9200041",
     "title": "Opportunities of one-dimensional van der Waals materials and heterostructures as fuel cell catalyst layers",
     "authors": [
@@ -1179,41 +1179,6 @@
     "article_type": "Review",
     "url": "https://www.sciopen.com/article/10.26599/CF.2025.9200041",
     "pdf": "https://www.sciopen.com/local/article_pdf/10.26599/CF.2025.9200041.pdf",
-    "research_area": [
-      "Catalysis",
-      "Low-carbon energy"
-    ]
-  },
-  {
-    "doi": "10.26599/CF.2025.9200042",
-    "title": "Single/dual-metal active-site oxides for rechargeable zinc-air batteries: Fundamental properties, advancements, challenges, and future perspectives",
-    "authors": [
-      "Yunrui Li",
-      "Ping Zhu",
-      "Fan Lan",
-      "Run Li",
-      "Ya Huang",
-      "Rufan Zhang"
-    ],
-    "keywords": [
-      "metal oxides",
-      "ORR",
-      "OER",
-      "rechargeable zinc-air batteries"
-    ],
-    "abstract": "Rechargeable zinc-air batteries (RZABs) are considered one of the most promising candidates for advanced energy storage and conversion in the near future. The RZABs’ efficiency is closely tied to the performances of the oxygen reduction reaction (ORR) and the oxygen evolution reaction (OER) occurring at the air cathode. Metal-oxide catalysts occupy a crucial role in reducing the reaction energy barriers and improving the ORR and OER performance. Two types of metal-oxide electrocatalysts used in RZABs are single-metal active-site (SMAS) and dual-metal active-site (DMAS) oxides, both of which significantly impact the efficiency and durability of ORR and OER. This review presents a comprehensive analysis of the advancements in SMAS and DMAS, especially single-phase DMAS oxides, offering significant insights into the design of high-performance bifunctional oxygen electrocatalysts and RZABs.",
-    "volume": 2,
-    "issue": 3,
-    "firstpage": "9200042",
-    "lastpage": "9200042",
-    "year": 2025,
-    "publication_date": "2025/9/5",
-    "online_date": "2025/6/11",
-    "publisher": "清华大学出版社",
-    "issn": "2960-0561",
-    "article_type": "Review",
-    "url": "https://www.sciopen.com/article/10.26599/CF.2025.9200042",
-    "pdf": "https://www.sciopen.com/local/article_pdf/10.26599/CF.2025.9200042.pdf",
     "research_area": [
       "Catalysis",
       "Low-carbon energy"
@@ -1378,6 +1343,41 @@
     "url": "https://www.sciopen.com/article/10.26599/CF.2025.9200047",
     "pdf": "https://www.sciopen.com/local/article_pdf/10.26599/CF.2025.9200047.pdf",
     "research_area": []
+  },
+  {
+    "doi": "10.26599/CF.2025.9200042",
+    "title": "Single/dual-metal active-site oxides for rechargeable zinc-air batteries: Fundamental properties, advancements, challenges, and future perspectives",
+    "authors": [
+      "Yunrui Li",
+      "Ping Zhu",
+      "Fan Lan",
+      "Run Li",
+      "Ya Huang",
+      "Rufan Zhang"
+    ],
+    "keywords": [
+      "metal oxides",
+      "ORR",
+      "OER",
+      "rechargeable zinc-air batteries"
+    ],
+    "abstract": "Rechargeable zinc-air batteries (RZABs) are considered one of the most promising candidates for advanced energy storage and conversion in the near future. The RZABs’ efficiency is closely tied to the performances of the oxygen reduction reaction (ORR) and the oxygen evolution reaction (OER) occurring at the air cathode. Metal-oxide catalysts occupy a crucial role in reducing the reaction energy barriers and improving the ORR and OER performance. Two types of metal-oxide electrocatalysts used in RZABs are single-metal active-site (SMAS) and dual-metal active-site (DMAS) oxides, both of which significantly impact the efficiency and durability of ORR and OER. This review presents a comprehensive analysis of the advancements in SMAS and DMAS, especially single-phase DMAS oxides, offering significant insights into the design of high-performance bifunctional oxygen electrocatalysts and RZABs.",
+    "volume": 2,
+    "issue": 3,
+    "firstpage": "9200042",
+    "lastpage": "9200042",
+    "year": 2025,
+    "publication_date": "2025/9/5",
+    "online_date": "2025/6/11",
+    "publisher": "清华大学出版社",
+    "issn": "2960-0561",
+    "article_type": "Review",
+    "url": "https://www.sciopen.com/article/10.26599/CF.2025.9200042",
+    "pdf": "https://www.sciopen.com/local/article_pdf/10.26599/CF.2025.9200042.pdf",
+    "research_area": [
+      "Catalysis",
+      "Low-carbon energy"
+    ]
   },
   {
     "doi": "10.26599/CF.2025.9200048",
@@ -2102,39 +2102,6 @@
     ]
   },
   {
-    "doi": "10.26599/CF.2026.9200071",
-    "title": "Covalently bonded TiO<sub>2</sub>/graphene interfaces: Interplay between structure, electronic properties, and photocatalytic activity revealed by computational studies",
-    "authors": [
-      "Manasi R Mulay",
-      "Natalia Martsinovich"
-    ],
-    "keywords": [
-      "photocatalysis",
-      "TiO<sub>2</sub>",
-      "graphene",
-      "interface",
-      "heterojunction",
-      "electronic structure"
-    ],
-    "abstract": "Composites of TiO2 with graphene and other carbon-based nanomaterials are widely used as photocatalysts, since they improve the efficiency of TiO2 photocatalysts by reducing charge recombination and extending TiO2 light-harvesting to the visible range. However, the exact nature of binding at TiO2/graphene interfaces is still unclear. Experimental studies show that Ti–C and Ti–O–C covalent bonds are often present in TiO2/graphene heterostructures. In this study, we used density functional theory to investigate the nature of binding at the interfaces of graphene with the anatase polymorph of TiO2. We investigated graphene binding with both the most stable (101) surface of anatase and the less stable but more photocatalytically active (100) and (001) surfaces, and analysed the electronic properties of these interfaces. We found that pristine graphene binds to anatase surfaces by physisorption, while graphene with carbon vacancies can form covalent bonds to TiO2. The presence of these covalent bonds alters the electronic structure of TiO2/graphene composites, creating hybridised states that may facilitate charge transfer and hinder electron–hole recombination. This study highlights the important role of defects, such as vacancies, in creating interfacial covalent bonds that may be responsible for the high photocatalytic activity of TiO2/graphene heterostructures.",
-    "volume": 3,
-    "issue": 2,
-    "firstpage": "9200071",
-    "lastpage": "9200071",
-    "year": 2026,
-    "publication_date": "2026/6/5",
-    "online_date": "2026/4/15",
-    "publisher": "清华大学出版社",
-    "issn": "2960-0561",
-    "article_type": "Research Article",
-    "url": "https://www.sciopen.com/article/10.26599/CF.2026.9200071",
-    "pdf": "https://www.sciopen.com/local/article_pdf/10.26599/CF.2026.9200071.pdf",
-    "research_area": [
-      "Catalysis",
-      "Carbon materials"
-    ]
-  },
-  {
     "doi": "10.26599/CF.2026.9200072",
     "title": "Green reorganization of lignin aromatic units toward porous carbon for ultrahigh performance supercapacitors",
     "authors": [
@@ -2173,6 +2140,59 @@
     ]
   },
   {
+    "doi": "10.26599/CF.2026.9200074",
+    "title": "Issue Information",
+    "authors": [],
+    "keywords": [],
+    "abstract": null,
+    "volume": 3,
+    "issue": 1,
+    "firstpage": "9200074",
+    "lastpage": "9200074",
+    "year": 2026,
+    "publication_date": "2026/3/1",
+    "online_date": "2026/3/30",
+    "publisher": "清华大学出版社",
+    "issn": "2960-0561",
+    "article_type": "Issue Information",
+    "url": "https://www.sciopen.com/article/10.26599/CF.2026.9200074",
+    "pdf": "https://www.sciopen.com/local/article_pdf/10.26599/CF.2026.9200074.pdf",
+    "research_area": []
+  },
+  {
+    "doi": "10.26599/CF.2026.9200071",
+    "title": "Covalently bonded TiO<sub>2</sub>/graphene interfaces: Interplay between structure, electronic properties, and photocatalytic activity revealed by computational studies",
+    "authors": [
+      "Manasi R Mulay",
+      "Natalia Martsinovich"
+    ],
+    "keywords": [
+      "photocatalysis",
+      "TiO<sub>2</sub>",
+      "graphene",
+      "interface",
+      "heterojunction",
+      "electronic structure"
+    ],
+    "abstract": "Composites of TiO2 with graphene and other carbon-based nanomaterials are widely used as photocatalysts, since they improve the efficiency of TiO2 photocatalysts by reducing charge recombination and extending TiO2 light-harvesting to the visible range. However, the exact nature of binding at TiO2/graphene interfaces is still unclear. Experimental studies show that Ti–C and Ti–O–C covalent bonds are often present in TiO2/graphene heterostructures. In this study, we used density functional theory to investigate the nature of binding at the interfaces of graphene with the anatase polymorph of TiO2. We investigated graphene binding with both the most stable (101) surface of anatase and the less stable but more photocatalytically active (100) and (001) surfaces, and analysed the electronic properties of these interfaces. We found that pristine graphene binds to anatase surfaces by physisorption, while graphene with carbon vacancies can form covalent bonds to TiO2. The presence of these covalent bonds alters the electronic structure of TiO2/graphene composites, creating hybridised states that may facilitate charge transfer and hinder electron–hole recombination. This study highlights the important role of defects, such as vacancies, in creating interfacial covalent bonds that may be responsible for the high photocatalytic activity of TiO2/graphene heterostructures.",
+    "volume": 3,
+    "issue": 2,
+    "firstpage": "9200071",
+    "lastpage": "9200071",
+    "year": 2026,
+    "publication_date": "2026/6/5",
+    "online_date": "2026/4/15",
+    "publisher": "清华大学出版社",
+    "issn": "2960-0561",
+    "article_type": "Research Article",
+    "url": "https://www.sciopen.com/article/10.26599/CF.2026.9200071",
+    "pdf": "https://www.sciopen.com/local/article_pdf/10.26599/CF.2026.9200071.pdf",
+    "research_area": [
+      "Catalysis",
+      "Carbon materials"
+    ]
+  },
+  {
     "doi": "10.26599/CF.2026.9200073",
     "title": "Dynamic covalent organic framework linkages unlock efficient H<sub>2</sub>O<sub>2</sub> photosynthesis",
     "authors": [
@@ -2193,26 +2213,6 @@
     "article_type": "Highlight",
     "url": "https://www.sciopen.com/article/10.26599/CF.2026.9200073",
     "pdf": "https://www.sciopen.com/local/article_pdf/10.26599/CF.2026.9200073.pdf",
-    "research_area": []
-  },
-  {
-    "doi": "10.26599/CF.2026.9200074",
-    "title": "Issue Information",
-    "authors": [],
-    "keywords": [],
-    "abstract": null,
-    "volume": 3,
-    "issue": 1,
-    "firstpage": "9200074",
-    "lastpage": "9200074",
-    "year": 2026,
-    "publication_date": "2026/3/1",
-    "online_date": "2026/3/30",
-    "publisher": "清华大学出版社",
-    "issn": "2960-0561",
-    "article_type": "Issue Information",
-    "url": "https://www.sciopen.com/article/10.26599/CF.2026.9200074",
-    "pdf": "https://www.sciopen.com/local/article_pdf/10.26599/CF.2026.9200074.pdf",
     "research_area": []
   },
   {
@@ -2408,6 +2408,257 @@
     "article_type": "Issue Information",
     "url": "https://www.sciopen.com/article/10.26599/CF.2026.9200081",
     "pdf": "https://www.sciopen.com/local/article_pdf/10.26599/CF.2026.9200081.pdf",
+    "research_area": []
+  },
+  {
+    "doi": "10.26599/CF.2026.9200082",
+    "title": "Microwave-driven conversion of waste plastics to high-value chemicals: Progress, challenges, prospects",
+    "authors": [
+      "Jibo Qin",
+      "Jianlong Yang",
+      "Junwang Tang"
+    ],
+    "keywords": [
+      "Waste plastics",
+      "chemical recycling",
+      "microwave catalysis"
+    ],
+    "abstract": "Microwave catalytic technology provides a new method for chemical recycling of waste plastics. This review summarizes the research progress in microwave catalytic conversion of waste plastics. It introduces the synergistic effect of microwave dielectric heating and catalytic reactions. The depolymerization pathways of typical waste plastics are reviewed. The design and structure-activity relationships of microwave-absorbing catalysts are discussed. The effects of reaction parameters on product distribution are also analyzed. Then the challenges facing this field are discussed, including unclear reaction mechanisms, rapid catalyst deactivation, and difficulties in scaling up the process. Finally, future research directions are proposed, which involve clarifying multi-scale reaction mechanisms, developing high-stability catalysts, and designing continuous reaction devices.",
+    "volume": 3,
+    "issue": 3,
+    "firstpage": "9200082",
+    "lastpage": "9200082",
+    "year": 2026,
+    "publication_date": "2026/9/30",
+    "online_date": "2026/7/29",
+    "publisher": "清华大学出版社",
+    "issn": "2960-0561",
+    "article_type": "Review",
+    "url": "https://www.sciopen.com/article/10.26599/CF.2026.9200082",
+    "pdf": "https://www.sciopen.com/local/article_pdf/10.26599/CF.2026.9200082.pdf",
+    "research_area": [
+      "Catalysis",
+      "Low-carbon chemical engineering"
+    ]
+  },
+  {
+    "doi": "10.26599/CF.2026.9200083",
+    "title": "pH-asymmetric bipolar membrane electrolyzer for stable seawater electrolysis toward hydrogen production",
+    "authors": [
+      "Fu-Hang Xu",
+      "Jin-Feng Luo",
+      "Wen-Bin Liu",
+      "Fei-Fei Cao",
+      "Cong Ding",
+      "Geng Zhang"
+    ],
+    "keywords": [
+      "Bipolar membrane",
+      "seawater electrolysis",
+      "anti-scaling",
+      "chlorine evolution free"
+    ],
+    "abstract": "Seawater electrolysis offers a promising route to low-cost and large-scale green hydrogen production without competing for precious freshwater resources. However, it faces two major challenges: The chlorine evolution reaction (CER) at the anode and Mg2+/Ca2+ precipitation at the cathode. To address these challenges, this work constructs a pH-asymmetric seawater electrolyzer based on a bipolar membrane (BPM), feeding acidified seawater to the cathode and alkaline freshwater to the anode: Acidification prevents Mg2+/Ca2+ precipitation at the cathode, while the BPM blocks chloride ions and thereby prevents CER at the anode. Isotope labeling experiments confirm that the water molecules dissociated within the BPM originate mainly from the cathodic seawater; moreover, the electrolyzer remains stable even when the cathode is fed with saturated seawater. By optimizing the electrolyte concentration and electrode types, this seawater electrolyzer achieves continuous and stable operation for 500 h at a current density of 100 mA∙cm−2, with a voltage rise rate of only 1.76 mV∙h−1, no cathodic scaling, and no anodic chlorine evolution. This work offers valuable insight into advancing seawater electrolysis for hydrogen production.",
+    "volume": 3,
+    "issue": 3,
+    "firstpage": "9200083",
+    "lastpage": "9200083",
+    "year": 2026,
+    "publication_date": "2026/9/30",
+    "online_date": "2026/8/24",
+    "publisher": "清华大学出版社",
+    "issn": "2960-0561",
+    "article_type": "Research Article",
+    "url": "https://www.sciopen.com/article/10.26599/CF.2026.9200083",
+    "pdf": "https://www.sciopen.com/local/article_pdf/10.26599/CF.2026.9200083.pdf",
+    "research_area": [
+      "Low-carbon energy",
+      "Low-carbon chemical engineering"
+    ]
+  },
+  {
+    "doi": "10.26599/CF.2026.9200084",
+    "title": "Electron microscopy of carbon-supported metal catalysts: From atomic-scale structural characterization to operando mechanistic insights",
+    "authors": [
+      "Xinyi Cai",
+      "Xuetao Qin"
+    ],
+    "keywords": [
+      "Electron microscopy",
+      "carbon-supported metal catalysts",
+      "operando characterization",
+      "AI-assisted analysis"
+    ],
+    "abstract": "Carbon-supported metal catalysts, ranging from isolated single atoms and subnanometer clusters to nanoparticles, are widely used in heterogeneous catalysis because carbon supports offer large surface area, conductivity, tunability, and abundant defects. However, their catalytically relevant structures are often local, heterogeneous, and dynamically evolving, making ensemble-averaged characterization insufficient for establishing reliable structure–activity relationships. In this context, electron microscopy has emerged as an essential tool for directly visualizing metal dispersion, coordination environments, and metal–carbon interfaces across multiple length scales. The combination of aberration-corrected scanning transmission electron microscopy, electron energy loss spectroscopy, energy-dispersive X-ray spectroscopy, and complementary spectroscopies enables the identification of atomically dispersed sites, clusters, and confined nanoparticles. In addition, in situ and operando microscopy reveals catalyst formation, restructuring, and deactivation under working conditions. Future advances will rely on realistic operando cells, statistically robust analysis, and artificial intelligence–assisted workflows, transforming electron microscopy from a descriptive imaging tool into a quantitative platform for understanding and designing carbon-supported metal catalysts.",
+    "volume": 3,
+    "issue": 3,
+    "firstpage": "9200084",
+    "lastpage": "9200084",
+    "year": 2026,
+    "publication_date": "2026/9/30",
+    "online_date": "2026/9/17",
+    "publisher": "清华大学出版社",
+    "issn": "2960-0561",
+    "article_type": "Review",
+    "url": "https://www.sciopen.com/article/10.26599/CF.2026.9200084",
+    "pdf": "https://www.sciopen.com/local/article_pdf/10.26599/CF.2026.9200084.pdf",
+    "research_area": [
+      "Catalysis",
+      "Carbon materials"
+    ]
+  },
+  {
+    "doi": "10.26599/CF.2026.9200085",
+    "title": "Bridging the gap between theoretical design and practical performance of environment-adaptive multi-band regulation smart windows",
+    "authors": [
+      "Ya Huang",
+      "Kangkang Wang",
+      "Zhenyu Guo",
+      "Siming Zhao",
+      "Zhuojing Zhao",
+      "Fan Lan",
+      "Ruina Liu",
+      "Linan Feng",
+      "Weiyin Su",
+      "Shuang Tao",
+      "Ying Wang",
+      "Rufan Zhang"
+    ],
+    "keywords": [
+      "Smart windows",
+      "building energy efficiency",
+      "real-world operation",
+      "spectral selectivity"
+    ],
+    "abstract": "Smart windows have emerged as promising building-envelope technologies that could reduce energy consumption by dynamically regulating solar radiation and thermal exchange. Recent advances have extended smart window design from single-band optical modulation to multi-band control across the visible, near-infrared, and mid-infrared regions, creating an opportunity to coordinate daylight utilization, solar heat gain, thermal insulation, and radiative cooling within a single integrated glazing system. However, most reported multi-band regulation smart windows (MBRSWs) have been evaluated under idealized optical and thermal conditions, including normal solar incidence, standardized spectral inputs, simplified boundary environments, and small-area devices. These assumptions often obscure the fact that an operating window is exposed to continuously changing solar angles, weather conditions, sky radiation, indoor loads, and device-level heat transfer. In this perspective, we argue that next-generation MBRSWs should be designed as environment-adaptive thermodynamic interfaces rather than isolated optical films. Key design principles for materials and devices are discussed, including temperature-dependent spectral selectivity, angular dependence, device architecture, scalable manufacturing, durability, and realistic evaluation approaches. We further propose that the field should shift from maximizing peak modulation under ideal conditions to climate-weighted, operationally relevant performance in realistic use scenarios.",
+    "volume": 3,
+    "issue": 3,
+    "firstpage": "9200085",
+    "lastpage": "9200085",
+    "year": 2026,
+    "publication_date": "2026/9/30",
+    "online_date": "2026/9/17",
+    "publisher": "清华大学出版社",
+    "issn": "2960-0561",
+    "article_type": "Perspective",
+    "url": "https://www.sciopen.com/article/10.26599/CF.2026.9200085",
+    "pdf": "https://www.sciopen.com/local/article_pdf/10.26599/CF.2026.9200085.pdf",
+    "research_area": [
+      "Low-carbon energy"
+    ]
+  },
+  {
+    "doi": "10.26599/CF.2026.9200086",
+    "title": "Redefining electrochemical C–N coupling via electrolyte engineering",
+    "authors": [
+      "Yaoyu Yin",
+      "Zhongnan Ling",
+      "Xinchen Kang",
+      "Buxing Han"
+    ],
+    "keywords": [],
+    "abstract": null,
+    "volume": 3,
+    "issue": 3,
+    "firstpage": "9200086",
+    "lastpage": "9200086",
+    "year": 2026,
+    "publication_date": "2026/9/30",
+    "online_date": "2026/9/11",
+    "publisher": "清华大学出版社",
+    "issn": "2960-0561",
+    "article_type": "Future",
+    "url": "https://www.sciopen.com/article/10.26599/CF.2026.9200086",
+    "pdf": "https://www.sciopen.com/local/article_pdf/10.26599/CF.2026.9200086.pdf",
+    "research_area": [
+      "Catalysis",
+      "Low-carbon energy"
+    ]
+  },
+  {
+    "doi": "10.26599/CF.2026.9200087",
+    "title": "Electrolyte materials and interfacial engineering for high-energy-density aqueous potassium-ion batteries",
+    "authors": [
+      "Changjian Li",
+      "Xiaoyu Huo",
+      "Jian Feng",
+      "Lai Wei",
+      "Kezhuo Li",
+      "Dongyang Shen",
+      "Kai Liu"
+    ],
+    "keywords": [
+      "Aqueous potassium-ion batteries",
+      "energy density",
+      "water-in-salt electrolytes",
+      "hydrogen-bond regulation",
+      "electrochemical stability window"
+    ],
+    "abstract": "Aqueous potassium-ion batteries (AKIBs) have emerged as highly attractive candidates for grid-scale energy storage owing to their intrinsic safety, low cost, and fast ion-transport kinetics. However, their practical deployment is severely impeded by insufficient energy density, which typically remains below 80 Wh∙kg−1. This limitation is largely attributed to the narrow electrochemical stability window of conventional dilute electrolytes and the resulting electrode degradation. To address this critical bottleneck, this review provides a systematic overview of strategies for enhancing the energy density of AKIBs. Recent advances are comprehensively evaluated from two key perspectives: phase-transition mitigation and structural hydration engineering through water-in-salt electrolytes and hydrogen-bond regulation. Specifically, the evolution of electrolyte design from superconcentrated formulations to cost-effective fluorine-free alternatives and low-salt hybrid concepts is elucidated. Finally, persistent challenges are outlined, and strategic perspectives on interfacial chemistry and realistic full-cell metrics are provided to facilitate the practical development and commercialization of high-energy-density AKIBs.",
+    "volume": 3,
+    "issue": 3,
+    "firstpage": "9200087",
+    "lastpage": "9200087",
+    "year": 2026,
+    "publication_date": "2026/9/30",
+    "online_date": "2026/9/28",
+    "publisher": "清华大学出版社",
+    "issn": "2960-0561",
+    "article_type": "Review",
+    "url": "https://www.sciopen.com/article/10.26599/CF.2026.9200087",
+    "pdf": "https://www.sciopen.com/local/article_pdf/10.26599/CF.2026.9200087.pdf",
+    "research_area": [
+      "Low-carbon energy"
+    ]
+  },
+  {
+    "doi": "10.26599/CF.2026.9200088",
+    "title": "Full-composition jet fuel from CO<sub>2</sub> hydrogenation: Interfacial reaction network engineering delivering on the electro-sustainable aviation fuel promise",
+    "authors": [
+      "Chenxi Zhang",
+      "Fei Wei"
+    ],
+    "keywords": [
+      "CO<sub>2</sub> hydrogenation",
+      "sustainable aviation fuel",
+      "interfacial reaction network engineering"
+    ],
+    "abstract": "Aviation needs a fuel that cannot yet be produced at scale. Direct CO2 hydrogenation—engineered at the interface, within the reactor, and across operating boundaries rather than only at the active site—offers one of the shortest conditional pathways to producing full-composition, drop-in electro-sustainable aviation fuel. The central constraint is no longer only the Brønsted–Evans–Polanyi trade-off at an isolated site, but the architecture of a reaction network in which CO2 activation, C–C coupling, aromatic formation, hydrogenation, and heat removal must operate cooperatively. Herein, we argue that interfacial reaction network engineering converts this constraint into a design rule: An oxide domain activates C–O bonds, a zeolite domain conducts C–C coupling and aromatization, and the two domains are coupled through controlled interfacial transfer of short-lived intermediates under a weak chemical-potential driving force. Recent kiloton-scale validation of this principle—demonstrating high CO2 conversion, high C8+ selectivity, low methane formation, and thousand-hour operation without oxidative regeneration—shows that the “impossible triangle” of catalytic activity, product selectivity, and long-term stability of the catalyst can be relaxed when catalyst nanostructure and fluidized-bed hydrodynamics are codesigned. The remaining challenge is contingent on techno-economic boundary conditions rather than conceptual: Whether cheap renewable electricity, inexpensive carbon feedstocks, million tonne–scale modules, and on-specification upgrading can converge fast enough to make full-composition CO2-derived fuel competitive. We identify the operando descriptors, scale-dependent economics, and key engineering questions that must now be resolved.",
+    "volume": 3,
+    "issue": 3,
+    "firstpage": "9200088",
+    "lastpage": "9200088",
+    "year": 2026,
+    "publication_date": "2026/9/30",
+    "online_date": "2026/9/29",
+    "publisher": "清华大学出版社",
+    "issn": "2960-0561",
+    "article_type": "Future",
+    "url": "https://www.sciopen.com/article/10.26599/CF.2026.9200088",
+    "pdf": "https://www.sciopen.com/local/article_pdf/10.26599/CF.2026.9200088.pdf",
+    "research_area": [
+      "Catalysis",
+      "Low-carbon energy"
+    ]
+  },
+  {
+    "doi": "10.26599/CF.2026.9200089",
+    "title": "Issue Information",
+    "authors": [],
+    "keywords": [],
+    "abstract": null,
+    "volume": 3,
+    "issue": 3,
+    "firstpage": "9200089",
+    "lastpage": "9200089",
+    "year": 2026,
+    "publication_date": "2026/9/1",
+    "online_date": "2026/9/30",
+    "publisher": "清华大学出版社",
+    "issn": "2960-0561",
+    "article_type": "Issue Information",
+    "url": "https://www.sciopen.com/article/10.26599/CF.2026.9200089",
+    "pdf": "https://www.sciopen.com/local/article_pdf/10.26599/CF.2026.9200089.pdf",
     "research_area": []
   }
 ]
