@@ -163,7 +163,7 @@ body{font-family:'Inter','Microsoft YaHei',-apple-system,BlinkMacSystemFont,'Seg
 <script>
 // Main app
 (function(){
-  var DATA_URL = 'articles_md/articles.json?v=20261029';
+  var DATA_URL = 'articles_md/articles.json?v=20261110';
   var allArticles = [];
   var filteredArticles = [];
   var currentQuery = '';
@@ -174,6 +174,11 @@ body{font-family:'Inter','Microsoft YaHei',-apple-system,BlinkMacSystemFont,'Seg
   var $type = document.getElementById('typeFilter');
   var $list = document.getElementById('articleList');
   var $stats = document.getElementById('statsRow');
+
+/* ── Strip ── */
+/* Remove only known inline formatting tags; a generic /<[^>]+>/ would also
+   delete real text such as "<Height, Width, Channel>" in decoded abstracts. */
+const FMT_TAG_RE = /<\/?(?:i|b|em|strong|sup|sub|span|small|mark|u|s|strike|tt|code|math|mi|mn|mo|mtext|msub|msup|mrow)\b[^>]*\/?>/gi;
 
   function esc(s) {
     if (!s) return '';
@@ -307,7 +312,7 @@ body{font-family:'Inter','Microsoft YaHei',-apple-system,BlinkMacSystemFont,'Seg
       var a = filteredArticles[i];
       html += '<div class="card" data-idx="' + i + '">';
       html += '<div class="card-head" onclick="window._toggleCard(this.parentElement)">';
-      html += '<div class="card-title">' + highlight(a.title.replace(/<[^>]+>/g, ''), currentQuery) + '</div>';
+      html += '<div class="card-title">' + highlight(a.title.replace(FMT_TAG_RE, ''), currentQuery) + '</div>';
       html += '<div class="badges">';
       if (a.year) html += '<span class="badge-year">' + a.year + '</span>';
       if (a.article_type && a.article_type !== 'Issue Information') html += '<span class="badge-type">' + esc(a.article_type) + '</span>';
@@ -319,7 +324,7 @@ body{font-family:'Inter','Microsoft YaHei',-apple-system,BlinkMacSystemFont,'Seg
       var kws = '';
       var kwList = (a.keywords||[]).slice(0,5);
       for (var k = 0; k < kwList.length; k++) {
-        kws += '<span class="kw">' + highlight(kwList[k].replace(/<[^>]+>/g, ''), currentQuery) + '</span>';
+        kws += '<span class="kw">' + highlight(kwList[k].replace(FMT_TAG_RE, ''), currentQuery) + '</span>';
       }
       if (kws) html += '<div class="card-keywords">' + kws + '</div>';
       if (a.research_area && a.research_area.length) {
@@ -345,7 +350,7 @@ body{font-family:'Inter','Microsoft YaHei',-apple-system,BlinkMacSystemFont,'Seg
       if (a.publication_date) html += '<div class="d-item"><label>Published</label><span>' + esc(a.publication_date) + '</span></div>';
 
       html += '</div>';
-      if (a.abstract) html += '<div class="d-abstract"><strong>Abstract:</strong> ' + highlight(a.abstract.replace(/<[^>]+>/g, ''), currentQuery) + '</div>';
+      if (a.abstract) html += '<div class="d-abstract"><strong>Abstract:</strong> ' + highlight(a.abstract.replace(FMT_TAG_RE, ''), currentQuery) + '</div>';
       html += '<div class="d-links">';
       if (a.url) html += '<a href="' + a.url + '" target="_blank" onclick="event.stopPropagation()">View on SciOpen →</a>';
       if (a.pdf) html += '<a href="' + a.pdf + '" target="_blank" onclick="event.stopPropagation()">Download PDF →</a>';
@@ -371,7 +376,7 @@ body{font-family:'Inter','Microsoft YaHei',-apple-system,BlinkMacSystemFont,'Seg
       authorStr = aus.join(', ');
     }
     var year = a.year || '';
-    var title = (a.title || '').replace(/<[^>]+>/g, '');
+    var title = (a.title || '').replace(FMT_TAG_RE, '');
     var volIssue = (a.volume || a.issue) ? (a.volume||'') + '(' + (a.issue||'') + ')' : '';
     var pages = (a.firstpage && a.lastpage && a.firstpage !== a.lastpage) ? (a.firstpage + '-' + a.lastpage) : (a.firstpage || '');
     if (pages) pages = 'Article number: ' + pages;
@@ -464,13 +469,13 @@ body{font-family:'Inter','Microsoft YaHei',-apple-system,BlinkMacSystemFont,'Seg
       }
     });
     if (a.year) ris.push('PY  - ' + a.year);
-    ris.push('TI  - ' + (a.title||'').replace(/<[^>]+>/g, ''));
+    ris.push('TI  - ' + (a.title||'').replace(FMT_TAG_RE, ''));
     ris.push('JO  - Carbon Future');
     ris.push('SN  - 2960-0561');
     if (a.firstpage) ris.push('SP  - ' + a.firstpage);
     if (a.volume) ris.push('VL  - ' + a.volume);
     if (a.issue) ris.push('IS  - ' + a.issue);
-    if (a.abstract) ris.push('AB  - ' + a.abstract.replace(/<[^>]+>/g, '').replace(/\s+/g,' ').trim());
+    if (a.abstract) ris.push('AB  - ' + a.abstract.replace(FMT_TAG_RE, '').replace(/\s+/g,' ').trim());
     if (a.doi) ris.push('UR  - https://doi.org/' + a.doi);
     if (a.doi) ris.push('DO  - ' + a.doi);
     var fn = (a.doi||'CF').replace(/[/\\]/g,'_') + '.ris';
